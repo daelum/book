@@ -155,9 +155,11 @@ Secondary lenses (used inside chapters, not separate books): fat-loss focused ·
 | Area | Status |
 |------|--------|
 | Outline (this file) | `draft` v0.1 |
-| Part One chapters | drafting in parallel |
-| Part Two+ | queued |
-| Research grounding | Partial — synthesize available insights; fill `[RESEARCH: …]` gaps in manuscript-status as ingestion continues |
+| Part One chapters (1–6) | `draft` complete set in repo + store mirror |
+| Part Two chapters (7–15) | `draft` complete set in repo |
+| Part Three | started (`ch-16`); month chapters queued |
+| Research grounding | Partial — 242 insights synthesized in voice; fill `[RESEARCH: …]` gaps in `docs/manuscript-status.md` as verification continues |
+| Canonical home | https://github.com/daelum/book |
 
 ## Attribution reminder (internal)
 

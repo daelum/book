@@ -119,6 +119,113 @@
         "ins_-Q6SZQBvlLM_7a1d8a6e33"
       ],
       "notes": "Protein heuristic; tracking pair; NEAT; phase ego; meal structure; disordered-eating sensitivity; lifestyle > meds framing."
+    },
+    {
+      "chapter_id": "ch-08-protein-calories-macros",
+      "title": "Protein, Calories, and Macros That Matter",
+      "path": "book/chapters/ch-08-protein-calories-macros.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_ec736f22ad"
+      ],
+      "notes": "Protein g/lb heuristic; calorie phase setup. Synthesize only; verify metas later."
+    },
+    {
+      "chapter_id": "ch-09-resistance-training-fundamentals",
+      "title": "Resistance Training Fundamentals",
+      "path": "book/chapters/ch-09-resistance-training-fundamentals.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_39348f949b",
+        "ins_2LNagkiowdU_ba633b4a2f"
+      ],
+      "notes": "Progressive resistance; home loading continuity."
+    },
+    {
+      "chapter_id": "ch-10-progressive-overload",
+      "title": "Progressive Overload \u2014 The Non-Negotiable",
+      "path": "book/chapters/ch-10-progressive-overload.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_2LNagkiowdU_ba633b4a2f"
+      ],
+      "notes": "Log last week reps; proximity to failure over magic rep counts."
+    },
+    {
+      "chapter_id": "ch-11-program-structure",
+      "title": "Program Structure: Splits, Frequency, Volume",
+      "path": "book/chapters/ch-11-program-structure.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_PgG_qyZmF5M_38bb6f1098"
+      ],
+      "notes": "Frequency ~2x; modest beginner volume. RESEARCH gap on dose-response metas."
+    },
+    {
+      "chapter_id": "ch-12-form-and-effort",
+      "title": "Form, Effort, and Getting Close to Failure",
+      "path": "book/chapters/ch-12-form-and-effort.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_39348f949b",
+        "ins_2LNagkiowdU_ba633b4a2f"
+      ],
+      "notes": "RIR / near-failure themes."
+    },
+    {
+      "chapter_id": "ch-13-recovery-sleep-stress",
+      "title": "Recovery: Sleep, Stress, and Deloads",
+      "path": "book/chapters/ch-13-recovery-sleep-stress.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Lifestyle recovery > expecting meds to fix sleep/stress. Seed insights thin \u2014 RESEARCH."
+    },
+    {
+      "chapter_id": "ch-14-cardio-steps-neat",
+      "title": "Cardio, Steps, and Daily Movement",
+      "path": "book/chapters/ch-14-cardio-steps-neat.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_crZf9wie-Fc_dfd19882c8"
+      ],
+      "notes": "NEAT compensation themes; RESEARCH to tighten ranges."
+    },
+    {
+      "chapter_id": "ch-15-habit-systems",
+      "title": "Habit Systems for People With Real Lives",
+      "path": "book/chapters/ch-15-habit-systems.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_pR5aPCoz_mE_9a1b18dde1",
+        "ins_pR5aPCoz_mE_84f6055b5f"
+      ],
+      "notes": "Ego/adherence; MED weeks; no Monday-reset theatre."
+    },
+    {
+      "chapter_id": "ch-16-choosing-your-pathway",
+      "title": "Choosing Your Pathway (A\u2013D)",
+      "path": "book/chapters/ch-16-choosing-your-pathway.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Decision tree from Part One pathways; no new claims pending research."
     }
   ],
   "example_chapter_shape": {
