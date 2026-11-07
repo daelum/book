@@ -41,12 +41,13 @@ Analyses of GLP-1/GIP agonist–assisted weight loss often show some **absolute 
 
 **Practical tips while appetite is suppressed:**
 
-1. **Protein first every day** — schedule it; don’t wait to “feel like eating.”  
-2. **Lift hard on a written plan** — MED weeks beat zero weeks.  
+1. **Protein first every day** — schedule it; don’t wait to “feel like eating.” When intake collapses, lean hard into a high protein target (many coaches push toward that ~g/lb ballpark while cutting) so the deficit isn’t all lean tissue.  
+2. **Lift hard on a written plan** — MED weeks beat zero weeks. Keep *some* progressive loading even on rough weeks.  
 3. **Don’t chase heroic weekly drops** if strength is falling off a cliff.  
 4. **Steps** help; punishment cardio on empty is how you get flat and injured.  
 5. **Watch session quality** — if every workout is trash, food or recovery needs a nudge with your coach.  
 6. **Photos + waist + lifts** — the scale will lie cheerfully.  
+7. **Structure > drug alone** — sleep, food defaults, training calendar. Medication without lifestyle still fails the long game; if the only thing holding your look is appetite suppression 365 days a year with zero habits underneath, you’re renting the result. 
 
 ### Retatrutide deep dive (literacy + smart-use framing)
 
@@ -57,7 +58,7 @@ Next-wave multi-agonist interest is high because fat loss can be aggressive. Sma
 - Build the behaviour layer (protein, lifting, sleep) around what the drug actually does to appetite  
 - Coach + medical oversight — not a group chat  
 
-Stopping without habits is how weight returns. That’s not a moral failing; it’s a systems failure. Fix the system.
+Stopping without habits is how weight returns. That’s not a moral failing; it’s a systems failure. Fix the system — diet pattern, sleep hygiene, lifting — the same way you’d fix any other tool’s off-ramp. It’s never *only* the medication.
 
 ### Side-effect reality (not a scare pamphlet)
 

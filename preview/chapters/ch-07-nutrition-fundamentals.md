@@ -48,6 +48,8 @@ When you eat in a surplus, many people unconsciously move more (NEAT — fidgeti
 
 In the learning phase, tracking **calories + protein** beats tracking seventeen micronutrients you’ll abandon by Thursday. Some people eventually eat well by eye. If your history includes sugar-chasing, chaotic weekends, or “I swear I eat clean,” external tracking is often how you recalibrate — not because you’re weak, but because internal cues can be loud and wrong when the food environment is engineered to overfeed you.
 
+Keep a log you can actually reopen later — rest-day meals included. “I’ll remember” is how weekends vanish from the dataset. And if a diet style tanks your adherence every time you try it, stop collecting rematches with the same fad; adherence is the cost centre that decides whether any approach works.
+
 If tracking food is psychologically rough because of a disordered eating history, get professional support and use a gentler method (portion frameworks, plate method, coach-guided structure). This book is not a substitute for that care.
 
 ### Pathway nutrition in one glance

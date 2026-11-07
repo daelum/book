@@ -29,6 +29,8 @@ Think **hard working sets per muscle per week**, not hours in the building.
 
 Beginners often grow on **modest** weekly set counts if effort and progression are real. More hard sets tend to help up to a point (dose-response), then you collect fatigue and “junk volume.” Training age matters: what an advanced lifter needs can bury a beginner. **Do not** treat a rigid “must hit 10 sets” rule as a Year-1 beginner commandment — start doable, then add when progression stalls *and* recovery is fine. *(Claim `clm_8ce28de51045`; bib `bib_53ed4f6180`, `bib_d7651b3639`.)*
 
+**Conservative volume adds:** if a muscle still feels like a warm-up after its planned hard sets (no real stimulus), add **one** set next time and reassess — don’t jump from three to seven because a spreadsheet looked heroic. Manage fatigue across the week so Friday isn’t garbage because Monday was a funeral. And yes — you have to train hard, but “train hard bro” alone without progression, protein, and recovery leaves gains on the table.
+
 ### Splits that work in year one
 
 | Split | Days | Best when |

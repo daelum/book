@@ -49,20 +49,24 @@ Smart use doesn’t pretend those risks are fake. It **monitors and manages** th
 Not a DIY prescription — a checklist of what “serious” looks like:
 
 - **Blood pressure** at home, logged  
-- **Bloods:** haematocrit/hemoglobin, lipids, liver enzymes (context), testosterone/estradiol-related markers as your clinician/coach directs, metabolic panel  
+- **Bloods:** haematocrit/hemoglobin / CBC trends, lipids, liver enzymes (context), testosterone/estradiol-related markers as your clinician/coach directs, metabolic panel  
+- **Individual response:** aromatisation and how you feel on a given setup vary person to person — **bloodwork adjusts the plan**, not vibes and soy memes. Injection frequency and compound choice change the picture; your coach reads labs, you don’t invent ratios from a forum.  
 - **Fertility** conversation before you need it  
 - **Mood / sleep / libido / acne / water** notes in the training log  
 - **Strength jumps vs tendon readiness** — ego injuries spike when the muscle outruns the connective tissue  
+- **Health curiosity that matches the ambition:** BP, bloods, and (when appropriate) deeper cardiovascular check-ins — people who “do it properly” treat monitoring like part of training, not optional homework  
 
-If BP is chaos, that’s a stop-and-fix signal — not a badge of honour.
+If BP is chaos, that’s a stop-and-fix signal — not a badge of honour. Haematocrit creeping up isn’t a flex either — it’s a conversation with whoever’s supervising you.
 
 ### Training and food while enhanced
 
 - Progressive overload still decides whether the extra androgen signalling turns into muscle or just gym stories  
 - Protein stays high; calories match the goal  
 - Don’t suddenly max every lift because you feel bulletproof  
-- Deloads still exist — drugs don’t delete fatigue forever  
+- Deloads still exist — drugs don’t delete fatigue forever; early PR fireworks can hide accumulating fatigue until you stall hard  
+- When volume needs a nudge mid-block, stay **conservative** (+1 hard set where stimulus was clearly missing) rather than doubling the plan  
 - Sleep still grows you  
+- Mini-cuts / easier weeks exist in longer growth blocks to bleed fatigue and buy runway — that’s programme design, not panic 
 
 ### Common fuck-ups
 

@@ -39,7 +39,7 @@ Use a calculator as a starting guess, or track weight + intake for 2 weeks and r
 |------|---------------------|
 | Fat loss (C, many B) | ~300–500 kcal/day below maintenance (adjust by trend) |
 | Recomp / hold (many B, D) | About maintenance ± small nudge |
-| Growth (many A) | ~200–400 kcal/day above maintenance; patience > dirty bulk chaos |
+| Growth (many A) | ~200–400 kcal/day above maintenance; patience > dirty bulk chaos. Oversized surpluses mostly buy extra fat once a modest surplus is already covering growth. |
 
 **Step 3 — Review every 2–4 weeks.**  
 Losing too fast / strength crashing → eat more. Weight up too fast with soft photos → trim. Scale stuck but photos better → maybe stay (recomp).
@@ -65,6 +65,8 @@ They count. Estimate them. Budget them. Don’t build your identity around eithe
 - Same breakfast 5 days/week is a feature  
 
 Protein powder is a **convenience** tool for hitting totals — not superior magic versus food when daily protein is matched. *(Claim `clm_808a8b7a439d`.)* Creatine belongs in supplements (Part Four) — food first here.
+
+**Adherence tip:** if full macro theatre makes you quit, track **calories + protein** and let carbs/fats flex. A logged plan you can scroll back through weeks later beats “I eat pretty clean” memory every time. Magic diet identities (fifth attempt at the same fad because someone said it’s magic) that nuke adherence are a cost, not a strategy — pick the pattern you’ll still run in week eight.
 
 ## 2. WHY IT MATTERS
 

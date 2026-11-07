@@ -46,7 +46,9 @@ Year-one rule of thumb:
 - You don’t need every set to absolute failure, especially on big compounds.  
 - If you’re always sure you had five left, you’re probably sandbagging.
 
-Specific rep counts matter less than **getting sufficiently close to failure** with tension you can progress. That’s why “do 3×10 forever at the same weight” dies.
+**Beginner RIR lie:** what a new lifter calls “3 reps in reserve” is often closer to **5–6** still in the tank. Once technique is solid, learn what true hard feels like — on machines/isolation first if barbell ego scares you. Specific rep counts matter less than **getting sufficiently close to failure** with tension you can progress. That’s why “do 3×10 forever at the same weight” dies.
+
+For longer programmes, averaging roughly **~1–2 reps shy of failure** on most work sets beats living at form-collapse failure every set. Cycle intensity; don’t turn every Tuesday into a meltdown.
 
 ### Mind-muscle vs load
 

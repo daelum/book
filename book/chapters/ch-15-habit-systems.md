@@ -49,7 +49,9 @@ Ego aborts bulks early. Ego skips deloads. Ego compares your behind-the-scenes t
 
 ### Tracking without obsession
 
-Logs serve decisions. If tracking starts running your mood, simplify the dashboard (Chapter 6) and keep the behaviours.
+Logs serve decisions. If tracking starts running your mood, simplify the dashboard (Chapter 6) and keep the behaviours. A boring food + training log you can reopen five weeks later is worth more than a perfect app stack you abandoned.
+
+**Short interruptions:** a messy fortnight won’t delete months of muscle if you return to progressive loading — even imperfect weighted work beats zero. The habit is the return, not the fantasy of never slipping.
 
 ## 2. WHY IT MATTERS
 
