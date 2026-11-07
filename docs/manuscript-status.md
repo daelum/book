@@ -10,90 +10,59 @@ updated: "2026-11-07"
 **PR:** https://github.com/daelum/book/pull/2  
 **Branch:** `cursor/manuscript-home-17d4`  
 **Context mirror:** `/cursor/stores/self/book/` + `/cursor/stores/self/docs/manuscript-status.md`  
-**Voice:** Project store `docs/author-voice.md` (Daelum mentality; not named repeatedly in prose)  
-**Attribution:** YouTube creators/channels never named in manuscript; provenance in research DB + `book/maps/chapter-sources.json` only.
+**Voice:** Project store `docs/author-voice.md`  
+**Attribution:** YouTube creators/channels never named in manuscript; Dylan not named; no funnel CTAs. Provenance in research DB + `book/maps/chapter-sources.json` only.
 
-## Layout in repo
-
-```
-book/outline/00-complete-outline.md
-book/chapters/ch-NN-slug.md
-book/maps/chapter-sources.json
-docs/manuscript-status.md
-README.md
-```
-
-## Drafted
-
-### Outline
-- `book/outline/00-complete-outline.md` — Parts 1–5, pathways A–D, provisional 12-month roadmap, chapter IDs
+## Drafted (full outline Parts 1–5)
 
 ### Part One — Understanding Your Body (`draft` — complete)
-| File | Chapter |
-|------|---------|
-| `book/chapters/ch-01-what-bodybuilding-involves.md` | What Bodybuilding Actually Involves |
-| `book/chapters/ch-02-how-muscle-grows.md` | How Muscle Grows |
-| `book/chapters/ch-03-body-fat.md` | Body Fat |
-| `book/chapters/ch-04-recomposition.md` | Recomposition |
-| `book/chapters/ch-05-realistic-expectations.md` | Realistic Expectations |
-| `book/chapters/ch-06-measuring-your-starting-point.md` | Measuring Your Starting Point |
+`ch-01` … `ch-06`
 
 ### Part Two — Building Your Foundation (`draft` — complete)
-| File | Chapter |
-|------|---------|
-| `book/chapters/ch-07-nutrition-fundamentals.md` | Nutrition Fundamentals |
-| `book/chapters/ch-08-protein-calories-macros.md` | Protein, Calories, and Macros |
-| `book/chapters/ch-09-resistance-training-fundamentals.md` | Resistance Training Fundamentals |
-| `book/chapters/ch-10-progressive-overload.md` | Progressive Overload |
-| `book/chapters/ch-11-program-structure.md` | Program Structure |
-| `book/chapters/ch-12-form-and-effort.md` | Form, Effort, Near Failure |
-| `book/chapters/ch-13-recovery-sleep-stress.md` | Recovery |
-| `book/chapters/ch-14-cardio-steps-neat.md` | Cardio, Steps, NEAT (**canonical**; removed duplicate `…-neats.md`) |
-| `book/chapters/ch-15-habit-systems.md` | Habit Systems |
+`ch-07` … `ch-15` · canonical `ch-14-cardio-steps-neat.md`
 
-### Part Three — The 12-Month Roadmap (`draft` — complete set)
-| File | Chapter |
-|------|---------|
-| `book/chapters/ch-16-choosing-your-pathway.md` | Choosing Your Pathway (A–D) |
-| `book/chapters/ch-17-months-1-3-foundation.md` | Months 1–3: Foundation |
-| `book/chapters/ch-18-months-4-6-build.md` | Months 4–6: Build |
-| `book/chapters/ch-19-months-7-9-refine.md` | Months 7–9: Refine |
-| `book/chapters/ch-20-months-10-12-peak.md` | Months 10–12: Peak and Decide |
-| `book/chapters/ch-21-plateaus-and-course-corrections.md` | Plateaus and Course Corrections |
-| `book/chapters/ch-22-pathway-playbooks.md` | Pathway Playbooks (A–D) |
+### Part Three — The 12-Month Roadmap (`draft` — complete)
+`ch-16` … `ch-22`
 
-All drafted chapters use the standard scaffold and pathway A–D notes where relevant.
+### Part Four — Supplements, PEDs, Peptides & GLP-1 Literacy (`draft` — complete)
+| File | Frame |
+|------|-------|
+| `book/chapters/ch-23-supplements-evidence-tiers.md` | Evidence tiers; Tier 1–3; basics first |
+| `book/chapters/ch-24-peds-harm-reduction.md` | Educational harm-reduction; **no protocols/dosing** |
+| `book/chapters/ch-25-peptides-literacy.md` | Suitcase-word literacy; evidence gaps; no DIY |
+| `book/chapters/ch-26-glp1-and-retatrutide.md` | Fat loss vs physique; muscle risk; medical supervision; no titration |
+| `book/chapters/ch-27-deciding-if-advanced-tools.md` | Year-1 defaults; clinician questions; red flags |
 
-## What’s next (writing)
+Beginner pathways A–D stay **drug-free in action plans**. Evidence classes A–F used in prose framing.
 
-1. **Part Four** — educational harm-reduction only (`ch-23`–`ch-27`); no beginner drug protocols  
-2. **Part Five** — identity / comparison / life / Year Two (`ch-28`–`ch-32`)  
-3. Optional: concrete menus + full session templates once research claims are cleaner  
-4. Tighten `[RESEARCH:]` items as Stage 3–4 verification lands  
+### Part Five — Becoming a Bodybuilder (`draft` — complete)
+| File | Notes |
+|------|-------|
+| `book/chapters/ch-28-identity-and-discipline.md` | Responsibility without punishment |
+| `book/chapters/ch-29-body-image-and-comparison.md` | Photos vs feeds |
+| `book/chapters/ch-30-training-around-life.md` | MED / chaos templates |
+| `book/chapters/ch-31-year-two-and-beyond.md` | Life periodization |
+| `book/chapters/ch-32-closing-the-system.md` | One-page operating system |
 
-## Research grounding used
+## What’s next
 
-- Coverage snapshot: 18 channels catalogued; **242** insight rows in store `research/insights/*.jsonl`.  
-- Prose synthesizes themes in book voice; does **not** quote-attribute creators.  
-- Part Three templates are provisional skeletons pending cleaner weekly-template research.
+1. Optional polish: menus, full session templates, glossary/appendices  
+2. Stage 3–4 claim verification + bibliography IDs into chapters where scientific claims harden  
+3. Editorial pass for voice consistency across 32 chapters  
+4. Tighten `[RESEARCH:]` items below as verification lands  
 
-## Research gaps to fill later `[RESEARCH: …]`
+## Research gaps `[RESEARCH: …]` (status doc only)
 
-Keep these **out of reader chapter body** until verified:
-
-- `[RESEARCH: hypertrophy set-volume dose-response meta numbers for beginners vs intermediates — cite verified papers]`
-- `[RESEARCH: protein meta target bands g/kg lean mass vs total BW — bib entries]`
-- `[RESEARCH: realistic natural monthly muscle gain ranges by training age / sex]`
-- `[RESEARCH: recomposition evidence conditions (novice, overweight, returnee)]`
-- `[RESEARCH: waist/photo protocol reliability; best minimal tracking stack]`
-- `[RESEARCH: NEAT compensation ranges in surplus/deficit — tighten ch-07/ch-14 figures]`
-- `[RESEARCH: provisional weekly templates for ch-17–20 — gym + home — grounded in verified programming insights]`
-- `[RESEARCH: mini-cut / diet-break duration evidence bands for ch-19]`
-- `[RESEARCH: GLP-1 / retatrutide muscle-preservation themes for Part Four only]`
-- `[RESEARCH: clean/dedupe insight extractions — stuttery ASR; Stage 4 claim verification]`
-- `[RESEARCH: priority transcript backlog — coverage report gaps]`
+- `[RESEARCH: creatine meta / safety citations for ch-23 bib_ids]`
+- `[RESEARCH: protein powder vs food equivalence — optional cite]`
+- `[RESEARCH: AAS cardiovascular/endocrine risk literature summary with verified DOIs for ch-24]`
+- `[RESEARCH: peptide evidence map by compound class — separate thin human data from marketing]`
+- `[RESEARCH: GLP-1 lean-mass change literature; retatrutide trial status by jurisdiction for ch-26]`
+- `[RESEARCH: hypertrophy set-volume dose-response metas — Parts Two–Three]`
+- `[RESEARCH: provisional weekly templates ch-17–20 grounded in cleaner programming insights]`
+- `[RESEARCH: clean/dedupe ASR insight rows; Stage 4 claim verification]`
 
 ## Sync log
 
-- 2026-11-07: Synced store outline + ch-01…ch-07 into repo; drafted ch-08–16; opened PR #2.  
-- 2026-11-07: Deduped ch-14 → canonical `ch-14-cardio-steps-neat.md` (removed store `…-neats.md`); outline ID aligned; completed Part Three ch-17–22; mirrored ch-01–22 + maps + status to store.
+- 2026-11-07: Parts One–Three on PR #2; ch-14 deduped to `neat`.  
+- 2026-11-07: Parts Four–Five drafted (`ch-23`–`ch-32`); maps/status updated; mirrored to store.

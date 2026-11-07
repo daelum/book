@@ -286,6 +286,106 @@
       "bib_ids": [],
       "insight_ids": [],
       "notes": "If-this-do-that cards per pathway."
+    },
+    {
+      "chapter_id": "ch-23-supplements-evidence-tiers",
+      "title": "Supplements: What Is Worth It",
+      "path": "book/chapters/ch-23-supplements-evidence-tiers.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Creatine/protein/caffeine tiers; evidence classes; no magic stacks. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-24-peds-harm-reduction",
+      "title": "Anabolic PEDs \u2014 Educational Harm Reduction",
+      "path": "book/chapters/ch-24-peds-harm-reduction.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Harm-reduction literacy; beginner_unsafe; no protocols/dosing. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-25-peptides-literacy",
+      "title": "Peptides \u2014 What People Mean and What\u2019s Unknown",
+      "path": "book/chapters/ch-25-peptides-literacy.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Suitcase-word literacy; evidence gaps; no DIY protocols. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-26-glp1-and-retatrutide",
+      "title": "GLP-1s, Metabolic Drugs & Retatrutide Deep Dive",
+      "path": "book/chapters/ch-26-glp1-and-retatrutide.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Fat loss vs physique; muscle risk; medical supervision; no titration. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-27-deciding-if-advanced-tools",
+      "title": "Deciding Whether Advanced Tools Are Even Relevant",
+      "path": "book/chapters/ch-27-deciding-if-advanced-tools.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Year-1 defaults; clinician questions; red flags. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-28-identity-and-discipline",
+      "title": "Identity, Discipline, and Not Becoming Obsessed",
+      "path": "book/chapters/ch-28-identity-and-discipline.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Responsibility without punishment. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-29-body-image-and-comparison",
+      "title": "Body Image, Comparison, and Social Media",
+      "path": "book/chapters/ch-29-body-image-and-comparison.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Photos vs feeds; comparison hygiene. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-30-training-around-life",
+      "title": "Training Around Work, Kids, and Chaos",
+      "path": "book/chapters/ch-30-training-around-life.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "MED weeks; constraints. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-31-year-two-and-beyond",
+      "title": "Year Two and Beyond",
+      "path": "book/chapters/ch-31-year-two-and-beyond.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Life periodization; lifestyle vs competitive. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-32-closing-the-system",
+      "title": "Closing the System \u2014 Your Permanent Checklist",
+      "path": "book/chapters/ch-32-closing-the-system.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "One-page OS. manuscript_attribution=never; educational_only where pharmacology."
     }
   ],
   "example_chapter_shape": {

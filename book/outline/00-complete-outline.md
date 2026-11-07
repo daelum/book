@@ -158,7 +158,8 @@ Secondary lenses (used inside chapters, not separate books): fat-loss focused ·
 | Part One chapters (1–6) | `draft` complete |
 | Part Two chapters (7–15) | `draft` complete (`ch-14` canonical slug: `ch-14-cardio-steps-neat`) |
 | Part Three chapters (16–22) | `draft` complete |
-| Part Four–Five | queued |
+| Part Four chapters (23–27) | `draft` complete (educational harm-reduction; no beginner protocols) |
+| Part Five chapters (28–32) | `draft` complete |
 | Research grounding | Partial — 242 insights synthesized in voice; fill `[RESEARCH: …]` gaps in `docs/manuscript-status.md` as verification continues |
 | Canonical home | https://github.com/daelum/book · PR https://github.com/daelum/book/pull/2 |
 
