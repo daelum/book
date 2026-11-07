@@ -1,0 +1,480 @@
+{
+  "description": "Chapter-to-source mapping. insight_ids are INTERNAL grounding only \u2014 never paste YouTube creator/channel/@handle/URL attribution into reader-facing chapter prose.",
+  "manuscript_attribution_policy": "never_name_youtube_sources",
+  "policy_doc": "docs/source-traceability.md",
+  "updated": "2026-11-07",
+  "coverage_ref": "youtube/logs/coverage-report.md",
+  "insight_corpus_note": "731 insight rows available at enrichment pass; priority queue cleared per youtube/logs/coverage-report.md",
+  "chapters": [
+    {
+      "chapter_id": "ch-01-what-bodybuilding-involves",
+      "title": "What Bodybuilding Actually Involves",
+      "path": "book/chapters/ch-01-what-bodybuilding-involves.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_2LNagkiowdU_ba633b4a2f",
+        "ins_pR5aPCoz_mE_9a1b18dde1",
+        "ins_pR5aPCoz_mE_84f6055b5f",
+        "ins_2aYrGSPZmpk_1061f6320b"
+      ],
+      "notes": "Systems, hard-enough training, ego/adherence psychology. Synthesize only."
+    },
+    {
+      "chapter_id": "ch-02-how-muscle-grows",
+      "title": "How Muscle Grows",
+      "path": "book/chapters/ch-02-how-muscle-grows.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_39348f949b",
+        "ins_PgG_qyZmF5M_38bb6f1098",
+        "ins_2LNagkiowdU_ba633b4a2f",
+        "ins_eMjyvIQbn9M_bd527b9e82",
+        "ins_-MRNjTr6xrE_ec736f22ad"
+      ],
+      "notes": "Proximity to failure; volume/frequency nuance; short interruptions vs quitting."
+    },
+    {
+      "chapter_id": "ch-03-body-fat",
+      "title": "Body Fat: What It Is and How It Moves",
+      "path": "book/chapters/ch-03-body-fat.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_crZf9wie-Fc_dfd19882c8",
+        "ins_crZf9wie-Fc_fa859c78ce",
+        "ins_FdaM3f_odqI_6ef08fd373",
+        "ins_Jf4DP4Q-HpY_53690f4c05",
+        "ins_NDFSQtQ26Vs_4dc4c84ed3"
+      ],
+      "notes": "Composition metrics; energy/fat themes. GLP-1 insight held as literacy pointer only \u2014 no beginner protocol."
+    },
+    {
+      "chapter_id": "ch-04-recomposition",
+      "title": "Recomposition \u2014 Building and Losing at Once",
+      "path": "book/chapters/ch-04-recomposition.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_NHtG8mFSZFo_f457fde2f4",
+        "ins_NHtG8mFSZFo_6a454c1fca",
+        "ins_pR5aPCoz_mE_dce28984e1",
+        "ins_8YMejRrb8g4_d3adea46a0"
+      ],
+      "notes": "Patience; lean-growth framing; avoid phase flipping."
+    },
+    {
+      "chapter_id": "ch-05-realistic-expectations",
+      "title": "Realistic Expectations for Twelve Months",
+      "path": "book/chapters/ch-05-realistic-expectations.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_NHtG8mFSZFo_f457fde2f4",
+        "ins_pR5aPCoz_mE_dce28984e1",
+        "ins_pR5aPCoz_mE_800fbebc66",
+        "ins_-MRNjTr6xrE_ec736f22ad",
+        "ins_crZf9wie-Fc_c6c90470fa"
+      ],
+      "notes": "Hardgainer patience; ego cuts; track to know plateaus; short layoffs."
+    },
+    {
+      "chapter_id": "ch-06-measuring-your-starting-point",
+      "title": "Measuring Your Starting Point",
+      "path": "book/chapters/ch-06-measuring-your-starting-point.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_crZf9wie-Fc_f5f46bc436",
+        "ins_crZf9wie-Fc_dfd19882c8",
+        "ins_crZf9wie-Fc_db345a47da",
+        "ins_crZf9wie-Fc_c6c90470fa",
+        "ins_os6mNkYPGRw_5f1d2a2bcf",
+        "ins_-Q6SZQBvlLM_c118f94b32"
+      ],
+      "notes": "Photos/measurements vs weight alone; calories+protein tracking; plateau logic."
+    },
+    {
+      "chapter_id": "ch-07-nutrition-fundamentals",
+      "title": "Nutrition Fundamentals",
+      "path": "book/chapters/ch-07-nutrition-fundamentals.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_3560b4244a",
+        "ins_-Q6SZQBvlLM_f4aa23ccf9",
+        "ins_FdaM3f_odqI_099d1c5d79",
+        "ins_pR5aPCoz_mE_dce28984e1",
+        "ins_os6mNkYPGRw_5f1d2a2bcf",
+        "ins_8YMejRrb8g4_0fc1e872dc",
+        "ins_-Q6SZQBvlLM_c503aac1ee",
+        "ins_-Q6SZQBvlLM_7a1d8a6e33",
+        "ins_Jf4DP4Q-HpY_6716af39aa"
+      ],
+      "notes": "Protein heuristic; tracking pair; NEAT; phase ego; meal structure; disordered-eating sensitivity; lifestyle > meds framing. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never)."
+    },
+    {
+      "chapter_id": "ch-08-protein-calories-macros",
+      "title": "Protein, Calories, and Macros That Matter",
+      "path": "book/chapters/ch-08-protein-calories-macros.md",
+      "status": "draft",
+      "claim_ids": [
+        "clm_ed1a9a266269",
+        "clm_808a8b7a439d"
+      ],
+      "bib_ids": [
+        "bib_9914827c24",
+        "bib_e498488c33",
+        "bib_381074aa0f",
+        "bib_79cbcc75ff"
+      ],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_ec736f22ad",
+        "ins_2LNagkiowdU_47e22ec5d6",
+        "ins_os6mNkYPGRw_5f1d2a2bcf"
+      ],
+      "notes": "Stage 5: protein 1.6\u20132.2 band + ~1.6 flattening nuance; powder=convenience. manuscript_attribution=never. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never).",
+      "stage5_wired": true
+    },
+    {
+      "chapter_id": "ch-09-resistance-training-fundamentals",
+      "title": "Resistance Training Fundamentals",
+      "path": "book/chapters/ch-09-resistance-training-fundamentals.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_39348f949b",
+        "ins_2LNagkiowdU_ba633b4a2f"
+      ],
+      "notes": "Progressive resistance; home loading continuity."
+    },
+    {
+      "chapter_id": "ch-10-progressive-overload",
+      "title": "Progressive Overload \u2014 The Non-Negotiable",
+      "path": "book/chapters/ch-10-progressive-overload.md",
+      "status": "draft",
+      "claim_ids": [
+        "clm_b8025c3f5588"
+      ],
+      "bib_ids": [
+        "bib_6440ad37dd",
+        "bib_53ed4f6180"
+      ],
+      "insight_ids": [
+        "ins_2LNagkiowdU_ba633b4a2f"
+      ],
+      "notes": "Stage 5: progressive overload necessity anchored. manuscript_attribution=never.",
+      "stage5_wired": true
+    },
+    {
+      "chapter_id": "ch-11-program-structure",
+      "title": "Program Structure: Splits, Frequency, Volume",
+      "path": "book/chapters/ch-11-program-structure.md",
+      "status": "draft",
+      "claim_ids": [
+        "clm_a18689f43d1b",
+        "clm_8ce28de51045"
+      ],
+      "bib_ids": [
+        "bib_beac110f7f",
+        "bib_53ed4f6180",
+        "bib_d7651b3639"
+      ],
+      "insight_ids": [
+        "ins_PgG_qyZmF5M_38bb6f1098",
+        "ins_E2Nj6R4TLCE_199956bf35",
+        "ins_2LNagkiowdU_1067e0caed",
+        "ins_FOVmLfAX0FY_7491567a66"
+      ],
+      "notes": "Stage 5: ~2\u00d7/week + modest\u2192add volume; no rigid 10-set beginner commandment. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never).",
+      "stage5_wired": true
+    },
+    {
+      "chapter_id": "ch-12-form-and-effort",
+      "title": "Form, Effort, and Getting Close to Failure",
+      "path": "book/chapters/ch-12-form-and-effort.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_39348f949b",
+        "ins_2LNagkiowdU_ba633b4a2f",
+        "ins_2aYrGSPZmpk_6f3dbdbf54",
+        "ins_PgG_qyZmF5M_35522dd19e"
+      ],
+      "notes": "RIR / near-failure themes. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never)."
+    },
+    {
+      "chapter_id": "ch-13-recovery-sleep-stress",
+      "title": "Recovery: Sleep, Stress, and Deloads",
+      "path": "book/chapters/ch-13-recovery-sleep-stress.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Lifestyle recovery > expecting meds to fix sleep/stress. Seed insights thin \u2014 RESEARCH."
+    },
+    {
+      "chapter_id": "ch-14-cardio-steps-neat",
+      "title": "Cardio, Steps, and Daily Movement",
+      "path": "book/chapters/ch-14-cardio-steps-neat.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_crZf9wie-Fc_dfd19882c8"
+      ],
+      "notes": "NEAT compensation themes; RESEARCH to tighten ranges."
+    },
+    {
+      "chapter_id": "ch-15-habit-systems",
+      "title": "Habit Systems for People With Real Lives",
+      "path": "book/chapters/ch-15-habit-systems.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_pR5aPCoz_mE_9a1b18dde1",
+        "ins_pR5aPCoz_mE_84f6055b5f",
+        "ins_-MRNjTr6xrE_ec736f22ad",
+        "ins_crZf9wie-Fc_b77e198bf1"
+      ],
+      "notes": "Ego/adherence; MED weeks; no Monday-reset theatre. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never)."
+    },
+    {
+      "chapter_id": "ch-16-choosing-your-pathway",
+      "title": "Choosing Your Pathway (A\u2013D)",
+      "path": "book/chapters/ch-16-choosing-your-pathway.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Decision tree from Part One pathways; no new claims pending research."
+    },
+    {
+      "chapter_id": "ch-17-months-1-3-foundation",
+      "title": "Months 1\u20133: Foundation",
+      "path": "book/chapters/ch-17-months-1-3-foundation.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Weekly skeleton; pathway food bias; no novelty."
+    },
+    {
+      "chapter_id": "ch-18-months-4-6-build",
+      "title": "Months 4\u20136: Build",
+      "path": "book/chapters/ch-18-months-4-6-build.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Volume/effort upgrades; one-lever food adjustments."
+    },
+    {
+      "chapter_id": "ch-19-months-7-9-refine",
+      "title": "Months 7\u20139: Refine",
+      "path": "book/chapters/ch-19-months-7-9-refine.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Weak points; optional nutrition periodization; specialty tools limited."
+    },
+    {
+      "chapter_id": "ch-20-months-10-12-peak",
+      "title": "Months 10\u201312: Peak and Decide",
+      "path": "book/chapters/ch-20-months-10-12-peak.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Review ritual; Year 2 fork; literacy not protocols."
+    },
+    {
+      "chapter_id": "ch-21-plateaus-and-course-corrections",
+      "title": "Plateaus and Course Corrections",
+      "path": "book/chapters/ch-21-plateaus-and-course-corrections.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Adherence check then food/training/recovery levers."
+    },
+    {
+      "chapter_id": "ch-22-pathway-playbooks",
+      "title": "Pathway Playbooks (A\u2013D deep dives)",
+      "path": "book/chapters/ch-22-pathway-playbooks.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "If-this-do-that cards per pathway."
+    },
+    {
+      "chapter_id": "ch-23-supplements-evidence-tiers",
+      "title": "Supplements: What Is Worth It",
+      "path": "book/chapters/ch-23-supplements-evidence-tiers.md",
+      "status": "draft",
+      "claim_ids": [
+        "clm_35b78a69d71c",
+        "clm_b8f879e58769",
+        "clm_808a8b7a439d"
+      ],
+      "bib_ids": [
+        "bib_06b671ef36",
+        "bib_0ad83801ce",
+        "bib_deb598f2ee",
+        "bib_79cbcc75ff"
+      ],
+      "insight_ids": [],
+      "notes": "Pro smart-use Part Four pass; Stage 5 Tier 1 cites kept; vitamin D/fish oil soft.",
+      "stage5_wired": true
+    },
+    {
+      "chapter_id": "ch-24-peds-harm-reduction",
+      "title": "Anabolic PEDs \u2014 Doing Them Properly",
+      "path": "book/chapters/ch-24-peds-harm-reduction.md",
+      "status": "draft",
+      "claim_ids": [
+        "clm_98a0b3336188",
+        "clm_c236e9cc9d29"
+      ],
+      "bib_ids": [
+        "bib_c8b4eccf53",
+        "bib_9c421ff8dd",
+        "bib_2334bfb4d8"
+      ],
+      "insight_ids": [
+        "ins_60YGn2K5cO0_922390d569",
+        "ins_Dd7Q5Y20-4s_ed47f1132d",
+        "ins_Za6UyibwQNw_9105aa0dd5",
+        "ins_E2Nj6R4TLCE_199956bf35"
+      ],
+      "notes": "Rewritten: Doing Them Properly; coach standard; practical monitoring; Stage 5 CV/endocrine educational cites kept; no invented protocols. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never).",
+      "stage5_wired": true
+    },
+    {
+      "chapter_id": "ch-25-peptides-literacy",
+      "title": "Peptides \u2014 Practical Literacy",
+      "path": "book/chapters/ch-25-peptides-literacy.md",
+      "status": "draft",
+      "claim_ids": [
+        "clm_30a9915f28ab"
+      ],
+      "bib_ids": [
+        "bib_f9a28d90c7",
+        "bib_a25fc70d86"
+      ],
+      "insight_ids": [],
+      "notes": "Rewritten: practical literacy; coach standard; Stage 5 healing-peptide thin-human cite kept.",
+      "stage5_wired": true
+    },
+    {
+      "chapter_id": "ch-26-glp1-and-retatrutide",
+      "title": "GLP-1s, Metabolic Drugs & Retatrutide",
+      "path": "book/chapters/ch-26-glp1-and-retatrutide.md",
+      "status": "draft",
+      "claim_ids": [
+        "clm_6df64d403f7e",
+        "clm_79a5c94646d8",
+        "clm_4c79d63c0a0f"
+      ],
+      "bib_ids": [
+        "bib_b9b9f34e56",
+        "bib_68b8ece2a2",
+        "bib_8201260db4",
+        "bib_79834f3227",
+        "bib_697e1f91ea"
+      ],
+      "insight_ids": [
+        "ins_HR3oBY7qTKM_ebb82a05d7",
+        "ins_-Q6SZQBvlLM_7a1d8a6e33",
+        "ins_-MRNjTr6xrE_3560b4244a"
+      ],
+      "notes": "Rewritten: practical protein/lifting tips; lived-upside tone; Stage 5 STEP/lean/retatrutide cites; no titration. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never).",
+      "stage5_wired": true
+    },
+    {
+      "chapter_id": "ch-27-deciding-if-advanced-tools",
+      "title": "Deciding Whether Advanced Tools Make Sense",
+      "path": "book/chapters/ch-27-deciding-if-advanced-tools.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Rewritten: decision filter + coach standard; reinforces smart use not apology defaults.",
+      "stage5_wired": true
+    },
+    {
+      "chapter_id": "ch-28-identity-and-discipline",
+      "title": "Identity, Discipline, and Not Becoming Obsessed",
+      "path": "book/chapters/ch-28-identity-and-discipline.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Responsibility without punishment. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-29-body-image-and-comparison",
+      "title": "Body Image, Comparison, and Social Media",
+      "path": "book/chapters/ch-29-body-image-and-comparison.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Photos vs feeds; comparison hygiene. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-30-training-around-life",
+      "title": "Training Around Work, Kids, and Chaos",
+      "path": "book/chapters/ch-30-training-around-life.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "MED weeks; constraints. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-31-year-two-and-beyond",
+      "title": "Year Two and Beyond",
+      "path": "book/chapters/ch-31-year-two-and-beyond.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Life periodization; lifestyle vs competitive. manuscript_attribution=never; educational_only where pharmacology."
+    },
+    {
+      "chapter_id": "ch-32-closing-the-system",
+      "title": "Closing the System \u2014 Your Permanent Checklist",
+      "path": "book/chapters/ch-32-closing-the-system.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Tools checklist updated for coach-standard advanced tools."
+    }
+  ],
+  "example_chapter_shape": {
+    "chapter_id": "ch-03-progressive-overload",
+    "title": "Progressive Overload",
+    "claim_ids": [],
+    "bib_ids": [],
+    "insight_ids": [],
+    "notes": "When drafting: synthesize insight content in original book voice; cite literature bib_ids publicly if needed; do not name YouTube creators linked via insight_ids."
+  },
+  "stage5_ref": "docs/research-validation.md",
+  "edit_stubs_ref": "store internal/stage5-manuscript-edit-stubs.md (Context)",
+  "part4_stance": "pro_smart_coached_use"
+}
