@@ -47,9 +47,9 @@ Here’s your one-page operating system.
 - [ ] Year-phase sketch (even rough)  
 
 **Tools**
-- [ ] Tier-1 supplements optional only after basics  
-- [ ] Year-1 / default action plans drug-free  
-- [ ] Advanced tools = literacy + clinician if medical; never forum protocols  
+- [ ] Tier-1 supplements optional once basics exist  
+- [ ] Advanced tools (testosterone/AAS, peptides, GLP-1s) only with intention, monitoring, and a coach — never stranger-PDF chaos  
+- [ ] Protein + lifting non-negotiable on any metabolic or androgen plan  
 
 ### Evidence habit (forever)
 

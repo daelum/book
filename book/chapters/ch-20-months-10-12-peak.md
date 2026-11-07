@@ -18,7 +18,7 @@ This isn’t a contest week unless you want it to be. It’s a **proof and fork*
 1. Maintain (or slightly polish) the physique and strength you’ve built.  
 2. Run a full review vs Month 1.  
 3. Choose Year 2 direction.  
-4. Optionally read Part Four as **literacy**, not a starter kit.
+4. Optionally use Part Four if advanced tools are on the table — smart, coached use, not forum chaos.
 
 ### Peak ≠ dehydration theatre
 

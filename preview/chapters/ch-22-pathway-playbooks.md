@@ -11,7 +11,7 @@ updated: "2026-11-07"
 
 This is the laminated card chapter. Same science for everyone; **different first moves** depending on where you started. Use it at phase reviews and when Chapter 21 says you need a pathway-flavoured nudge.
 
-Year-one action plans stay **drug-free**. Literacy ≠ protocol.
+Foundation biases below assume training/nutrition competence first. Advanced tools (Part Four) are a separate lane: smart, coached use — not a playbook substitute for protein and progressive overload.
 
 ---
 
@@ -120,4 +120,4 @@ A good general chapter still gets misapplied. Playbooks keep your corrections **
 
 ## 8. WHAT’S NEXT
 
-Part Three ends with you executing a year. **Part Four** covers supplements and advanced-tool literacy (PEDs, peptides, GLP-1s/retatrutide) as harm-reduction education — beginner pathways remain drug-free in action plans. **Part Five** covers identity, comparison, training around life, and Year Two beyond the first roadmap.
+Part Three ends with you executing a year. **Part Four** covers supplements and advanced tools (PEDs, peptides, GLP-1s/retatrutide) as practical smart-use chapters — plan, monitoring, coach standard. **Part Five** covers identity, comparison, training around life, and Year Two.

@@ -22,6 +22,8 @@ A practical year-one target many lifters do well with:
 > **Roughly 1.6–2.2 g of protein per kg of body weight per day**  
 > (or about **0.7–1 g per lb**), adjusted if body weight is very high (use a goal/adjusted weight with coaching sense).
 
+That’s a **practical band**, not a law that more is always better. On average, fat-free-mass returns from extra protein flatten around **~1.6 g/kg** for many resistance-trained adults; the upper end of the band still helps as a buffer — especially in a deficit, when leaner athletes sometimes aim higher **relative to fat-free mass** rather than treating 2.2 g/kg body weight as magic. *(Claim `clm_ed1a9a266269`; bib `bib_9914827c24`, `bib_e498488c33`, `bib_381074aa0f`.)*
+
 In a deficit, leaning to the higher end helps muscle retention and hunger. On a bulk, you still need enough — surplus carbs won’t replace protein.
 
 Distribute across 3–5 feedings if you can. Perfect timing is optional; total daily intake is not.
@@ -62,7 +64,7 @@ They count. Estimate them. Budget them. Don’t build your identity around eithe
 - Frozen veg  
 - Same breakfast 5 days/week is a feature  
 
-Protein powder is a tool, not a personality. Creatine belongs in supplements (Part Four) — food first here.
+Protein powder is a **convenience** tool for hitting totals — not superior magic versus food when daily protein is matched. *(Claim `clm_808a8b7a439d`.)* Creatine belongs in supplements (Part Four) — food first here.
 
 ## 2. WHY IT MATTERS
 

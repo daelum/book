@@ -19,7 +19,7 @@ Don’t overcomplicate it.
 
 How often you train a muscle each week. For most year-one lifters:
 
-- **Each major muscle ~2×/week** is a sweet, practical target.  
+- **Each major muscle ~2×/week** is a sweet, practical target (when weekly volume is in the same ballpark, frequency around twice weekly tends to beat once-weekly for hypertrophy). *(Claim `clm_a18689f43d1b`; bib `bib_beac110f7f`.)*  
 - Once-a-week “destroy and disappear” can work but is less forgiving if you miss the day.  
 - Daily specialisation nonsense is optional later — not required now.
 
@@ -27,9 +27,7 @@ How often you train a muscle each week. For most year-one lifters:
 
 Think **hard working sets per muscle per week**, not hours in the building.
 
-Beginners often grow on **modest** weekly set counts if effort and progression are real. More sets help up to a point; past that you collect fatigue and “junk volume.” Training age matters: what an advanced lifter needs can bury a beginner.
-
-Start doable. Add sets when progression stalls *and* recovery is fine — not because a spreadsheet looked heroic.
+Beginners often grow on **modest** weekly set counts if effort and progression are real. More hard sets tend to help up to a point (dose-response), then you collect fatigue and “junk volume.” Training age matters: what an advanced lifter needs can bury a beginner. **Do not** treat a rigid “must hit 10 sets” rule as a Year-1 beginner commandment — start doable, then add when progression stalls *and* recovery is fine. *(Claim `clm_8ce28de51045`; bib `bib_53ed4f6180`, `bib_d7651b3639`.)*
 
 ### Splits that work in year one
 

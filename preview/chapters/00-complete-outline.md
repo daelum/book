@@ -16,7 +16,7 @@ notes: "Provisional outline. Chapter titles and month roadmap will tighten as re
 - **Read Part One first** (everyone). It is the map of your body and your expectations.
 - **Part Two** is the foundation toolkit: food, training, recovery, habits.
 - **Part Three** is the 12-month roadmap — pick your pathway and execute.
-- **Part Four** is literacy on supplements and advanced tools (educational / harm-reduction; beginner pathways stay drug-free).
+- **Part Four** is practical literacy on supplements and advanced tools (pro smart, coached PED/peptide/GLP-1 use; foundation months still install training/nutrition first).
 - **Part Five** is identity, longevity, and what happens after month twelve.
 
 ### Reader pathways (A–D)
@@ -109,17 +109,17 @@ Secondary lenses (used inside chapters, not separate books): fat-loss focused ·
 
 ## PART FOUR — Supplements, PEDs, Peptides & GLP-1 Literacy
 
-*Goal: Separate useful, optional, emerging, and high-risk. Equip informed adults. **No unsupervised beginner drug protocols.** Beginner pathways A–D stay drug-free in action plans.*
+*Goal: Separate useful, optional, emerging, and high-risk. Equip informed adults for **smart, intentional, coached use**. Practical tips + honest monitoring — not disclaimer spam and not reckless unsupervised blasting. Foundation months still teach training/nutrition first.*
 
 | Ch | ID | Title | Frame |
 |----|----|-------|-------|
-| 23 | `ch-23-supplements-evidence-tiers` | Supplements: What Is Worth It | Evidence tiers; creatine, caffeine, protein powder, vitamin D, etc. |
-| 24 | `ch-24-peds-harm-reduction` | Anabolic PEDs — Educational Harm Reduction | Mechanisms, risks, monitoring themes, myths; **not** a starter cycle guide |
-| 25 | `ch-25-peptides-literacy` | Peptides — What People Mean and What’s Unknown | Evidence gaps; legality varies; curiosity ≠ protocol |
-| 26 | `ch-26-glp1-and-retatrutide` | GLP-1s, Metabolic Drugs & Retatrutide Deep Dive | Fat loss vs physique; muscle risk; medical supervision themes |
-| 27 | `ch-27-deciding-if-advanced-tools` | Deciding Whether Advanced Tools Are Even Relevant | Year-1 defaults; questions to ask a clinician; red flags |
+| 23 | `ch-23-supplements-evidence-tiers` | Supplements: What Is Worth It | Evidence tiers; creatine, caffeine, protein powder |
+| 24 | `ch-24-peds-harm-reduction` | Anabolic PEDs — Doing Them Properly | Practical smart use; monitoring; coach standard; Stage 5 CV/endocrine anchors |
+| 25 | `ch-25-peptides-literacy` | Peptides — Practical Literacy | Suitcase-word map; thin human data on healing folklore; coach standard |
+| 26 | `ch-26-glp1-and-retatrutide` | GLP-1s, Metabolic Drugs & Retatrutide | Practical tips on protein/lifting; lived-upside tone; investigational status for retatrutide |
+| 27 | `ch-27-deciding-if-advanced-tools` | Deciding Whether Advanced Tools Make Sense | Filter + coach standard; red flags for chaos |
 
-**Part Four exit criteria:** Reader can explain evidence vs anecdote, list major risk themes, and knows Year 1 success does not require pharmacology.
+**Part Four exit criteria:** Reader can separate smart coached use from internet chaos, list monitoring themes, and keep training/protein non-negotiable on any tool.
 
 ---
 
@@ -158,7 +158,7 @@ Secondary lenses (used inside chapters, not separate books): fat-loss focused ·
 | Part One chapters (1–6) | `draft` complete |
 | Part Two chapters (7–15) | `draft` complete (`ch-14` canonical slug: `ch-14-cardio-steps-neat`) |
 | Part Three chapters (16–22) | `draft` complete |
-| Part Four chapters (23–27) | `draft` complete (educational harm-reduction; no beginner protocols) |
+| Part Four chapters (23–27) | `draft` rewritten for pro smart-use / coach standard (Stage 5 cites kept) |
 | Part Five chapters (28–32) | `draft` complete |
 | Research grounding | Partial — 242 insights synthesized in voice; fill `[RESEARCH: …]` gaps in `docs/manuscript-status.md` as verification continues |
 | Canonical home | https://github.com/daelum/book · PR https://github.com/daelum/book/pull/2 |

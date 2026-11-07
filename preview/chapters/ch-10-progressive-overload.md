@@ -9,7 +9,7 @@ updated: "2026-11-07"
 
 # Chapter 10 — Progressive Overload — The Non-Negotiable
 
-Here’s the whole point of bodybuilding training in one idea: **give the muscle a reason to adapt, then raise the bar.**
+Here’s the whole point of bodybuilding training in one idea: **give the muscle a reason to adapt, then raise the bar.** Progressive increases in stimulus (load, reps, sets, or related overload levers) are what keep hypertrophy adaptations moving. *(Claim `clm_b8025c3f5588`; bib `bib_6440ad37dd`.)*
 
 If you can’t tell whether this week was harder than last week in some meaningful way, you’re not running a hypertrophy programme — you’re doing exercise cosplay.
 
