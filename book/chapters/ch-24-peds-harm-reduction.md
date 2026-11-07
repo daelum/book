@@ -29,7 +29,9 @@ Evidence here mixes established physiology (**A–B themes**), clinical risk lit
 
 **Anabolic-androgenic steroids (AAS)** and related agents that increase androgen signalling. They can increase nitrogen retention and muscle protein synthesis potential far beyond natural training — which is exactly why enhanced physiques are a terrible comparison target for Year 1 naturals.
 
-They also affect many systems: cardiovascular, endocrine (HPTA suppression), liver (especially many orals), skin, mood/behaviour, fertility, lipids, haematocrit, and more. Risk profiles differ by compound, dose, duration, stacking, genetics, and monitoring — which is why “my mate ran it fine” is not a safety study.
+They also affect many systems: cardiovascular, endocrine (HPTA/HPG suppression), liver (especially many orals), skin, mood/behaviour, fertility, lipids, haematocrit, and more. Risk profiles differ by compound, dose, duration, stacking, genetics, and monitoring — which is why “my mate ran it fine” is not a safety study.
+
+On the **cardiovascular** side, long-term illicit AAS use has been associated with adverse phenotypes such as impaired left-ventricular function and greater coronary atherosclerotic burden — strong **observational** evidence, not a cartoon “instant heart attack” claim, and not something you out-train with vibes. *(Educational claim `clm_98a0b3336188`; bib `bib_c8b4eccf53`.)* On the **endocrine** side, exogenous AAS suppress the male HPT/HPG axis and can leave hypogonadism, fertility, and mood/dependence-related problems after stopping — literacy about risk domains, **never** a PCT recipe. *(Educational claim `clm_c236e9cc9d29`; bib `bib_9c421ff8dd`, `bib_2334bfb4d8`.)*
 
 ### Why this is not a Year-1 lever
 

@@ -32,7 +32,7 @@ Short chains of amino acids that can signal biology. Insulin is a peptide hormon
 
 | Bucket | What people claim | Evidence vibe (honest) |
 |--------|-------------------|------------------------|
-| Injury / recovery folklore | Faster healing | Often anecdote-heavy; medical rehab still rules |
+| Injury / recovery folklore | Faster healing | Widely marketed “healing” peptides (e.g. BPC-157 talk) have abundant preclinical claims but **very low-certainty human** evidence — preclinical ≠ protocol; medical rehab still rules. *(Educational claim `clm_30a9915f28ab`; bib `bib_f9a28d90c7`, `bib_a25fc70d86`.)* |
 | GH-axis secretagogues | Sleep, recovery, body comp | Mixed/limited; age and context matter; not free |
 | Metabolic / fat-loss peptides | Appetite or fat mobilisation stories | Overlaps marketing; some agents are drugs with real effects and real risks |
 | “Kitchen sink” blends | Everything | Usually a hard pass for serious thinking |

@@ -10,59 +10,43 @@ updated: "2026-11-07"
 **PR:** https://github.com/daelum/book/pull/2  
 **Branch:** `cursor/manuscript-home-17d4`  
 **Context mirror:** `/cursor/stores/self/book/` + `/cursor/stores/self/docs/manuscript-status.md`  
-**Voice:** Project store `docs/author-voice.md`  
-**Attribution:** YouTube creators/channels never named in manuscript; Dylan not named; no funnel CTAs. Provenance in research DB + `book/maps/chapter-sources.json` only.
+**Voice / attribution:** author-voice; never name YouTube creators; never name Dylan / no funnel CTAs.
 
-## Drafted (full outline Parts 1–5)
+## Draft coverage
 
-### Part One — Understanding Your Body (`draft` — complete)
-`ch-01` … `ch-06`
+Parts **One–Five** drafted (`ch-01` … `ch-32`). Canonical ch-14: `ch-14-cardio-steps-neat.md`.
 
-### Part Two — Building Your Foundation (`draft` — complete)
-`ch-07` … `ch-15` · canonical `ch-14-cardio-steps-neat.md`
+## Stage 5 validation applied (2026-11-07)
 
-### Part Three — The 12-Month Roadmap (`draft` — complete)
-`ch-16` … `ch-22`
+Source: `docs/research-validation.md` + store `internal/stage5-manuscript-edit-stubs.md` + `bibliography/sources.jsonl` + `claims/register.jsonl`.
 
-### Part Four — Supplements, PEDs, Peptides & GLP-1 Literacy (`draft` — complete)
-| File | Frame |
-|------|-------|
-| `book/chapters/ch-23-supplements-evidence-tiers.md` | Evidence tiers; Tier 1–3; basics first |
-| `book/chapters/ch-24-peds-harm-reduction.md` | Educational harm-reduction; **no protocols/dosing** |
-| `book/chapters/ch-25-peptides-literacy.md` | Suitcase-word literacy; evidence gaps; no DIY |
-| `book/chapters/ch-26-glp1-and-retatrutide.md` | Fat loss vs physique; muscle risk; medical supervision; no titration |
-| `book/chapters/ch-27-deciding-if-advanced-tools.md` | Year-1 defaults; clinician questions; red flags |
+Surgical prose + claim/bib wiring (no whole-chapter rewrites; no invented citations):
 
-Beginner pathways A–D stay **drug-free in action plans**. Evidence classes A–F used in prose framing.
+| Chapter | Wired claims | Notes |
+|---------|--------------|-------|
+| `ch-08` | `clm_ed1a9a266269`, `clm_808a8b7a439d` | 1.6–2.2 band + ~1.6 flattening nuance; powder=convenience |
+| `ch-10` | `clm_b8025c3f5588` | Progressive overload necessity |
+| `ch-11` | `clm_a18689f43d1b`, `clm_8ce28de51045` | ~2×/week; modest→add volume; no rigid 10-set beginner rule |
+| `ch-23` | `clm_35b78a69d71c`, `clm_b8f879e58769`, `clm_808a8b7a439d` | Creatine/caffeine/powder Tier 1; vitamin D/fish oil soft Tier 1.5 |
+| `ch-24` | `clm_98a0b3336188`, `clm_c236e9cc9d29` | CV + endocrine **educational_only**; no PCT/dosing |
+| `ch-25` | `clm_30a9915f28ab` | Healing-peptide human evidence very low certainty |
+| `ch-26` | `clm_6df64d403f7e`, `clm_79a5c94646d8`, `clm_4c79d63c0a0f` | Clinical weight literacy; lean-mass caveat; retatrutide investigational; **no titration** |
+| `ch-27` | (policy reinforce) | Year-1 drug-free defaults + educational_only statuses |
 
-### Part Five — Becoming a Bodybuilder (`draft` — complete)
-| File | Notes |
-|------|-------|
-| `book/chapters/ch-28-identity-and-discipline.md` | Responsibility without punishment |
-| `book/chapters/ch-29-body-image-and-comparison.md` | Photos vs feeds |
-| `book/chapters/ch-30-training-around-life.md` | MED / chaos templates |
-| `book/chapters/ch-31-year-two-and-beyond.md` | Life periodization |
-| `book/chapters/ch-32-closing-the-system.md` | One-page operating system |
+Maps: `book/maps/chapter-sources.json` (`claim_ids` / `bib_ids` populated for above).
 
-## What’s next
+Repo also carries: `docs/research-validation.md`, `bibliography/`, `claims/`.
 
-1. Optional polish: menus, full session templates, glossary/appendices  
-2. Stage 3–4 claim verification + bibliography IDs into chapters where scientific claims harden  
-3. Editorial pass for voice consistency across 32 chapters  
-4. Tighten `[RESEARCH:]` items below as verification lands  
+## Still open `[RESEARCH: …]`
 
-## Research gaps `[RESEARCH: …]` (status doc only)
-
-- `[RESEARCH: creatine meta / safety citations for ch-23 bib_ids]`
-- `[RESEARCH: protein powder vs food equivalence — optional cite]`
-- `[RESEARCH: AAS cardiovascular/endocrine risk literature summary with verified DOIs for ch-24]`
-- `[RESEARCH: peptide evidence map by compound class — separate thin human data from marketing]`
-- `[RESEARCH: GLP-1 lean-mass change literature; retatrutide trial status by jurisdiction for ch-26]`
-- `[RESEARCH: hypertrophy set-volume dose-response metas — Parts Two–Three]`
-- `[RESEARCH: provisional weekly templates ch-17–20 grounded in cleaner programming insights]`
-- `[RESEARCH: clean/dedupe ASR insight rows; Stage 4 claim verification]`
+- `[RESEARCH: vitamin D / fish oil deficiency-conditional cites if Tier hardening desired]`
+- `[RESEARCH: full peptide class map beyond BPC-157 exemplars]`
+- `[RESEARCH: oral AAS hepatic/lipid primary reviews]`
+- `[RESEARCH: provisional weekly templates ch-17–20 — ground any new numbers in frequency/volume claims; attendance realism]`
+- `[RESEARCH: clean/dedupe ASR insight rows — ingest worker]`
+- `[RESEARCH: beta-alanine / citrulline optional ISSN cites]`
 
 ## Sync log
 
-- 2026-11-07: Parts One–Three on PR #2; ch-14 deduped to `neat`.  
-- 2026-11-07: Parts Four–Five drafted (`ch-23`–`ch-32`); maps/status updated; mirrored to store.
+- 2026-11-07: Parts One–Five on PR #2.  
+- 2026-11-07: Stage 5 edit stubs applied; validation doc + bib/claims copied into repo; chapters mirrored to store.

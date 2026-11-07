@@ -31,11 +31,16 @@ Claims here stay practical. Exact paper lists belong in the citation index later
 
 | Supplement | Why people use it | Notes |
 |------------|-------------------|-------|
-| **Creatine monohydrate** | Strength, power, lean mass support | Best-studied muscle supplement; daily use beats magical timing theatre. Loading optional — saturation can take longer without it. Pair with training. |
-| **Protein powder** | Convenience toward protein target | Food first; powder is a tool for busy days, not a personality. |
-| **Caffeine** | Focus, training performance | Dose carefully; don’t wreck sleep. Tolerance is real. |
-| **Vitamin D** | Often low; bone/immune/general health themes | Bloodwork > guessing; especially if you rarely see sun. |
-| **Fish oil / EPA+DHA** | General health if diet lacks fatty fish | Optional if diet already covers it. |
+| **Creatine monohydrate** | Strength, power, lean-mass support in training | Best-supported performance supplement in healthy users at studied intakes; daily use beats magical timing theatre. Loading optional — saturation can take longer without it. Prefer plain monohydrate. *(Claim `clm_35b78a69d71c`; bib `bib_06b671ef36`, `bib_0ad83801ce`.)* |
+| **Protein powder** | Convenience toward protein target | Food can meet needs; powder is a busy-day tool, not superior magic when totals match. *(Claim `clm_808a8b7a439d`.)* |
+| **Caffeine** | Focus, training performance | Can aid performance for many people; dose carefully and **don’t wreck sleep**. Anxiety/tolerance are individual. *(Claim `clm_b8f879e58769`; bib `bib_deb598f2ee`.)* |
+
+### Tier 1.5 — health insurance *if* diet/sun is poor (not physique cheat codes)
+
+| Supplement | Notes |
+|------------|-------|
+| **Vitamin D** | Deficiency-conditional — bloodwork > guessing; soft Tier-1 physique ROI until personalised. |
+| **Fish oil / EPA+DHA** | Useful if fatty fish is rare; optional if diet already covers it. Soft cite status. |
 
 ### Tier 2 — situational
 

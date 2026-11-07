@@ -20,10 +20,10 @@ Curiosity is allowed. Recklessness is optional. This chapter is the brake pedal:
 |-------|----------------|
 | Training / food / sleep / habits | Required |
 | Tier-1 supplements (e.g. creatine, protein powder) | Optional tools |
-| Prescription metabolic drugs | Clinician-only; not a beginner protocol in these pages |
-| AAS / DIY peptides / grey-market stacks | Not part of pathways A–D action plans |
+| Prescription metabolic drugs | Clinician-only; not a beginner protocol in these pages (`educational_only` claims in Ch 26) |
+| AAS / DIY peptides / grey-market stacks | Not part of pathways A–D action plans (`educational_only` risk literacy in Ch 24–25 — never cycle design) |
 
-You can change a lot in twelve months without pharmacology. If you haven’t logged training and hit protein for a boring block, advanced tools aren’t “the missing piece” — consistency is.
+You can change a lot in twelve months without pharmacology. If you haven’t logged training and hit protein for a boring block, advanced tools aren’t “the missing piece” — consistency is. Part Four’s verified claim statuses stay **educational_only** for PEDs/peptides/GLP-1s: literacy and red flags, not starter kits.
 
 ### Questions to ask *yourself* before you chase more
 

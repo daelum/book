@@ -14,8 +14,11 @@ book/
   outline/          Complete book outline (parts, chapters, pathways)
   chapters/         Chapter drafts (Markdown)
   maps/             Internal chapter↔source maps (not reader-facing)
+bibliography/       Verified literature sources (bib_* IDs)
+claims/             Claims register + verification log (clm_* IDs)
 docs/
-  manuscript-status.md   Drafting status, research gaps, sync notes
+  manuscript-status.md     Drafting status, research gaps, sync notes
+  research-validation.md   Stage 5 literature validation summary
 README.md           This file
 ```
 

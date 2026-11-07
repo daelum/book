@@ -15,7 +15,7 @@ These drugs changed the fat-loss conversation. Appetite drops. Scales move. Peop
 
 This chapter is literacy: mechanisms, physique implications, muscle-risk themes, medical supervision, myths. **Not a dosing guide. Not a starter protocol. Not medical advice.**
 
-Evidence landscape: clinical literature on GLP-1–pathway drugs is substantial for obesity/diabetes indications (**A–B** for weight outcomes in studied populations); physique-specific muscle-preservation playbooks are thinner and often **C–E** online. Retatrutide and related multi-agonist research is **emerging (C)** relative to older agents — treat hype timelines carefully.
+Evidence landscape: clinical literature on GLP-1–pathway medicines shows **large, clinically meaningful weight loss under medical care plus lifestyle** in obesity trials (**A** for that setting — e.g. STEP-class results). *(Educational claim `clm_6df64d403f7e`; bib `bib_b9b9f34e56`.)* Physique-specific muscle-preservation playbooks online are thinner (**C–E**). Retatrutide sits in **emerging / investigational (C)** territory relative to older approved agents — treat hype timelines carefully.
 
 ## 1. WHAT YOU NEED TO KNOW
 
@@ -23,7 +23,7 @@ Evidence landscape: clinical literature on GLP-1–pathway drugs is substantial 
 
 GLP-1 receptor agonists (and related dual/triple agonists in development or use) act on pathways involved in appetite, satiety, gastric emptying, and metabolic regulation. People eat less without relying only on white-knuckle willpower. That can create large calorie deficits.
 
-**Retatrutide** (investigational / emerging multi-agonist discussions in research culture) sits in the “next-wave metabolic drug” conversation. Exact access, approval status, and clinical guidance depend on jurisdiction and time — do not DIY from internet lore.
+**Retatrutide** has peer-reviewed Phase 2 obesity RCT evidence and, as of late-2026 public manufacturer framing, remains **investigational / not a casual DIY product** — access and approval status are jurisdiction- and time-sensitive. Do not improvise from internet lore. *(Educational claim `clm_4c79d63c0a0f`; bib `bib_79834f3227`, `bib_697e1f91ea`.)* **No units, pens, or titration schedules appear in this book.**
 
 ### Fat loss vs physique
 
@@ -38,7 +38,7 @@ If you need an appetite suppressant 365 days a year to hold a look, the lifestyl
 
 ### Muscle and strength risk themes
 
-Aggressive deficits plus low protein plus dropped lifting = sarcopenia risk and “skinny-soft” or frail outcomes. Literacy themes that show up repeatedly:
+Aggressive deficits plus low protein plus dropped lifting = “skinny-soft” or frail outcomes. Body-composition analyses of GLP-1/GIP agonist–assisted weight loss often show some **absolute lean-mass reduction** (commonly around ~¼ of total kg lost in pooled analyses) even when **relative** lean % looks steadier — that is **not** an automatic sarcopenia diagnosis, and it is exactly why behaviour matters. *(Educational claim `clm_79a5c94646d8`; bib `bib_68b8ece2a2`.)* Literacy themes:
 
 - Keep progressive resistance training non-negotiable  
 - Keep protein high relative to intake  

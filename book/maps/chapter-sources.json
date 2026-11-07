@@ -125,12 +125,21 @@
       "title": "Protein, Calories, and Macros That Matter",
       "path": "book/chapters/ch-08-protein-calories-macros.md",
       "status": "draft",
-      "claim_ids": [],
-      "bib_ids": [],
+      "claim_ids": [
+        "clm_ed1a9a266269",
+        "clm_808a8b7a439d"
+      ],
+      "bib_ids": [
+        "bib_9914827c24",
+        "bib_e498488c33",
+        "bib_381074aa0f",
+        "bib_79cbcc75ff"
+      ],
       "insight_ids": [
         "ins_-MRNjTr6xrE_ec736f22ad"
       ],
-      "notes": "Protein g/lb heuristic; calorie phase setup. Synthesize only; verify metas later."
+      "notes": "Stage 5: protein 1.6\u20132.2 band + ~1.6 flattening nuance; powder=convenience. manuscript_attribution=never.",
+      "stage5_wired": true
     },
     {
       "chapter_id": "ch-09-resistance-training-fundamentals",
@@ -150,24 +159,38 @@
       "title": "Progressive Overload \u2014 The Non-Negotiable",
       "path": "book/chapters/ch-10-progressive-overload.md",
       "status": "draft",
-      "claim_ids": [],
-      "bib_ids": [],
+      "claim_ids": [
+        "clm_b8025c3f5588"
+      ],
+      "bib_ids": [
+        "bib_6440ad37dd",
+        "bib_53ed4f6180"
+      ],
       "insight_ids": [
         "ins_2LNagkiowdU_ba633b4a2f"
       ],
-      "notes": "Log last week reps; proximity to failure over magic rep counts."
+      "notes": "Stage 5: progressive overload necessity anchored. manuscript_attribution=never.",
+      "stage5_wired": true
     },
     {
       "chapter_id": "ch-11-program-structure",
       "title": "Program Structure: Splits, Frequency, Volume",
       "path": "book/chapters/ch-11-program-structure.md",
       "status": "draft",
-      "claim_ids": [],
-      "bib_ids": [],
+      "claim_ids": [
+        "clm_a18689f43d1b",
+        "clm_8ce28de51045"
+      ],
+      "bib_ids": [
+        "bib_beac110f7f",
+        "bib_53ed4f6180",
+        "bib_d7651b3639"
+      ],
       "insight_ids": [
         "ins_PgG_qyZmF5M_38bb6f1098"
       ],
-      "notes": "Frequency ~2x; modest beginner volume. RESEARCH gap on dose-response metas."
+      "notes": "Stage 5: ~2\u00d7/week + modest\u2192add volume; no rigid 10-set beginner commandment.",
+      "stage5_wired": true
     },
     {
       "chapter_id": "ch-12-form-and-effort",
@@ -292,40 +315,75 @@
       "title": "Supplements: What Is Worth It",
       "path": "book/chapters/ch-23-supplements-evidence-tiers.md",
       "status": "draft",
-      "claim_ids": [],
-      "bib_ids": [],
+      "claim_ids": [
+        "clm_35b78a69d71c",
+        "clm_b8f879e58769",
+        "clm_808a8b7a439d"
+      ],
+      "bib_ids": [
+        "bib_06b671ef36",
+        "bib_0ad83801ce",
+        "bib_deb598f2ee",
+        "bib_79cbcc75ff"
+      ],
       "insight_ids": [],
-      "notes": "Creatine/protein/caffeine tiers; evidence classes; no magic stacks. manuscript_attribution=never; educational_only where pharmacology."
+      "notes": "Stage 5: creatine/caffeine/powder Tier 1 wired; vitamin D/fish oil soft Tier 1.5.",
+      "stage5_wired": true
     },
     {
       "chapter_id": "ch-24-peds-harm-reduction",
       "title": "Anabolic PEDs \u2014 Educational Harm Reduction",
       "path": "book/chapters/ch-24-peds-harm-reduction.md",
       "status": "draft",
-      "claim_ids": [],
-      "bib_ids": [],
+      "claim_ids": [
+        "clm_98a0b3336188",
+        "clm_c236e9cc9d29"
+      ],
+      "bib_ids": [
+        "bib_c8b4eccf53",
+        "bib_9c421ff8dd",
+        "bib_2334bfb4d8"
+      ],
       "insight_ids": [],
-      "notes": "Harm-reduction literacy; beginner_unsafe; no protocols/dosing. manuscript_attribution=never; educational_only where pharmacology."
+      "notes": "Stage 5: CV + endocrine educational_only; no PCT/dosing protocols.",
+      "stage5_wired": true
     },
     {
       "chapter_id": "ch-25-peptides-literacy",
       "title": "Peptides \u2014 What People Mean and What\u2019s Unknown",
       "path": "book/chapters/ch-25-peptides-literacy.md",
       "status": "draft",
-      "claim_ids": [],
-      "bib_ids": [],
+      "claim_ids": [
+        "clm_30a9915f28ab"
+      ],
+      "bib_ids": [
+        "bib_f9a28d90c7",
+        "bib_a25fc70d86"
+      ],
       "insight_ids": [],
-      "notes": "Suitcase-word literacy; evidence gaps; no DIY protocols. manuscript_attribution=never; educational_only where pharmacology."
+      "notes": "Stage 5: healing-peptide human evidence very low certainty; suitcase-word frame kept.",
+      "stage5_wired": true
     },
     {
       "chapter_id": "ch-26-glp1-and-retatrutide",
       "title": "GLP-1s, Metabolic Drugs & Retatrutide Deep Dive",
       "path": "book/chapters/ch-26-glp1-and-retatrutide.md",
       "status": "draft",
-      "claim_ids": [],
-      "bib_ids": [],
+      "claim_ids": [
+        "clm_6df64d403f7e",
+        "clm_79a5c94646d8",
+        "clm_4c79d63c0a0f"
+      ],
+      "bib_ids": [
+        "bib_b9b9f34e56",
+        "bib_68b8ece2a2",
+        "bib_8201260db4",
+        "bib_79834f3227",
+        "bib_697e1f91ea"
+      ],
       "insight_ids": [],
-      "notes": "Fat loss vs physique; muscle risk; medical supervision; no titration. manuscript_attribution=never; educational_only where pharmacology."
+      "notes": "Stage 5: STEP weight literacy; lean-mass ~share caveat; retatrutide investigational; no titration.",
+      "stage5_wired": true
     },
     {
       "chapter_id": "ch-27-deciding-if-advanced-tools",
@@ -335,7 +393,8 @@
       "claim_ids": [],
       "bib_ids": [],
       "insight_ids": [],
-      "notes": "Year-1 defaults; clinician questions; red flags. manuscript_attribution=never; educational_only where pharmacology."
+      "notes": "Stage 5: no new literature; reinforces Year-1 drug-free defaults + educational_only Part Four statuses.",
+      "stage5_wired": true
     },
     {
       "chapter_id": "ch-28-identity-and-discipline",
@@ -395,5 +454,7 @@
     "bib_ids": [],
     "insight_ids": [],
     "notes": "When drafting: synthesize insight content in original book voice; cite literature bib_ids publicly if needed; do not name YouTube creators linked via insight_ids."
-  }
+  },
+  "stage5_ref": "docs/research-validation.md",
+  "edit_stubs_ref": "store internal/stage5-manuscript-edit-stubs.md (Context)"
 }
