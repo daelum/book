@@ -81,6 +81,96 @@
       "order": 7,
       "status": "draft",
       "outline": false
+    },
+    {
+      "file": "ch-08-protein-calories-macros.md",
+      "slug": "ch-08-protein-calories-macros",
+      "title": "Protein, Calories, and Macros That Matter",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 8,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-09-resistance-training-fundamentals.md",
+      "slug": "ch-09-resistance-training-fundamentals",
+      "title": "Resistance Training Fundamentals",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 9,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-10-progressive-overload.md",
+      "slug": "ch-10-progressive-overload",
+      "title": "Progressive Overload — The Non-Negotiable",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 10,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-11-program-structure.md",
+      "slug": "ch-11-program-structure",
+      "title": "Program Structure: Splits, Frequency, Volume",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 11,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-12-form-and-effort.md",
+      "slug": "ch-12-form-and-effort",
+      "title": "Form, Effort, and Getting Close to Failure",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 12,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-13-recovery-sleep-stress.md",
+      "slug": "ch-13-recovery-sleep-stress",
+      "title": "Recovery: Sleep, Stress, and Deloads",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 13,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-14-cardio-steps-neat.md",
+      "slug": "ch-14-cardio-steps-neat",
+      "title": "Cardio, Steps, and Daily Movement",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 14,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-15-habit-systems.md",
+      "slug": "ch-15-habit-systems",
+      "title": "Habit Systems for People With Real Lives",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 15,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-16-choosing-your-pathway.md",
+      "slug": "ch-16-choosing-your-pathway",
+      "title": "Choosing Your Pathway (A–D)",
+      "part": 3,
+      "part_title": "Your 12-Month Roadmap",
+      "order": 16,
+      "status": "draft",
+      "outline": false
     }
   ]
 }

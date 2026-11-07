@@ -44,10 +44,16 @@ function slugFromFilename(name) {
   return name.replace(/\.md$/i, "");
 }
 
+function orderFromFilename(file) {
+  const m = file.match(/^ch-(\d+)/i);
+  return m ? Number(m[1]) : null;
+}
+
 function isOutline(meta, file) {
-  if (meta.chapter_id) return false;
+  if (meta.chapter_id || meta.id) return false;
+  if (/^ch-/i.test(file)) return false;
   if (/outline/i.test(file) || /outline/i.test(String(meta.title || ""))) return true;
-  return !meta.order && !/^ch-/i.test(file);
+  return true;
 }
 
 const files = fs
@@ -58,15 +64,27 @@ const files = fs
 const entries = files.map((file) => {
   const raw = fs.readFileSync(path.join(chaptersDir, file), "utf8");
   const { meta } = parseFrontmatter(raw);
-  const slug = meta.chapter_id || slugFromFilename(file);
+  const slug = meta.chapter_id || meta.id || slugFromFilename(file);
   const outline = isOutline(meta, file);
+  const fromName = orderFromFilename(file);
+  const order =
+    typeof meta.order === "number"
+      ? meta.order
+      : outline
+        ? 0
+        : fromName ?? 999;
+  // Default part titles when frontmatter omits them
+  let part_title = meta.part_title || null;
+  if (!part_title && meta.part === 1) part_title = "Understanding Your Body";
+  if (!part_title && meta.part === 2) part_title = "Building Your Foundation";
+  if (!part_title && meta.part === 3) part_title = "Your 12-Month Roadmap";
   return {
     file,
     slug,
     title: meta.title || slug,
     part: meta.part ?? null,
-    part_title: meta.part_title || null,
-    order: typeof meta.order === "number" ? meta.order : outline ? 0 : 999,
+    part_title,
+    order,
     status: meta.status || "draft",
     outline,
   };
