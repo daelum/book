@@ -1,0 +1,86 @@
+{
+  "title": "THE 12-MONTH BODYBUILDER",
+  "generated": "2026-11-07",
+  "chapters": [
+    {
+      "file": "00-complete-outline.md",
+      "slug": "00-complete-outline",
+      "title": "THE 12-MONTH BODYBUILDER — Complete Outline",
+      "part": null,
+      "part_title": null,
+      "order": 0,
+      "status": "draft",
+      "outline": true
+    },
+    {
+      "file": "ch-01-what-bodybuilding-involves.md",
+      "slug": "ch-01-what-bodybuilding-involves",
+      "title": "What Bodybuilding Actually Involves",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 1,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-02-how-muscle-grows.md",
+      "slug": "ch-02-how-muscle-grows",
+      "title": "How Muscle Grows",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 2,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-03-body-fat.md",
+      "slug": "ch-03-body-fat",
+      "title": "Body Fat: What It Is and How It Moves",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 3,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-04-recomposition.md",
+      "slug": "ch-04-recomposition",
+      "title": "Recomposition — Building and Losing at Once",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 4,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-05-realistic-expectations.md",
+      "slug": "ch-05-realistic-expectations",
+      "title": "Realistic Expectations for Twelve Months",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 5,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-06-measuring-your-starting-point.md",
+      "slug": "ch-06-measuring-your-starting-point",
+      "title": "Measuring Your Starting Point",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 6,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-07-nutrition-fundamentals.md",
+      "slug": "ch-07-nutrition-fundamentals",
+      "title": "Nutrition Fundamentals",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 7,
+      "status": "draft",
+      "outline": false
+    }
+  ]
+}
