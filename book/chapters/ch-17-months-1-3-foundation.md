@@ -59,7 +59,7 @@ Same patterns with whatever progressive tools you have (dumbbells, bands + slow 
 - Programme-hop at week three  
 - Advanced intensity techniques as identity  
 - Panic-cut a surplus because you feel slightly softer  
-- Unsupervised drug protocols (year-one action plans stay drug-free)
+- Stranger-PDF pharmacology chaos (learn to train/eat first; Part Four = smart coached use later if relevant)
 
 ## 2. WHY IT MATTERS
 

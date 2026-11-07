@@ -327,12 +327,12 @@
         "bib_79cbcc75ff"
       ],
       "insight_ids": [],
-      "notes": "Stage 5: creatine/caffeine/powder Tier 1 wired; vitamin D/fish oil soft Tier 1.5.",
+      "notes": "Pro smart-use Part Four pass; Stage 5 Tier 1 cites kept; vitamin D/fish oil soft.",
       "stage5_wired": true
     },
     {
       "chapter_id": "ch-24-peds-harm-reduction",
-      "title": "Anabolic PEDs \u2014 Educational Harm Reduction",
+      "title": "Anabolic PEDs \u2014 Doing Them Properly",
       "path": "book/chapters/ch-24-peds-harm-reduction.md",
       "status": "draft",
       "claim_ids": [
@@ -345,12 +345,12 @@
         "bib_2334bfb4d8"
       ],
       "insight_ids": [],
-      "notes": "Stage 5: CV + endocrine educational_only; no PCT/dosing protocols.",
+      "notes": "Rewritten: Doing Them Properly; coach standard; practical monitoring; Stage 5 CV/endocrine educational cites kept; no invented protocols.",
       "stage5_wired": true
     },
     {
       "chapter_id": "ch-25-peptides-literacy",
-      "title": "Peptides \u2014 What People Mean and What\u2019s Unknown",
+      "title": "Peptides \u2014 Practical Literacy",
       "path": "book/chapters/ch-25-peptides-literacy.md",
       "status": "draft",
       "claim_ids": [
@@ -361,12 +361,12 @@
         "bib_a25fc70d86"
       ],
       "insight_ids": [],
-      "notes": "Stage 5: healing-peptide human evidence very low certainty; suitcase-word frame kept.",
+      "notes": "Rewritten: practical literacy; coach standard; Stage 5 healing-peptide thin-human cite kept.",
       "stage5_wired": true
     },
     {
       "chapter_id": "ch-26-glp1-and-retatrutide",
-      "title": "GLP-1s, Metabolic Drugs & Retatrutide Deep Dive",
+      "title": "GLP-1s, Metabolic Drugs & Retatrutide",
       "path": "book/chapters/ch-26-glp1-and-retatrutide.md",
       "status": "draft",
       "claim_ids": [
@@ -382,18 +382,18 @@
         "bib_697e1f91ea"
       ],
       "insight_ids": [],
-      "notes": "Stage 5: STEP weight literacy; lean-mass ~share caveat; retatrutide investigational; no titration.",
+      "notes": "Rewritten: practical protein/lifting tips; lived-upside tone; Stage 5 STEP/lean/retatrutide cites; no titration.",
       "stage5_wired": true
     },
     {
       "chapter_id": "ch-27-deciding-if-advanced-tools",
-      "title": "Deciding Whether Advanced Tools Are Even Relevant",
+      "title": "Deciding Whether Advanced Tools Make Sense",
       "path": "book/chapters/ch-27-deciding-if-advanced-tools.md",
       "status": "draft",
       "claim_ids": [],
       "bib_ids": [],
       "insight_ids": [],
-      "notes": "Stage 5: no new literature; reinforces Year-1 drug-free defaults + educational_only Part Four statuses.",
+      "notes": "Rewritten: decision filter + coach standard; reinforces smart use not apology defaults.",
       "stage5_wired": true
     },
     {
@@ -444,7 +444,7 @@
       "claim_ids": [],
       "bib_ids": [],
       "insight_ids": [],
-      "notes": "One-page OS. manuscript_attribution=never; educational_only where pharmacology."
+      "notes": "Tools checklist updated for coach-standard advanced tools."
     }
   ],
   "example_chapter_shape": {
@@ -456,5 +456,6 @@
     "notes": "When drafting: synthesize insight content in original book voice; cite literature bib_ids publicly if needed; do not name YouTube creators linked via insight_ids."
   },
   "stage5_ref": "docs/research-validation.md",
-  "edit_stubs_ref": "store internal/stage5-manuscript-edit-stubs.md (Context)"
+  "edit_stubs_ref": "store internal/stage5-manuscript-edit-stubs.md (Context)",
+  "part4_stance": "pro_smart_coached_use"
 }

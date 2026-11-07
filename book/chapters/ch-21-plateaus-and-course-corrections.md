@@ -95,7 +95,7 @@ Course correction skill is what makes a 12-month plan survive contact with reali
 - [ ] Decision tree usable under stress  
 - [ ] Logbook supports plateau detection  
 - [ ] Linked to pathway playbooks (Chapter 22)  
-- [ ] Still drug-free in year-one action plans  
+- [ ] Not “fixing” a plateau with stranger-PDF pharmacology  
 
 ## 8. WHAT’S NEXT
 

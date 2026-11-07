@@ -9,44 +9,45 @@ updated: "2026-11-07"
 **GitHub home (canonical):** https://github.com/daelum/book  
 **PR:** https://github.com/daelum/book/pull/2  
 **Branch:** `cursor/manuscript-home-17d4`  
-**Context mirror:** `/cursor/stores/self/book/` + `/cursor/stores/self/docs/manuscript-status.md`  
-**Voice / attribution:** author-voice; never name YouTube creators; never name Dylan / no funnel CTAs.
+**Context mirror:** `/cursor/stores/self/book/` + `/cursor/stores/self/docs/manuscript-status.md`
+
+## Stance (current)
+
+Pro **PEDs / peptides / GLP-1s when done correctly** — smart, intentional, planned, **with a coach**. Practical tips; honest risks/monitoring; no constant disclaimer theatre; no Dylan name/funnel; no YouTube creator names. Testosterone and retatrutide lived-upside reflected factually (no invented doses/protocols). See store `docs/author-voice.md` + `preferences.md`.
 
 ## Draft coverage
 
 Parts **One–Five** drafted (`ch-01` … `ch-32`). Canonical ch-14: `ch-14-cardio-steps-neat.md`.
 
-## Stage 5 validation applied (2026-11-07)
+### Part Four rewrite (pro smart-use)
 
-Source: `docs/research-validation.md` + store `internal/stage5-manuscript-edit-stubs.md` + `bibliography/sources.jsonl` + `claims/register.jsonl`.
+| File | Title tone |
+|------|------------|
+| `ch-23-supplements-evidence-tiers.md` | Tiered supplements; Stage 5 creatine/caffeine/powder anchors |
+| `ch-24-peds-harm-reduction.md` | **Doing Them Properly** — monitoring, fuck-ups, coach standard; CV/endocrine cites kept |
+| `ch-25-peptides-literacy.md` | Practical literacy; healing-peptide thin human data cite kept |
+| `ch-26-glp1-and-retatrutide.md` | Practical protein/lifting tips; lived-upside tone; STEP/lean-mass/retatrutide cites; no titration |
+| `ch-27-deciding-if-advanced-tools.md` | Decision filter + coach standard |
 
-Surgical prose + claim/bib wiring (no whole-chapter rewrites; no invented citations):
+Cross-ref tone tweaks: `ch-16`, `ch-17`, `ch-20`–`ch-22`, `ch-32`.
 
-| Chapter | Wired claims | Notes |
-|---------|--------------|-------|
-| `ch-08` | `clm_ed1a9a266269`, `clm_808a8b7a439d` | 1.6–2.2 band + ~1.6 flattening nuance; powder=convenience |
-| `ch-10` | `clm_b8025c3f5588` | Progressive overload necessity |
-| `ch-11` | `clm_a18689f43d1b`, `clm_8ce28de51045` | ~2×/week; modest→add volume; no rigid 10-set beginner rule |
-| `ch-23` | `clm_35b78a69d71c`, `clm_b8f879e58769`, `clm_808a8b7a439d` | Creatine/caffeine/powder Tier 1; vitamin D/fish oil soft Tier 1.5 |
-| `ch-24` | `clm_98a0b3336188`, `clm_c236e9cc9d29` | CV + endocrine **educational_only**; no PCT/dosing |
-| `ch-25` | `clm_30a9915f28ab` | Healing-peptide human evidence very low certainty |
-| `ch-26` | `clm_6df64d403f7e`, `clm_79a5c94646d8`, `clm_4c79d63c0a0f` | Clinical weight literacy; lean-mass caveat; retatrutide investigational; **no titration** |
-| `ch-27` | (policy reinforce) | Year-1 drug-free defaults + educational_only statuses |
+## Stage 5 anchors
 
-Maps: `book/maps/chapter-sources.json` (`claim_ids` / `bib_ids` populated for above).
+Still wired in prose + `book/maps/chapter-sources.json` for ch-08/10/11/23–26. Repo carries `docs/research-validation.md`, `bibliography/`, `claims/`.
 
-Repo also carries: `docs/research-validation.md`, `bibliography/`, `claims/`.
+## Ebook preview
+
+**HTML ebook should be regenerated from the updated chapters.** Preview worker owns `ebook/` — do not treat any prior HTML build as current after this Part Four rewrite + Stage 5 wiring.
 
 ## Still open `[RESEARCH: …]`
 
 - `[RESEARCH: vitamin D / fish oil deficiency-conditional cites if Tier hardening desired]`
 - `[RESEARCH: full peptide class map beyond BPC-157 exemplars]`
 - `[RESEARCH: oral AAS hepatic/lipid primary reviews]`
-- `[RESEARCH: provisional weekly templates ch-17–20 — ground any new numbers in frequency/volume claims; attendance realism]`
-- `[RESEARCH: clean/dedupe ASR insight rows — ingest worker]`
-- `[RESEARCH: beta-alanine / citrulline optional ISSN cites]`
+- `[RESEARCH: provisional weekly templates ch-17–20]`
+- `[RESEARCH: clean/dedupe ASR insight rows]`
 
 ## Sync log
 
-- 2026-11-07: Parts One–Five on PR #2.  
-- 2026-11-07: Stage 5 edit stubs applied; validation doc + bib/claims copied into repo; chapters mirrored to store.
+- 2026-11-07: Parts One–Five + Stage 5 wiring on PR #2.  
+- 2026-11-07: Part Four rewritten to pro smart-use / coach standard; mirrored to store; **ebook regen flagged for preview worker**.

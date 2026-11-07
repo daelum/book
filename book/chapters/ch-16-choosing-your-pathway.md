@@ -32,7 +32,7 @@ You can switch after Phase 1. You shouldn’t switch every Thursday because a re
 4. **If you’re soft without much muscle → B.**  
 5. **If you’ve trained before and keep restarting → D**, then layer A/B/C nutrition bias underneath.
 
-Secondary lens (not a separate book): fat-loss focused vs muscle-gain focused vs curious about advanced tools. Year-one **action plans stay drug-free**; curiosity waits for Part Four literacy.
+Secondary lens (not a separate book): fat-loss focused vs muscle-gain focused vs advanced-tools pathway. Foundation months still install training/nutrition skill first; Part Four covers **smart, coached** PED/peptide/GLP-1 use when that lane fits — not Month-1 chaos.
 
 ### Switching rules
 
