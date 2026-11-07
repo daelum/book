@@ -231,6 +231,106 @@
       "order": 22,
       "status": "draft",
       "outline": false
+    },
+    {
+      "file": "ch-23-supplements-evidence-tiers.md",
+      "slug": "ch-23-supplements-evidence-tiers",
+      "title": "Supplements: What Is Worth It",
+      "part": 4,
+      "part_title": null,
+      "order": 23,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-24-peds-harm-reduction.md",
+      "slug": "ch-24-peds-harm-reduction",
+      "title": "Anabolic PEDs — Educational Harm Reduction",
+      "part": 4,
+      "part_title": null,
+      "order": 24,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-25-peptides-literacy.md",
+      "slug": "ch-25-peptides-literacy",
+      "title": "Peptides — What People Mean and What’s Unknown",
+      "part": 4,
+      "part_title": null,
+      "order": 25,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-26-glp1-and-retatrutide.md",
+      "slug": "ch-26-glp1-and-retatrutide",
+      "title": "GLP-1s, Metabolic Drugs & Retatrutide Deep Dive",
+      "part": 4,
+      "part_title": null,
+      "order": 26,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-27-deciding-if-advanced-tools.md",
+      "slug": "ch-27-deciding-if-advanced-tools",
+      "title": "Deciding Whether Advanced Tools Are Even Relevant",
+      "part": 4,
+      "part_title": null,
+      "order": 27,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-28-identity-and-discipline.md",
+      "slug": "ch-28-identity-and-discipline",
+      "title": "Identity, Discipline, and Not Becoming Obsessed",
+      "part": 5,
+      "part_title": null,
+      "order": 28,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-29-body-image-and-comparison.md",
+      "slug": "ch-29-body-image-and-comparison",
+      "title": "Body Image, Comparison, and Social Media",
+      "part": 5,
+      "part_title": null,
+      "order": 29,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-30-training-around-life.md",
+      "slug": "ch-30-training-around-life",
+      "title": "Training Around Work, Kids, and Chaos",
+      "part": 5,
+      "part_title": null,
+      "order": 30,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-31-year-two-and-beyond.md",
+      "slug": "ch-31-year-two-and-beyond",
+      "title": "Year Two and Beyond",
+      "part": 5,
+      "part_title": null,
+      "order": 31,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-32-closing-the-system.md",
+      "slug": "ch-32-closing-the-system",
+      "title": "Closing the System — Your Permanent Checklist",
+      "part": 5,
+      "part_title": null,
+      "order": 32,
+      "status": "draft",
+      "outline": false
     }
   ]
 }
