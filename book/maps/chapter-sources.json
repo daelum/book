@@ -4,7 +4,7 @@
   "policy_doc": "docs/source-traceability.md",
   "updated": "2026-11-07",
   "coverage_ref": "youtube/logs/coverage-report.md",
-  "insight_corpus_note": "242 insight rows available at map time; listed IDs are thematic grounding seeds (D/E-heavy transcript excerpts). Prefer verified bib_ids/claim_ids as Stage 4 completes.",
+  "insight_corpus_note": "731 insight rows available at enrichment pass; priority queue cleared per youtube/logs/coverage-report.md",
   "chapters": [
     {
       "chapter_id": "ch-01-what-bodybuilding-involves",
@@ -116,9 +116,10 @@
         "ins_os6mNkYPGRw_5f1d2a2bcf",
         "ins_8YMejRrb8g4_0fc1e872dc",
         "ins_-Q6SZQBvlLM_c503aac1ee",
-        "ins_-Q6SZQBvlLM_7a1d8a6e33"
+        "ins_-Q6SZQBvlLM_7a1d8a6e33",
+        "ins_Jf4DP4Q-HpY_6716af39aa"
       ],
-      "notes": "Protein heuristic; tracking pair; NEAT; phase ego; meal structure; disordered-eating sensitivity; lifestyle > meds framing."
+      "notes": "Protein heuristic; tracking pair; NEAT; phase ego; meal structure; disordered-eating sensitivity; lifestyle > meds framing. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never)."
     },
     {
       "chapter_id": "ch-08-protein-calories-macros",
@@ -136,9 +137,11 @@
         "bib_79cbcc75ff"
       ],
       "insight_ids": [
-        "ins_-MRNjTr6xrE_ec736f22ad"
+        "ins_-MRNjTr6xrE_ec736f22ad",
+        "ins_2LNagkiowdU_47e22ec5d6",
+        "ins_os6mNkYPGRw_5f1d2a2bcf"
       ],
-      "notes": "Stage 5: protein 1.6\u20132.2 band + ~1.6 flattening nuance; powder=convenience. manuscript_attribution=never.",
+      "notes": "Stage 5: protein 1.6\u20132.2 band + ~1.6 flattening nuance; powder=convenience. manuscript_attribution=never. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never).",
       "stage5_wired": true
     },
     {
@@ -187,9 +190,12 @@
         "bib_d7651b3639"
       ],
       "insight_ids": [
-        "ins_PgG_qyZmF5M_38bb6f1098"
+        "ins_PgG_qyZmF5M_38bb6f1098",
+        "ins_E2Nj6R4TLCE_199956bf35",
+        "ins_2LNagkiowdU_1067e0caed",
+        "ins_FOVmLfAX0FY_7491567a66"
       ],
-      "notes": "Stage 5: ~2\u00d7/week + modest\u2192add volume; no rigid 10-set beginner commandment.",
+      "notes": "Stage 5: ~2\u00d7/week + modest\u2192add volume; no rigid 10-set beginner commandment. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never).",
       "stage5_wired": true
     },
     {
@@ -201,9 +207,11 @@
       "bib_ids": [],
       "insight_ids": [
         "ins_-MRNjTr6xrE_39348f949b",
-        "ins_2LNagkiowdU_ba633b4a2f"
+        "ins_2LNagkiowdU_ba633b4a2f",
+        "ins_2aYrGSPZmpk_6f3dbdbf54",
+        "ins_PgG_qyZmF5M_35522dd19e"
       ],
-      "notes": "RIR / near-failure themes."
+      "notes": "RIR / near-failure themes. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never)."
     },
     {
       "chapter_id": "ch-13-recovery-sleep-stress",
@@ -236,9 +244,11 @@
       "bib_ids": [],
       "insight_ids": [
         "ins_pR5aPCoz_mE_9a1b18dde1",
-        "ins_pR5aPCoz_mE_84f6055b5f"
+        "ins_pR5aPCoz_mE_84f6055b5f",
+        "ins_-MRNjTr6xrE_ec736f22ad",
+        "ins_crZf9wie-Fc_b77e198bf1"
       ],
-      "notes": "Ego/adherence; MED weeks; no Monday-reset theatre."
+      "notes": "Ego/adherence; MED weeks; no Monday-reset theatre. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never)."
     },
     {
       "chapter_id": "ch-16-choosing-your-pathway",
@@ -344,8 +354,13 @@
         "bib_9c421ff8dd",
         "bib_2334bfb4d8"
       ],
-      "insight_ids": [],
-      "notes": "Rewritten: Doing Them Properly; coach standard; practical monitoring; Stage 5 CV/endocrine educational cites kept; no invented protocols.",
+      "insight_ids": [
+        "ins_60YGn2K5cO0_922390d569",
+        "ins_Dd7Q5Y20-4s_ed47f1132d",
+        "ins_Za6UyibwQNw_9105aa0dd5",
+        "ins_E2Nj6R4TLCE_199956bf35"
+      ],
+      "notes": "Rewritten: Doing Them Properly; coach standard; practical monitoring; Stage 5 CV/endocrine educational cites kept; no invented protocols. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never).",
       "stage5_wired": true
     },
     {
@@ -381,8 +396,12 @@
         "bib_79834f3227",
         "bib_697e1f91ea"
       ],
-      "insight_ids": [],
-      "notes": "Rewritten: practical protein/lifting tips; lived-upside tone; Stage 5 STEP/lean/retatrutide cites; no titration.",
+      "insight_ids": [
+        "ins_HR3oBY7qTKM_ebb82a05d7",
+        "ins_-Q6SZQBvlLM_7a1d8a6e33",
+        "ins_-MRNjTr6xrE_3560b4244a"
+      ],
+      "notes": "Rewritten: practical protein/lifting tips; lived-upside tone; Stage 5 STEP/lean/retatrutide cites; no titration. | 731-insight enrichment pass (synthesize only; manuscript_attribution=never).",
       "stage5_wired": true
     },
     {

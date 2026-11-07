@@ -35,9 +35,21 @@ Cross-ref tone tweaks: `ch-16`, `ch-17`, `ch-20`–`ch-22`, `ch-32`.
 
 Still wired in prose + `book/maps/chapter-sources.json` for ch-08/10/11/23–26. Repo carries `docs/research-validation.md`, `bibliography/`, `claims/`.
 
+## Insight enrichment (priority queue cleared)
+
+Coverage: store `youtube/logs/coverage-report.md` — **731** insights; priority queue cleared. Targeted synthesize-only pass (never name creators) on weak spots:
+
+| Area | Chapters touched |
+|------|------------------|
+| Hypertrophy volume / effort | `ch-11` (conservative +1 set; fatigue across week; hard≠enough alone), `ch-12` (beginner RIR miscalibration; ~1–2 RIR average) |
+| Nutrition adherence | `ch-07`, `ch-08`, `ch-15` (calories+protein log you can reopen; modest surplus; fad rematch cost; short interruption ≠ restart) |
+| PED / GLP-1 practical tips | `ch-24` (bloodwork-adjusted response; CBC/haematocrit; conservative volume on cycle), `ch-26` (scheduled protein; structure > drug alone; lifestyle off-ramp) |
+
+Maps updated with additional `insight_ids` (internal only).
+
 ## Ebook preview
 
-**HTML ebook should be regenerated from the updated chapters.** Preview worker owns `ebook/` — do not treat any prior HTML build as current after this Part Four rewrite + Stage 5 wiring.
+**HTML ebook should be regenerated from the updated chapters** (Part Four rewrite + this enrichment pass). Preview worker owns `ebook/` — prior HTML builds are stale.
 
 ## Still open `[RESEARCH: …]`
 
@@ -45,9 +57,10 @@ Still wired in prose + `book/maps/chapter-sources.json` for ch-08/10/11/23–26.
 - `[RESEARCH: full peptide class map beyond BPC-157 exemplars]`
 - `[RESEARCH: oral AAS hepatic/lipid primary reviews]`
 - `[RESEARCH: provisional weekly templates ch-17–20]`
-- `[RESEARCH: clean/dedupe ASR insight rows]`
+- `[RESEARCH: clean/dedupe ASR insight rows — 731 rows still ASR-noisy]`
 
 ## Sync log
 
 - 2026-11-07: Parts One–Five + Stage 5 wiring on PR #2.  
-- 2026-11-07: Part Four rewritten to pro smart-use / coach standard; mirrored to store; **ebook regen flagged for preview worker**.
+- 2026-11-07: Part Four rewritten to pro smart-use / coach standard; mirrored to store; ebook regen flagged.  
+- 2026-11-07: 731-insight enrichment pass on ch-07/08/11/12/15/24/26; mirrored; **ebook regen re-flagged**.
