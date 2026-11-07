@@ -1,0 +1,132 @@
+{
+  "description": "Chapter-to-source mapping. insight_ids are INTERNAL grounding only \u2014 never paste YouTube creator/channel/@handle/URL attribution into reader-facing chapter prose.",
+  "manuscript_attribution_policy": "never_name_youtube_sources",
+  "policy_doc": "docs/source-traceability.md",
+  "updated": "2026-11-07",
+  "coverage_ref": "youtube/logs/coverage-report.md",
+  "insight_corpus_note": "242 insight rows available at map time; listed IDs are thematic grounding seeds (D/E-heavy transcript excerpts). Prefer verified bib_ids/claim_ids as Stage 4 completes.",
+  "chapters": [
+    {
+      "chapter_id": "ch-01-what-bodybuilding-involves",
+      "title": "What Bodybuilding Actually Involves",
+      "path": "book/chapters/ch-01-what-bodybuilding-involves.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_2LNagkiowdU_ba633b4a2f",
+        "ins_pR5aPCoz_mE_9a1b18dde1",
+        "ins_pR5aPCoz_mE_84f6055b5f",
+        "ins_2aYrGSPZmpk_1061f6320b"
+      ],
+      "notes": "Systems, hard-enough training, ego/adherence psychology. Synthesize only."
+    },
+    {
+      "chapter_id": "ch-02-how-muscle-grows",
+      "title": "How Muscle Grows",
+      "path": "book/chapters/ch-02-how-muscle-grows.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_39348f949b",
+        "ins_PgG_qyZmF5M_38bb6f1098",
+        "ins_2LNagkiowdU_ba633b4a2f",
+        "ins_eMjyvIQbn9M_bd527b9e82",
+        "ins_-MRNjTr6xrE_ec736f22ad"
+      ],
+      "notes": "Proximity to failure; volume/frequency nuance; short interruptions vs quitting."
+    },
+    {
+      "chapter_id": "ch-03-body-fat",
+      "title": "Body Fat: What It Is and How It Moves",
+      "path": "book/chapters/ch-03-body-fat.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_crZf9wie-Fc_dfd19882c8",
+        "ins_crZf9wie-Fc_fa859c78ce",
+        "ins_FdaM3f_odqI_6ef08fd373",
+        "ins_Jf4DP4Q-HpY_53690f4c05",
+        "ins_NDFSQtQ26Vs_4dc4c84ed3"
+      ],
+      "notes": "Composition metrics; energy/fat themes. GLP-1 insight held as literacy pointer only \u2014 no beginner protocol."
+    },
+    {
+      "chapter_id": "ch-04-recomposition",
+      "title": "Recomposition \u2014 Building and Losing at Once",
+      "path": "book/chapters/ch-04-recomposition.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_NHtG8mFSZFo_f457fde2f4",
+        "ins_NHtG8mFSZFo_6a454c1fca",
+        "ins_pR5aPCoz_mE_dce28984e1",
+        "ins_8YMejRrb8g4_d3adea46a0"
+      ],
+      "notes": "Patience; lean-growth framing; avoid phase flipping."
+    },
+    {
+      "chapter_id": "ch-05-realistic-expectations",
+      "title": "Realistic Expectations for Twelve Months",
+      "path": "book/chapters/ch-05-realistic-expectations.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_NHtG8mFSZFo_f457fde2f4",
+        "ins_pR5aPCoz_mE_dce28984e1",
+        "ins_pR5aPCoz_mE_800fbebc66",
+        "ins_-MRNjTr6xrE_ec736f22ad",
+        "ins_crZf9wie-Fc_c6c90470fa"
+      ],
+      "notes": "Hardgainer patience; ego cuts; track to know plateaus; short layoffs."
+    },
+    {
+      "chapter_id": "ch-06-measuring-your-starting-point",
+      "title": "Measuring Your Starting Point",
+      "path": "book/chapters/ch-06-measuring-your-starting-point.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_crZf9wie-Fc_f5f46bc436",
+        "ins_crZf9wie-Fc_dfd19882c8",
+        "ins_crZf9wie-Fc_db345a47da",
+        "ins_crZf9wie-Fc_c6c90470fa",
+        "ins_os6mNkYPGRw_5f1d2a2bcf",
+        "ins_-Q6SZQBvlLM_c118f94b32"
+      ],
+      "notes": "Photos/measurements vs weight alone; calories+protein tracking; plateau logic."
+    },
+    {
+      "chapter_id": "ch-07-nutrition-fundamentals",
+      "title": "Nutrition Fundamentals",
+      "path": "book/chapters/ch-07-nutrition-fundamentals.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [
+        "ins_-MRNjTr6xrE_3560b4244a",
+        "ins_-Q6SZQBvlLM_f4aa23ccf9",
+        "ins_FdaM3f_odqI_099d1c5d79",
+        "ins_pR5aPCoz_mE_dce28984e1",
+        "ins_os6mNkYPGRw_5f1d2a2bcf",
+        "ins_8YMejRrb8g4_0fc1e872dc",
+        "ins_-Q6SZQBvlLM_c503aac1ee",
+        "ins_-Q6SZQBvlLM_7a1d8a6e33"
+      ],
+      "notes": "Protein heuristic; tracking pair; NEAT; phase ego; meal structure; disordered-eating sensitivity; lifestyle > meds framing."
+    }
+  ],
+  "example_chapter_shape": {
+    "chapter_id": "ch-03-progressive-overload",
+    "title": "Progressive Overload",
+    "claim_ids": [],
+    "bib_ids": [],
+    "insight_ids": [],
+    "notes": "When drafting: synthesize insight content in original book voice; cite literature bib_ids publicly if needed; do not name YouTube creators linked via insight_ids."
+  }
+}
