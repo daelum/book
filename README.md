@@ -11,14 +11,14 @@ Practical beginner transform guide — train, eat, recover, track, and decide wh
 
 A static long-form reader lives in [`preview/`](preview/).
 
-### Open locally
+### Read on GitHub (PR branch)
 
-```bash
-cd preview
-python3 -m http.server 8765 --bind 127.0.0.1
-```
+- Cover / reader: [`preview/index.html`](https://github.com/daelum/book/blob/cursor/book-preview-reader-390b/preview/index.html)
+- Chapter 1: [`preview/chapters/ch-01-what-bodybuilding-involves.md`](https://github.com/daelum/book/blob/cursor/book-preview-reader-390b/preview/chapters/ch-01-what-bodybuilding-involves.md)
+- All chapters: [`preview/chapters/`](https://github.com/daelum/book/tree/cursor/book-preview-reader-390b/preview/chapters)
+- PR: https://github.com/daelum/book/pull/1
 
-Then open [http://127.0.0.1:8765/](http://127.0.0.1:8765/).
+Agent how-to (always current): Project store `docs/book-preview.md`.
 
 ### Add a chapter
 
