@@ -73,7 +73,7 @@ Secondary lenses (used inside chapters, not separate books): fat-loss focused ·
 | 11 | `ch-11-program-structure` | Program Structure: Splits, Frequency, Volume | A–D | fundamentals |
 | 12 | `ch-12-form-and-effort` | Form, Effort, and Getting Close to Failure | A–D | fundamentals |
 | 13 | `ch-13-recovery-sleep-stress` | Recovery: Sleep, Stress, and Deloads | A–D | recovery, psychology |
-| 14 | `ch-14-cardio-steps-neats` | Cardio, Steps, and Daily Movement | B, C heavy; A careful | nutrition, recovery |
+| 14 | `ch-14-cardio-steps-neat` | Cardio, Steps, and Daily Movement | B, C heavy; A careful | nutrition, recovery |
 | 15 | `ch-15-habit-systems` | Habit Systems for People With Real Lives | A–D | psychology, tracking |
 
 **Part Two exit criteria:** Reader has a food target method, a beginner program template, a logbook habit, a sleep minimum, and a “bad week” protocol.
@@ -155,11 +155,12 @@ Secondary lenses (used inside chapters, not separate books): fat-loss focused ·
 | Area | Status |
 |------|--------|
 | Outline (this file) | `draft` v0.1 |
-| Part One chapters (1–6) | `draft` complete set in repo + store mirror |
-| Part Two chapters (7–15) | `draft` complete set in repo |
-| Part Three | started (`ch-16`); month chapters queued |
+| Part One chapters (1–6) | `draft` complete |
+| Part Two chapters (7–15) | `draft` complete (`ch-14` canonical slug: `ch-14-cardio-steps-neat`) |
+| Part Three chapters (16–22) | `draft` complete |
+| Part Four–Five | queued |
 | Research grounding | Partial — 242 insights synthesized in voice; fill `[RESEARCH: …]` gaps in `docs/manuscript-status.md` as verification continues |
-| Canonical home | https://github.com/daelum/book |
+| Canonical home | https://github.com/daelum/book · PR https://github.com/daelum/book/pull/2 |
 
 ## Attribution reminder (internal)
 

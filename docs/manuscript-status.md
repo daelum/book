@@ -7,9 +7,10 @@ updated: "2026-11-07"
 # Manuscript status — THE 12-MONTH BODYBUILDER
 
 **GitHub home (canonical):** https://github.com/daelum/book  
-**Branch (working):** `cursor/manuscript-home-17d4`  
+**PR:** https://github.com/daelum/book/pull/2  
+**Branch:** `cursor/manuscript-home-17d4`  
 **Context mirror:** `/cursor/stores/self/book/` + `/cursor/stores/self/docs/manuscript-status.md`  
-**Voice:** `docs/author-voice.md` in Project store (Daelum mentality; not named repeatedly in prose)  
+**Voice:** Project store `docs/author-voice.md` (Daelum mentality; not named repeatedly in prose)  
 **Attribution:** YouTube creators/channels never named in manuscript; provenance in research DB + `book/maps/chapter-sources.json` only.
 
 ## Layout in repo
@@ -27,7 +28,7 @@ README.md
 ### Outline
 - `book/outline/00-complete-outline.md` — Parts 1–5, pathways A–D, provisional 12-month roadmap, chapter IDs
 
-### Part One — Understanding Your Body (`status: draft`) — synced from store
+### Part One — Understanding Your Body (`draft` — complete)
 | File | Chapter |
 |------|---------|
 | `book/chapters/ch-01-what-bodybuilding-involves.md` | What Bodybuilding Actually Involves |
@@ -37,54 +38,62 @@ README.md
 | `book/chapters/ch-05-realistic-expectations.md` | Realistic Expectations |
 | `book/chapters/ch-06-measuring-your-starting-point.md` | Measuring Your Starting Point |
 
-### Part Two — Building Your Foundation (`status: draft`) — complete draft set
-| File | Chapter | Source |
-|------|---------|--------|
-| `book/chapters/ch-07-nutrition-fundamentals.md` | Nutrition Fundamentals | synced from store |
-| `book/chapters/ch-08-protein-calories-macros.md` | Protein, Calories, and Macros | drafted in repo |
-| `book/chapters/ch-09-resistance-training-fundamentals.md` | Resistance Training Fundamentals | drafted in repo |
-| `book/chapters/ch-10-progressive-overload.md` | Progressive Overload | drafted in repo |
-| `book/chapters/ch-11-program-structure.md` | Program Structure | drafted in repo |
-| `book/chapters/ch-12-form-and-effort.md` | Form, Effort, Near Failure | drafted in repo |
-| `book/chapters/ch-13-recovery-sleep-stress.md` | Recovery | drafted in repo |
-| `book/chapters/ch-14-cardio-steps-neat.md` | Cardio, Steps, NEAT | drafted in repo |
-| `book/chapters/ch-15-habit-systems.md` | Habit Systems | drafted in repo |
+### Part Two — Building Your Foundation (`draft` — complete)
+| File | Chapter |
+|------|---------|
+| `book/chapters/ch-07-nutrition-fundamentals.md` | Nutrition Fundamentals |
+| `book/chapters/ch-08-protein-calories-macros.md` | Protein, Calories, and Macros |
+| `book/chapters/ch-09-resistance-training-fundamentals.md` | Resistance Training Fundamentals |
+| `book/chapters/ch-10-progressive-overload.md` | Progressive Overload |
+| `book/chapters/ch-11-program-structure.md` | Program Structure |
+| `book/chapters/ch-12-form-and-effort.md` | Form, Effort, Near Failure |
+| `book/chapters/ch-13-recovery-sleep-stress.md` | Recovery |
+| `book/chapters/ch-14-cardio-steps-neat.md` | Cardio, Steps, NEAT (**canonical**; removed duplicate `…-neats.md`) |
+| `book/chapters/ch-15-habit-systems.md` | Habit Systems |
 
-### Part Three — started
+### Part Three — The 12-Month Roadmap (`draft` — complete set)
 | File | Chapter |
 |------|---------|
 | `book/chapters/ch-16-choosing-your-pathway.md` | Choosing Your Pathway (A–D) |
+| `book/chapters/ch-17-months-1-3-foundation.md` | Months 1–3: Foundation |
+| `book/chapters/ch-18-months-4-6-build.md` | Months 4–6: Build |
+| `book/chapters/ch-19-months-7-9-refine.md` | Months 7–9: Refine |
+| `book/chapters/ch-20-months-10-12-peak.md` | Months 10–12: Peak and Decide |
+| `book/chapters/ch-21-plateaus-and-course-corrections.md` | Plateaus and Course Corrections |
+| `book/chapters/ch-22-pathway-playbooks.md` | Pathway Playbooks (A–D) |
 
-All drafted chapters use the standard scaffold (WHAT YOU NEED TO KNOW → … → WHAT’S NEXT) and pathway A–D notes where relevant.
-
-## Research grounding used
-
-- Coverage snapshot: 18 channels catalogued; **242** insight rows in store `research/insights/*.jsonl`. See store `youtube/logs/coverage-report.md`.
-- Insights are largely transcript-backed excerpts (many evidence class D/E). Prose synthesizes themes in book voice; does **not** quote-attribute creators.
-- Themes pulled into Part One/Two drafts: proximity to failure; volume/frequency by training age; track reps to detect plateaus; photos/measurements + weight; calories+protein tracking pair; protein ~g/lb heuristic; ego aborting bulks early; hardgainer patience; short layoffs ≠ total loss; NEAT with surplus; lifestyle adherence.
+All drafted chapters use the standard scaffold and pathway A–D notes where relevant.
 
 ## What’s next (writing)
 
-1. Part Three month chapters (`ch-17`–`ch-22`) once weekly templates firm up from research  
-2. Part Four only as educational harm-reduction (no beginner drug protocols)  
-3. Part Five identity / longevity chapters  
-4. Tighten `[RESEARCH:]` items as Stage 3–4 verification lands
+1. **Part Four** — educational harm-reduction only (`ch-23`–`ch-27`); no beginner drug protocols  
+2. **Part Five** — identity / comparison / life / Year Two (`ch-28`–`ch-32`)  
+3. Optional: concrete menus + full session templates once research claims are cleaner  
+4. Tighten `[RESEARCH:]` items as Stage 3–4 verification lands  
+
+## Research grounding used
+
+- Coverage snapshot: 18 channels catalogued; **242** insight rows in store `research/insights/*.jsonl`.  
+- Prose synthesizes themes in book voice; does **not** quote-attribute creators.  
+- Part Three templates are provisional skeletons pending cleaner weekly-template research.
 
 ## Research gaps to fill later `[RESEARCH: …]`
 
-Keep these **out of reader chapter body** until verified; listed here for Stage 3–4 workers:
+Keep these **out of reader chapter body** until verified:
 
 - `[RESEARCH: hypertrophy set-volume dose-response meta numbers for beginners vs intermediates — cite verified papers]`
 - `[RESEARCH: protein meta target bands g/kg lean mass vs total BW — bib entries]`
-- `[RESEARCH: realistic natural monthly muscle gain ranges by training age / sex — transformations insights still thin/noisy]`
-- `[RESEARCH: recomposition evidence conditions (novice, overweight, returnee) — literature + cleaned insights]`
+- `[RESEARCH: realistic natural monthly muscle gain ranges by training age / sex]`
+- `[RESEARCH: recomposition evidence conditions (novice, overweight, returnee)]`
 - `[RESEARCH: waist/photo protocol reliability; best minimal tracking stack]`
 - `[RESEARCH: NEAT compensation ranges in surplus/deficit — tighten ch-07/ch-14 figures]`
-- `[RESEARCH: GLP-1 / retatrutide muscle-preservation themes for Part Four only — do not bleed protocols into Part One action plans]`
-- `[RESEARCH: clean/dedupe insight extractions — many rows are stuttery ASR segments; need Stage 4 claim verification]`
-- `[RESEARCH: priority transcript backlog — coverage report shows gaps on several catalogued channels]`
+- `[RESEARCH: provisional weekly templates for ch-17–20 — gym + home — grounded in verified programming insights]`
+- `[RESEARCH: mini-cut / diet-break duration evidence bands for ch-19]`
+- `[RESEARCH: GLP-1 / retatrutide muscle-preservation themes for Part Four only]`
+- `[RESEARCH: clean/dedupe insight extractions — stuttery ASR; Stage 4 claim verification]`
+- `[RESEARCH: priority transcript backlog — coverage report gaps]`
 
 ## Sync log
 
-- 2026-11-07: Synced store outline + ch-01…ch-07 + maps + status into `daelum/book` on `cursor/manuscript-home-17d4`.
-- 2026-11-07: Completed Part Two drafts (ch-08–15) + started Part Three (`ch-16`) in repo; mirrored ch-01–16, outline, maps, and this status file back to `/cursor/stores/self/book/` and `/cursor/stores/self/docs/manuscript-status.md`.
+- 2026-11-07: Synced store outline + ch-01…ch-07 into repo; drafted ch-08–16; opened PR #2.  
+- 2026-11-07: Deduped ch-14 → canonical `ch-14-cardio-steps-neat.md` (removed store `…-neats.md`); outline ID aligned; completed Part Three ch-17–22; mirrored ch-01–22 + maps + status to store.

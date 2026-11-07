@@ -226,6 +226,66 @@
       "bib_ids": [],
       "insight_ids": [],
       "notes": "Decision tree from Part One pathways; no new claims pending research."
+    },
+    {
+      "chapter_id": "ch-17-months-1-3-foundation",
+      "title": "Months 1\u20133: Foundation",
+      "path": "book/chapters/ch-17-months-1-3-foundation.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Weekly skeleton; pathway food bias; no novelty."
+    },
+    {
+      "chapter_id": "ch-18-months-4-6-build",
+      "title": "Months 4\u20136: Build",
+      "path": "book/chapters/ch-18-months-4-6-build.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Volume/effort upgrades; one-lever food adjustments."
+    },
+    {
+      "chapter_id": "ch-19-months-7-9-refine",
+      "title": "Months 7\u20139: Refine",
+      "path": "book/chapters/ch-19-months-7-9-refine.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Weak points; optional nutrition periodization; specialty tools limited."
+    },
+    {
+      "chapter_id": "ch-20-months-10-12-peak",
+      "title": "Months 10\u201312: Peak and Decide",
+      "path": "book/chapters/ch-20-months-10-12-peak.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Review ritual; Year 2 fork; literacy not protocols."
+    },
+    {
+      "chapter_id": "ch-21-plateaus-and-course-corrections",
+      "title": "Plateaus and Course Corrections",
+      "path": "book/chapters/ch-21-plateaus-and-course-corrections.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "Adherence check then food/training/recovery levers."
+    },
+    {
+      "chapter_id": "ch-22-pathway-playbooks",
+      "title": "Pathway Playbooks (A\u2013D deep dives)",
+      "path": "book/chapters/ch-22-pathway-playbooks.md",
+      "status": "draft",
+      "claim_ids": [],
+      "bib_ids": [],
+      "insight_ids": [],
+      "notes": "If-this-do-that cards per pathway."
     }
   ],
   "example_chapter_shape": {
