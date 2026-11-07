@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>THE 12-MONTH BODYBUILDER</title>
+    <meta
+      name="description"
+      content="A practical beginner transform guide — train, eat, recover, and decide what to ignore over twelve months."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,550&family=Literata:opsz,wght@7..72,400;7..72,650&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reader.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand-mark" href="#/contents">THE 12-MONTH BODYBUILDER</a>
+        <div class="topbar-actions">
+          <a class="ghost-btn" href="#/contents">Contents</a>
+        </div>
+      </header>
+
+      <main id="main">
+        <section id="cover" class="cover is-active" aria-label="Book cover and contents">
+          <p class="cover-kicker">Draft manuscript preview</p>
+          <h1 class="cover-title">THE 12-MONTH BODYBUILDER</h1>
+          <p class="cover-lede">
+            Teach someone starting or restarting how to train, eat, recover, track,
+            and decide what to ignore — so they can change their physique over twelve
+            months with evidence-aware methods, not hype.
+          </p>
+          <a class="cover-cta" id="start-reading" href="#/contents">Start reading →</a>
+
+          <div class="toc-section">
+            <h2 class="toc-heading">Contents</h2>
+            <div id="toc"></div>
+          </div>
+        </section>
+
+        <section id="reader" class="reader" aria-label="Chapter reader">
+          <p id="status" class="status-banner" aria-live="polite"></p>
+          <div class="reader-layout">
+            <aside class="side-nav" aria-label="Chapter list">
+              <div class="side-nav-inner">
+                <h2>In this book</h2>
+                <ol id="side-nav-list"></ol>
+              </div>
+            </aside>
+            <article id="article" class="article-panel">
+              <header class="article-header">
+                <p id="article-part" class="article-part"></p>
+                <h1 id="article-title" class="article-title"></h1>
+              </header>
+              <div id="prose" class="prose"></div>
+              <nav id="chapter-nav" class="chapter-nav" aria-label="Adjacent chapters"></nav>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.7/marked.min.js"></script>
+    <script src="./js/reader.js"></script>
+  </body>
+</html>

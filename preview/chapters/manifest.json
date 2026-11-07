@@ -1,0 +1,336 @@
+{
+  "title": "THE 12-MONTH BODYBUILDER",
+  "generated": "2026-11-07",
+  "chapters": [
+    {
+      "file": "00-complete-outline.md",
+      "slug": "00-complete-outline",
+      "title": "THE 12-MONTH BODYBUILDER — Complete Outline",
+      "part": null,
+      "part_title": null,
+      "order": 0,
+      "status": "draft",
+      "outline": true
+    },
+    {
+      "file": "ch-01-what-bodybuilding-involves.md",
+      "slug": "ch-01-what-bodybuilding-involves",
+      "title": "What Bodybuilding Actually Involves",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 1,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-02-how-muscle-grows.md",
+      "slug": "ch-02-how-muscle-grows",
+      "title": "How Muscle Grows",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 2,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-03-body-fat.md",
+      "slug": "ch-03-body-fat",
+      "title": "Body Fat: What It Is and How It Moves",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 3,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-04-recomposition.md",
+      "slug": "ch-04-recomposition",
+      "title": "Recomposition — Building and Losing at Once",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 4,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-05-realistic-expectations.md",
+      "slug": "ch-05-realistic-expectations",
+      "title": "Realistic Expectations for Twelve Months",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 5,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-06-measuring-your-starting-point.md",
+      "slug": "ch-06-measuring-your-starting-point",
+      "title": "Measuring Your Starting Point",
+      "part": 1,
+      "part_title": "Understanding Your Body",
+      "order": 6,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-07-nutrition-fundamentals.md",
+      "slug": "ch-07-nutrition-fundamentals",
+      "title": "Nutrition Fundamentals",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 7,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-08-protein-calories-macros.md",
+      "slug": "ch-08-protein-calories-macros",
+      "title": "Protein, Calories, and Macros That Matter",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 8,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-09-resistance-training-fundamentals.md",
+      "slug": "ch-09-resistance-training-fundamentals",
+      "title": "Resistance Training Fundamentals",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 9,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-10-progressive-overload.md",
+      "slug": "ch-10-progressive-overload",
+      "title": "Progressive Overload — The Non-Negotiable",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 10,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-11-program-structure.md",
+      "slug": "ch-11-program-structure",
+      "title": "Program Structure: Splits, Frequency, Volume",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 11,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-12-form-and-effort.md",
+      "slug": "ch-12-form-and-effort",
+      "title": "Form, Effort, and Getting Close to Failure",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 12,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-13-recovery-sleep-stress.md",
+      "slug": "ch-13-recovery-sleep-stress",
+      "title": "Recovery: Sleep, Stress, and Deloads",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 13,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-14-cardio-steps-neat.md",
+      "slug": "ch-14-cardio-steps-neat",
+      "title": "Cardio, Steps, and Daily Movement",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 14,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-15-habit-systems.md",
+      "slug": "ch-15-habit-systems",
+      "title": "Habit Systems for People With Real Lives",
+      "part": 2,
+      "part_title": "Building Your Foundation",
+      "order": 15,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-16-choosing-your-pathway.md",
+      "slug": "ch-16-choosing-your-pathway",
+      "title": "Choosing Your Pathway (A–D)",
+      "part": 3,
+      "part_title": "Your 12-Month Roadmap",
+      "order": 16,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-17-months-1-3-foundation.md",
+      "slug": "ch-17-months-1-3-foundation",
+      "title": "Months 1–3: Foundation",
+      "part": 3,
+      "part_title": "Your 12-Month Roadmap",
+      "order": 17,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-18-months-4-6-build.md",
+      "slug": "ch-18-months-4-6-build",
+      "title": "Months 4–6: Build",
+      "part": 3,
+      "part_title": "Your 12-Month Roadmap",
+      "order": 18,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-19-months-7-9-refine.md",
+      "slug": "ch-19-months-7-9-refine",
+      "title": "Months 7–9: Refine",
+      "part": 3,
+      "part_title": "Your 12-Month Roadmap",
+      "order": 19,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-20-months-10-12-peak.md",
+      "slug": "ch-20-months-10-12-peak",
+      "title": "Months 10–12: Peak and Decide",
+      "part": 3,
+      "part_title": "Your 12-Month Roadmap",
+      "order": 20,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-21-plateaus-and-course-corrections.md",
+      "slug": "ch-21-plateaus-and-course-corrections",
+      "title": "Plateaus and Course Corrections",
+      "part": 3,
+      "part_title": "Your 12-Month Roadmap",
+      "order": 21,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-22-pathway-playbooks.md",
+      "slug": "ch-22-pathway-playbooks",
+      "title": "Pathway Playbooks (A–D deep dives)",
+      "part": 3,
+      "part_title": "Your 12-Month Roadmap",
+      "order": 22,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-23-supplements-evidence-tiers.md",
+      "slug": "ch-23-supplements-evidence-tiers",
+      "title": "Supplements: What Is Worth It",
+      "part": 4,
+      "part_title": null,
+      "order": 23,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-24-peds-harm-reduction.md",
+      "slug": "ch-24-peds-harm-reduction",
+      "title": "Anabolic PEDs — Doing Them Properly",
+      "part": 4,
+      "part_title": null,
+      "order": 24,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-25-peptides-literacy.md",
+      "slug": "ch-25-peptides-literacy",
+      "title": "Peptides — Practical Literacy",
+      "part": 4,
+      "part_title": null,
+      "order": 25,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-26-glp1-and-retatrutide.md",
+      "slug": "ch-26-glp1-and-retatrutide",
+      "title": "GLP-1s, Metabolic Drugs & Retatrutide",
+      "part": 4,
+      "part_title": null,
+      "order": 26,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-27-deciding-if-advanced-tools.md",
+      "slug": "ch-27-deciding-if-advanced-tools",
+      "title": "Deciding Whether Advanced Tools Make Sense",
+      "part": 4,
+      "part_title": null,
+      "order": 27,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-28-identity-and-discipline.md",
+      "slug": "ch-28-identity-and-discipline",
+      "title": "Identity, Discipline, and Not Becoming Obsessed",
+      "part": 5,
+      "part_title": null,
+      "order": 28,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-29-body-image-and-comparison.md",
+      "slug": "ch-29-body-image-and-comparison",
+      "title": "Body Image, Comparison, and Social Media",
+      "part": 5,
+      "part_title": null,
+      "order": 29,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-30-training-around-life.md",
+      "slug": "ch-30-training-around-life",
+      "title": "Training Around Work, Kids, and Chaos",
+      "part": 5,
+      "part_title": null,
+      "order": 30,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-31-year-two-and-beyond.md",
+      "slug": "ch-31-year-two-and-beyond",
+      "title": "Year Two and Beyond",
+      "part": 5,
+      "part_title": null,
+      "order": 31,
+      "status": "draft",
+      "outline": false
+    },
+    {
+      "file": "ch-32-closing-the-system.md",
+      "slug": "ch-32-closing-the-system",
+      "title": "Closing the System — Your Permanent Checklist",
+      "part": 5,
+      "part_title": null,
+      "order": 32,
+      "status": "draft",
+      "outline": false
+    }
+  ]
+}
