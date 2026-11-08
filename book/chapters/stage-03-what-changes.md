@@ -121,6 +121,18 @@ Practical, unglamorous benefits stack:
 
 None of that requires a perfect life. It requires sequence repeated until the sequence is normal.
 
+## Constrained weeks stop being an excuse — and start being the arena
+
+A quiet Stage 3 benefit: you stop waiting for a monastery calendar. The plan that only works on empty evenings wasn’t a plan; it was a fantasy. When sessions are locked, protein has defaults, and LINK still gets a three-line check-in after a brutal day, fatherhood and long hours stop being a veto. They become the environment the system was built to survive.
+
+That doesn’t make the weeks easy. It makes them countable. You can look at a month of site overtime or kids’ illness and still see sessions, grams, and photos — instead of a blank that you rewrite as “I’ll get serious next season.”
+
+### Before/after of process
+
+**Before:** “Once work settles / once the kids sleep / once this project ends” — the physique waits for a calendar that never arrives.
+
+**After:** The calendar is ugly and the LINE still runs. MED weeks are logged, not mythologised. Progress is slower than Instagram, faster than never.
+
 ## Energy, mood, and ordinary competence
 
 Strip the hype and you still get practical human benefits when the sequence runs.

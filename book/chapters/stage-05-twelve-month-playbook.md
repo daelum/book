@@ -992,8 +992,22 @@ Life will try to delete your plan. Pre-decide the minimum so Thursday-you cannot
 - [ ] LINK check-in can be three lines on your phone
 - [ ] Use PPLU or 3-day if PPL is fantasy this roster cycle — that is LINE intelligence, not quitting
 
----
+### Fatherhood + brutal hours (the real constraint story)
 
+STRIPLINE was written for people who do **not** have unlimited gym time. Stage 4’s why-me is blunt on purpose: transformation under **fatherhood** and **~70-hour construction weeks** — not a content-creator calendar. If your week looks like site/ overtime/ school runs/ bedtime negotiations, you are not behind the method. You are the method’s intended user.
+
+What survives that kind of week:
+
+- **Locked sessions that fit the calendar** — early, after shift, or lunch. Duration can shrink; the written day does not vanish.
+- **Protein defaults** that don’t need a perfect kitchen every night — same breakfast, packed lunch, boring dinner that still hits grams.
+- **LINK that still asks** when Thursday-you wants to negotiate — a mate or the soft coaching door when it opens: **[PLACEHOLDER: paid offer / coach funnel — pending agreement]**.
+- **MED before zero** — a shortened compounds-only session keeps the identity alive after a twelve-hour day; a cancelled month does not.
+
+What dies on that calendar: programme-hopping, chef-level meal prep as a personality, and “I’ll start when life calms down.” Life rarely calms down. LINE is how you train inside the noise.
+
+Use the sample week below as a template — swap site for office crunch, swap kids’ sport for shift work — keep the structure.
+
+---
 
 ### Sample: construction / long-day week (STRIP)
 

@@ -129,7 +129,10 @@ Minimum effective dose for a bad week: protein floor, step floor, abbreviated se
 Sometimes, inside a weekly average — with honesty about calories and recovery. Chronic weekend black holes aren’t a mystery; they’re a plan leak. Adjust the plan or the drinking pattern; don’t pretend both are unlimited.
 
 **I have kids and no quiet evenings. Still viable?**  
-Yes. Shorter sessions, earlier training if possible, protein defaults that don’t need chef energy, LINK that texts not essays. The method assumes real life; it doesn’t require a monastery.
+Yes. Shorter sessions, earlier training if possible, protein defaults that don’t need chef energy, LINK that texts not essays. The method assumes real life; it doesn’t require a monastery. Stage 4’s point stands: this sequence was run under fatherhood and brutal work hours — not unlimited gym time. Your constraints are the arena, not the veto.
+
+**I’m on ~60–70 hour work weeks. Do I wait?**  
+No. Calendar fewer training days (PPLU or 3-day), protect compounds, hit protein with packed defaults, keep step floor honest, send LINK even when it’s three lines. Waiting for a light roster is how soft middles stay soft. See Stage 5A’s construction / long-day sample week.
 
 **How do I pick lifts if I’m a beginner?**  
 Simple patterns you can load safely: squat or leg press, hinge (RDL or machine), push, pull, a carry or core finisher. Progression rule written. Ego maxing left at the door. Stage 5’s playbook is the deeper map — LINE still starts with what you’ll actually show up for.
