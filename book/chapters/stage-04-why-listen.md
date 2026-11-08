@@ -43,19 +43,25 @@ The numbers are landmarks, not a prescription for your body. What matters is the
 
 ~103 kg with a lot of fat is one kind of “big.” ~75 kg with more muscle and less fat is a different kind of capable. Same person. Different composition. That’s why this book refuses to worship the scale as the whole courtroom.
 
-## Why systems clicked for me
+## Why systems clicked for me — under real life, not unlimited gym time
 
-My background is **construction** and **software development**. I’ve always leaned toward **data, plans, and following systems**. When training finally got the same respect as a build schedule or a codebase — written plan, tracked inputs, review loops — results stopped being mystical.
+I’m a **father of two young girls**. During this turnaround I was also working **~70-hour weeks in construction** — on top of a brain that also lives in **software**, data, plans, and systems. This did **not** happen because I had a content-creator schedule, a private chef, and three free hours of “optimal training” every day.
+
+It happened because the plan had to survive fatherhood and brutal hours: locked sessions that fit the calendar, protein defaults that didn’t need a perfect kitchen every night, and a coach keeping me accountable when Thursday-me wanted to negotiate.
+
+If you’re reading this after a twelve-hour day with kids who still need you, you’re the audience. STRIPLINE assumes constraints. Unlimited recovery is not the prerequisite.
+
+My background in **construction** and **software development** meant I already trusted **data, plans, and following systems**. When training finally got the same respect as a build schedule or a codebase — written plan, tracked inputs, review loops — results stopped being mystical.
 
 If you’re the type who can follow a procedure at work but treats the gym like improvisational theatre, you’re not broken. You’re just running the wrong process in the place that needs process most.
 
 ### Construction brain meets training
 
-On a site, you don’t “feel your way” through a structural sequence and hope the inspection passes. You follow an order. You check what’s done. You don’t skip foundations because the finishings look more exciting on Instagram.
+On a site, you don’t “feel your way” through a structural sequence and hope the inspection passes. You follow an order. You check what’s done. You don’t skip foundations because the finishings look more exciting on Instagram. Seventy-hour weeks don’t leave room for programme-hopping cosplay — you run the one plan you locked.
 
 ### Software brain meets food and lifting
 
-In code, vibes without version control become chaos. Training without a log, nutrition without targets, and weeks without review are the same bug with sweat on them. Once I treated adherence like something you can see — sessions done, protein hit, photos on schedule — the fog lifted. Not because I’m special. Because systems are what I already trusted everywhere else.
+In code, vibes without version control become chaos. Training without a log, nutrition without targets, and weeks without review are the same bug with sweat on them. Once I treated adherence like something you can see — sessions done, protein hit, photos on schedule — the fog lifted. Not because I’m special. Because systems are what I already trusted everywhere else — and because accountability meant someone noticed when the log went quiet after a monster week on the tools.
 
 ## What I want this book to carry
 

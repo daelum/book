@@ -3,7 +3,7 @@ title: "Start This Week, FAQ & Next Step"
 stage: 6
 stage_id: stage-06-start-faq-next
 status: draft
-order: 6
+order: 8
 part_title: "Start & Next Step"
 ---
 
