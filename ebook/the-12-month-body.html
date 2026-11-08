@@ -1,0 +1,2531 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>The 12-Month Body</title>
+<meta name="description" content="In twelve months you’ll change how you look by stripping fat first, locking one plan, and building under accountability — The STRIPLINE Method."/>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+:root {
+  --bg: #e8ece8;
+  --paper: #fbfaf7;
+  --ink: #1a1f1c;
+  --muted: #5c6560;
+  --accent: #1f4d3a;
+  --accent-2: #2f6b4f;
+  --rule: #c5cad3;
+  --warm: #c45c26;
+  --font-brand: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-ui: "DM Sans", system-ui, sans-serif;
+  --measure: 40rem;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  background:
+    radial-gradient(90% 60% at 100% 0%, rgba(31,77,58,.10), transparent 55%),
+    radial-gradient(70% 50% at 0% 100%, rgba(196,92,38,.06), transparent 50%),
+    linear-gradient(180deg, var(--bg), #c5cad3);
+}
+a { color: var(--accent); text-underline-offset: .15em; }
+a:hover { color: var(--warm); }
+.wrap { max-width: 48rem; margin: 0 auto; padding: 1.25rem clamp(1rem,3vw,2rem) 4rem; }
+.cover {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: clamp(2rem,6vw,3.5rem) clamp(1.25rem,4vw,2.5rem);
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.cover::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  background: linear-gradient(180deg, var(--accent), var(--warm));
+}
+.kicker {
+  font-family: var(--font-ui);
+  font-size: .75rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
+.brand {
+  font-family: var(--font-brand);
+  font-size: clamp(2.4rem, 9vw, 4.4rem);
+  line-height: 1.02;
+  letter-spacing: -0.01em;
+  margin: 0 0 1rem;
+  max-width: 16ch;
+  color: var(--accent);
+}
+.lede {
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #3a433e;
+  max-width: 36rem;
+  margin: 0 0 1.25rem;
+}
+.meta {
+  font-family: var(--font-ui);
+  font-size: .85rem;
+  color: var(--muted);
+}
+.toc {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: clamp(1.25rem,3vw,2rem);
+  margin-bottom: 2.5rem;
+}
+.toc h2 {
+  font-family: var(--font-ui);
+  font-size: .75rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 1rem;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--rule);
+}
+.toc .part {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--accent);
+  margin: 1.25rem 0 .5rem;
+}
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc li { border-bottom: 1px solid rgba(197,202,211,.7); }
+.toc a {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: .75rem;
+  padding: .7rem 0;
+  text-decoration: none;
+  color: inherit;
+}
+.toc a:hover { color: var(--accent); }
+.toc .n {
+  font-family: var(--font-brand);
+  font-size: 1.15rem;
+  color: var(--muted);
+}
+.chapter {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: clamp(1.5rem,4vw,2.75rem) clamp(1.15rem,4vw,2.5rem);
+  margin-bottom: 1.75rem;
+}
+.chapter-part {
+  font-family: var(--font-ui);
+  font-size: .72rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 .4rem;
+}
+.chapter > h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 4vw, 2.35rem);
+  line-height: 1.15;
+  margin: 0 0 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule);
+  max-width: 22ch;
+  color: var(--ink);
+}
+.prose { max-width: var(--measure); }
+.prose > :first-child { margin-top: 0; }
+.prose h1 { display: none; }
+.prose h2 {
+  font-family: var(--font-ui);
+  font-size: .78rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 2.2rem 0 .75rem;
+}
+.prose h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  margin: 1.6rem 0 .5rem;
+}
+.prose p { margin: 0 0 1.05rem; }
+.prose ul, .prose ol { margin: 0 0 1.1rem; padding-left: 1.2rem; }
+.prose li { margin: .3rem 0; }
+.prose hr { border: 0; border-top: 1px solid var(--rule); margin: 1.75rem 0; }
+.prose blockquote {
+  margin: 1.25rem 0;
+  padding: .85rem 1rem;
+  border-left: 3px solid var(--accent);
+  background: rgba(31,77,58,.05);
+  color: #3a433e;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .95rem;
+  margin: 0 0 1.25rem;
+  display: block;
+  overflow-x: auto;
+}
+.prose th, .prose td {
+  border: 1px solid var(--rule);
+  padding: .45rem .6rem;
+  text-align: left;
+  vertical-align: top;
+}
+.prose th { background: rgba(31,77,58,.08); font-family: var(--font-ui); font-size: .8rem; }
+.callout {
+  border: 1px solid var(--rule);
+  background: rgba(31,77,58,.06);
+  padding: 1rem 1.1rem;
+  margin: 1.25rem 0;
+}
+.back-toc {
+  font-family: var(--font-ui);
+  font-size: .85rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+}
+.footer {
+  font-family: var(--font-ui);
+  font-size: .8rem;
+  color: var(--muted);
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+@media (max-width: 640px) {
+  body { font-size: 1.05rem; }
+  .brand { max-width: 14ch; }
+}
+@media print {
+  body { background: #fff; font-size: 11pt; }
+  .chapter, .cover, .toc { border: none; box-shadow: none; break-inside: avoid; }
+  .chapter { break-before: page; }
+  .cover { break-after: page; }
+  .back-toc { display: none; }
+  a { color: inherit; text-decoration: none; }
+}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="cover" id="cover">
+    <p class="kicker">The STRIPLINE Method · HTML ebook</p>
+    <h1 class="brand">The 12-Month Body</h1>
+    <p class="lede">In twelve months you’ll change how you look by stripping fat first, locking one plan, and building under accountability — The STRIPLINE Method.</p>
+    <p class="meta">6 stages + 1 appendix · generated 2026-11-08 · The STRIPLINE Method · save this file to read offline</p>
+  </header>
+
+  <nav class="toc" id="contents" aria-label="Table of contents">
+    <h2>Contents</h2>
+    <p class="part">Front matter</p><ol><li><a href="#outline"><span class="n">○</span><span>How to use The 12-Month Body</span></a></li></ol><p class="part">Problem</p><ol><li><a href="#stage-01-the-wrong-order"><span class="n">01</span><span>The Wrong Order</span></a></li></ol><p class="part">Solution</p><ol><li><a href="#stage-02-the-stripline-method"><span class="n">02</span><span>The STRIPLINE Method</span></a></li></ol><p class="part">Benefits</p><ol><li><a href="#stage-03-what-changes"><span class="n">03</span><span>What Changes When You Run It</span></a></li></ol><p class="part">Why Me</p><ol><li><a href="#stage-04-why-listen"><span class="n">04</span><span>Why Listen to Me</span></a></li></ol><p class="part">Promise &amp; Playbook</p><ol><li><a href="#stage-05-twelve-month-playbook"><span class="n">05</span><span>The Twelve-Month Promise &amp; Playbook</span></a></li></ol><p class="part">Start &amp; Next Step</p><ol><li><a href="#stage-06-start-faq-next"><span class="n">06</span><span>Start This Week, FAQ &amp; Next Step</span></a></li></ol><p class="part">Ebook Appendix</p><ol><li><a href="#appendix-advanced-tools-literacy"><span class="n">A</span><span>Advanced Tools Literacy</span></a></li></ol>
+  </nav>
+
+  
+<section class="chapter" id="outline">
+  <p class="chapter-part">Front matter</p>
+  <h1>How to use The 12-Month Body</h1>
+  <div class="prose"><h1>How to use The 12-Month Body</h1>
+<p><strong>Title:</strong> The 12-Month Body<br>
+<strong>Subtitle:</strong> The STRIPLINE Method<br>
+<strong>Promise:</strong> In twelve months you’ll change how you look by stripping fat first, locking one plan, and building under accountability.</p>
+<h2>Read in order</h2>
+<ol>
+<li><strong>Stage 1 — The Wrong Order</strong> (problem)  </li>
+<li><strong>Stage 2 — The STRIPLINE Method</strong> (solution: Strip → Line → Lift → Link)  </li>
+<li><strong>Stage 3 — What Changes When You Run It</strong> (benefits)  </li>
+<li><strong>Stage 4 — Why Listen to Me</strong> (why me / proof)  </li>
+<li><strong>Stage 5 — The Twelve-Month Promise &amp; Playbook</strong> (big promise + execute; includes https://yehbro.com/food-bro/)  </li>
+<li><strong>Stage 6 — Start This Week, FAQ &amp; Next Step</strong> (first step, cost of waiting, FAQ, soft CTA)  </li>
+<li><strong>Appendix — Advanced Tools Literacy</strong> (ebook/PDF appendix; literacy only)</li>
+</ol>
+<h2>Companion</h2>
+<p>Tracking templates: <code>workbook/stripline-companion-workbook.md</code><br>
+Store mirror: <code>/cursor/stores/self/book/workbook/stripline-companion-workbook.md</code></p>
+<h2>Soft next step</h2>
+<p>If you want coaching help later: <code>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</code></p></div>
+  <p class="back-toc"><a href="#contents">↑ Contents</a></p>
+</section>
+
+<section class="chapter" id="stage-01-the-wrong-order">
+  <p class="chapter-part">Problem</p>
+  <h1>The Wrong Order</h1>
+  <div class="prose"><h1>Stage 1 — The Wrong Order</h1>
+<p>Most people don’t fail bodybuilding because they’re lazy. They fail because they run the year <strong>backwards</strong>.</p>
+<p>They chase muscle before the midsection is honest. They collect programmes like trading cards. They negotiate with themselves every Tuesday night and call it “listening to their body.” Then twelve months later the photos look familiar, the wardrobe still lies, and they swear genetics are the villain.</p>
+<p>Here’s the uncomfortable version: the order of operations matters more than your favourite exercise. Get the order wrong and even “hard work” becomes expensive entertainment.</p>
+<h2>What “the wrong order” looks like</h2>
+<p>You’ve seen it. You might be living it.</p>
+<p>Someone with a soft middle decides the answer is a dirty bulk “so I have something to cut later.” Someone skinny-fat lives at accidental maintenance while hopping from ab challenges to advanced techniques. Someone overweight crashes calories for three weeks, rebound-eats for two, then buys a new programme PDF because the last one “didn’t work.” Someone already tired of starting over adds a supplement stack, a fasting window, and a random advanced tool before they can hit protein four days in a row.</p>
+<p>Different costumes. Same mistake: <strong>building on a soft base, without a locked plan, without anyone keeping them honest.</strong></p>
+<p>The mirror doesn’t care how long you’ve been “into fitness.” It cares what you repeatedly do — and in what sequence.</p>
+<h3>Scene: the bulk that bought you a bigger soft photo</h3>
+<p>It’s January. You’re frustrated. A mate says you need to “eat big to get big.” You take that as permission. Training feels heroic because the weights move when you’re full. The scale climbs. Clothes get tighter in the wrong places first. By winter you’re stronger — and the midsection owns every candid photo. You tell yourself you’ll cut “when the time is right.” The time never arrives cleanly, because cutting from a soft surplus is harder than the podcast made it sound, and by then you’re tired of being hungry <em>and</em> tired of being soft.</p>
+<p>That’s not a character flaw. That’s the wrong order wearing a surplus hoodie.</p>
+<h3>Scene: the skinny-fat maintenance fog</h3>
+<p>You’re not huge. You’re not lean. Arms look okay in a hoodie; shirt off tells a different story. You bounce between “I should bulk” and “I should cut,” so you do neither with intent. You eat by vibe. You train hard sometimes. You change your split when a reel makes you doubt yourself. Six months later the scale hasn’t moved much and neither has the silhouette. You call it a plateau. It’s often just accidental maintenance plus novelty.</p>
+<h3>Scene: the crash-and-rebound loop</h3>
+<p>You go hard. Coffee for breakfast. Tiny dinners. Steps through the roof. Week two you look “flatter.” Week three you’re ravenous and social life nukes the deficit. Week five you’ve “failed the diet,” so you buy a new plan to feel in control again. The midsection barely changed. What changed is your trust in yourself.</p>
+<h3>Scene: tools before boring basics</h3>
+<p>You’re curious — fair enough. Curiosity without a system becomes a shopping list: powder, pills, gadgets, maybe something more aggressive you saw online. Meanwhile protein is a coin flip and your programme has no logbook. Complexity feels like commitment. It’s often cosplay for the hard parts: food average, progressive sets, sleep, and someone who asks whether you did what you said.</p>
+<h2>Mistake one: muscle-first when fat still owns the photo</h2>
+<p>Muscle is the fun story. Fat loss is the adult conversation.</p>
+<p>When body fat is high enough to blur every hard edge, “getting bigger” often just makes you a larger version of the same silhouette. You can get stronger. You can even add some tissue. But if the primary visual problem is the midsection, shoulders won’t fix the photo by magic. Spot reduction won’t either. Endless core work won’t.</p>
+<p>Fat loss isn’t moral purity. It’s stored energy with a public relations problem — and it moves when average intake sits below average expenditure for long enough that you can still train. That’s not vibes. That’s the boring physics underneath every dramatic transformation collage.</p>
+<p>The wrong order pretends you can skip the boring physics because you’re “building a foundation of muscle first.” Sometimes a true hardgainer with very low body fat genuinely needs food and progressive lifting more than a cut — we’ll mark that as a <strong>documented exception</strong> later, not the default religion. For most people reading this book, especially if you carry meaningful fat or look soft through the middle, <strong>stripping fat first is the move that makes the next eleven months readable.</strong></p>
+<p>If you’ve ever lost a pile of scale weight and still hated the mirror, you already know: smaller isn’t the same as better. Skinny-fat is what happens when the number drops and the structure never arrives. The wrong order also creates that — crash, vanish, undereat protein, skip hard training, then wonder why you look deflated.</p>
+<h3>Skinny-fat vs bulk mistakes (say it plainly)</h3>
+<p><strong>Skinny-fat mistake:</strong> assuming low scale weight means you’re ready to dirty bulk. You’re not. Soft middle + thin limbs usually wants honest fat-down or recomp with hard lifting and high protein — not pizza surplus “for aesthetics later.”</p>
+<p><strong>Bulk mistake:</strong> using “I’m building muscle” as cover for unstructured overeating while the waist climbs faster than your numbers. Surplus can be a tool later. On a soft photo it’s often just delayed honesty.</p>
+<p><strong>Crash-cut mistake:</strong> chasing the scale so hard you gut training quality and protein, then bounce. You get a temporary number and a long-term identity story that “diets don’t work.”</p>
+<p>The physique you want is composition: less of what blurs you, more of what shapes you. Wrong order treats those as separate hobbies instead of a sequence.</p>
+<h2>Mistake two: programme-hopping dressed up as optimisation</h2>
+<p>Programme-hopping feels like progress because novelty spikes motivation. Your brain loves new PDFs the way it loves new diets.</p>
+<p>Week one: perfect. Week three: “I need more volume.” Week five: a reel says frequency is everything. Week seven: you’re on a different split with different lifts and no logbook continuity. You didn’t plateau. You never stayed still long enough to adapt.</p>
+<p>Bodybuilding rewards <strong>boring continuity</strong> with progressive overload: same movement patterns, logged loads and reps, slightly harder over time. The person who runs one decent programme for twelve weeks will usually beat the person who “researches” twelve programmes for twelve weeks.</p>
+<p>The wrong order treats the plan as optional flavour. The right order treats the plan as the job.</p>
+<h3>What hopping costs in real life</h3>
+<p>Every restart burns the skill you were building: groove on a squat pattern, familiarity with a progression rule, the quiet confidence of knowing Tuesday’s session before you walk in. Busy people — long shifts, kids, software deadlines — don’t have spare cognitive budget for redesigning the week every Sunday night. Hopping spends that budget on theatre.</p>
+<p>You’ll also lose the only honest diagnostic: did this template stop working, or did you stop running it? If you never finish a block, you never find out.</p>
+<h2>Mistake three: no accountability (negotiating with yourself)</h2>
+<p>You are a biased committee. On Monday you’re disciplined. On Thursday you’re tired, hungry, and suddenly very interested in “flexible dieting” that somehow never includes the protein target.</p>
+<p>Accountability isn’t punishment. It’s an external brain that doesn’t care about your mood. A coach, a training partner, a ruthless mate who asks “did you hit the steps?” — someone who makes the plan real outside your head.</p>
+<p>Without that link, most people rewrite the plan mid-week and call it strategy. Missed sessions become “recovery.” Skipped protein becomes “intuitive eating.” Soft photos become “water weight” forever.</p>
+<p>If that stings, good. It means you recognise the pattern.</p>
+<h3>What absence of accountability actually feels like</h3>
+<p>It feels like freedom for about a fortnight. Then it feels like fog. You vaguely “know” what you should do. You don’t send the check-in. Nobody asks. The missed session doesn’t get logged as a miss — it evaporates. Three months later you can’t explain where the time went, only that you’re “still trying.”</p>
+<p>Trying without a witness is where years hide.</p>
+<p>Lone-wolf pride is fine until your photos disagree. Independence that quietly deletes targets isn’t virtue; it’s privacy for inconsistency. The fix isn’t shame. It’s a human loop: report, review, adjust one lever, continue.</p>
+<h2>Mistake four: tools before systems</h2>
+<p>Supplements, gadgets, and advanced pharmacology can matter in the right context. They are terrible first moves.</p>
+<p>If you can’t log training and hit protein for a boring block, adding complexity multiplies mess. The feed flattened enhanced timelines next to natural beginners and sold impatience as education. Curiosity is fine. Chaos is optional.</p>
+<p>We’ll cover advanced-tools <em>literacy</em> later as an appendix — what things are, what they aren’t, why unsupervised chaos fails — without turning this book into a protocol shop. For Stage 1, remember: <strong>tools amplify the system you already have.</strong> If the system is wrong-order chaos, amplification doesn’t save you.</p>
+<h3>Scene: the stack that didn’t move the waist</h3>
+<p>You buy the tubs. You feel serious. Training is still inconsistent. Dinner is still guesswork. Three months later your kitchen looks committed and your midsection looks familiar. The lesson isn’t “supplements are fake.” The lesson is order: systems first, tools later, literacy before impulse. Wrong order loves shopping because shopping feels like progress without demanding Tuesday’s protein.</p>
+<h2>The quiet fifth mistake: measuring the wrong thing</h2>
+<p>Wrong order often pairs with wrong scoreboard. Scale-only thinking celebrates crash cuts. Mirror-only thinking without standards celebrates flattering light. Programme-count thinking celebrates PDFs owned instead of blocks finished.</p>
+<p>Useful scoreboard for a year that matters: same-condition photos, waist, strength logs, adherence. Everything else is optional colour. If your scoreboard rewards novelty and punishment, you’ll keep buying novelty and punishment.</p>
+<h2>Why twelve months still matters</h2>
+<p>Short challenges create short people. Twelve months is long enough for fat loss phases, skill in the gym, real strength, and photos that don’t lie — if the sequence is right.</p>
+<p>It’s also long enough to waste if you spend it hopping.</p>
+<p>This book assumes you have a real life: work, maybe kids, imperfect sleep, social meals, stress that doesn’t care about your hypertrophy goals. The wrong order usually comes from trying to out-clever that life with novelty. The right order installs a sequence that survives ordinary weeks.</p>
+<p>Twelve months isn’t magic because of the number. It’s useful because it forces you past the honeymoon. Motivation dies; systems don’t have to. A year of wrong order teaches you the bitter story. A year of right order teaches you what your body does when you stop interrupting it.</p>
+<p>Think of the year as four seasons of behaviour, not twelve separate New Year’s resolutions. Wrong order restarts every season. Right order compounds.</p>
+<h2>The cost of waiting another year</h2>
+<p>Another year of wrong order doesn’t just delay the physique. It teaches your identity the wrong lesson: “nothing works.” That story is usually false. What failed was sequence, adherence, and honesty — not your bones.</p>
+<p>Cost of waiting:</p>
+<ul>
+<li>More photos you’ll hide.</li>
+<li>More programmes you’ll abandon.</li>
+<li>More money on things that don’t move the midsection.</li>
+<li>More comparison to people who simply stayed on one plan longer than you stayed curious.</li>
+<li>Another birthday with the same soft middle story and a harder restart because trust in yourself took another hit.</li>
+<li>More “I’ll start when life calms down” — life rarely calendars itself around your cut.</li>
+<li>Another winter of hoodies as strategy.</li>
+<li>Another summer of “next summer” promises.</li>
+<li>Another round of explaining to yourself why this wasn’t the right time — while the midsection quietly becomes the default you stop noticing until a photo ambushes you.</li>
+</ul>
+<p>Waiting feels responsible when you frame it as research. Sometimes research is stalling with better vocabulary. You already know enough to take baseline photos, lock calories and protein, write a twelve-week template, and name a human who will ask. The rest of this book makes that sequence sharper. It does not replace the decision to begin.</p>
+<p>There’s also a social cost people skip: you start believing you’re “the unfit mate,” the one who jokes first so nobody else has to. Humour is fine. Using it as a permanent escape hatch from sequence is not. Twelve months of right order won’t fix your entire life, but it will retire a lot of that defensive comedy because the photos stop agreeing with the joke.</p>
+<p>You don’t need athlete genetics. You need the right order, a plan you’ll still run in week eight, and a human who notices when you quietly quit.</p>
+<h3>One more honest inventory</h3>
+<p>Before Stage 2 names the method, sit with four questions — not as shame, as diagnostics:</p>
+<ol>
+<li>Is fat still owning the photo while you chase “getting bigger”?  </li>
+<li>Have you finished a twelve-week programme without rewriting it into a different religion?  </li>
+<li>Does anyone outside your head know your targets and ask about them?  </li>
+<li>Are you adding tools faster than you’re logging basics?</li>
+</ol>
+<p>If you answered yes / no / no / yes, congratulations: you have met the wrong order. Most of us have. The point of this stage isn’t to roast you. It’s to stop you spending another expensive year rehearsing the same play with new costumes.</p>
+<p>Wrong order is common because it’s culturally rewarded: bulk culture, novelty culture, lone-wolf culture, tool culture. Right order feels slower in week one and faster across the year. This book bets on the year.</p>
+<p>If you recognise yourself in more than one scene, that’s normal. Wrong order rarely arrives as a single cartoon mistake. It’s usually a stack: soft bulk <em>and</em> hopping <em>and</em> no check-in <em>and</em> a tub you bought instead of a logbook. Untangle the stack by fixing sequence first. Everything else gets easier when the year isn’t running backwards.</p>
+<p>One last scene, because it belongs here: the competent person who runs systems at work and improvises their body. Long shifts. Kids. A calendar that never asks permission. They don’t lack grit — they lack a locked order that survives Thursday. Wrong order thrives in busy lives precisely because novelty and negotiation feel like control when time is scarce. Right order is the opposite kind of control: fewer decisions, clearer sequence, a human who asks.</p>
+<h2>What you’re going to learn instead</h2>
+<p><strong>The STRIPLINE Method</strong> — strip fat first, lock the line of the plan, lift on a cleaner base, link yourself to accountability — is the spine of <em>The 12-Month Body</em>.</p>
+<p>Next stage names the method properly: what STRIP, LINE, LIFT, and LINK mean in practice, who gets a lean-hardgainer exception, and how the year is supposed to feel when you stop running it backwards.</p>
+<p>If you’re impatient already, that’s fine. Impatience is useful when it pushes you into sequence — not into another PDF.</p></div>
+  <p class="back-toc"><a href="#contents">↑ Contents</a></p>
+</section>
+
+<section class="chapter" id="stage-02-the-stripline-method">
+  <p class="chapter-part">Solution</p>
+  <h1>The STRIPLINE Method</h1>
+  <div class="prose"><h1>Stage 2 — The STRIPLINE Method</h1>
+<p>In twelve months you’ll change how you look by stripping fat first, locking one plan, and building under accountability — without bulk-before-you’re-lean chaos or another abandoned programme PDF.</p>
+<p>That sentence is the whole product. Everything else is implementation — weeks, reviews, and the refusal to hop when boredom asks politely.</p>
+<p><strong>The STRIPLINE Method</strong> has four moves: <strong>STRIP → LINE → LIFT → LINK</strong>. They aren’t motivational posters. They’re the order of operations for <em>The 12-Month Body</em> — four moves, one spine, no competing brand.</p>
+<p>Old gym roadmaps still talk about Foundation, Build, Refine, Peak. Those can still describe <em>months inside</em> the year. They are not distinctive enough as a method, and they often smuggle in “pick your calorie religion” before they’ve told you to get the midsection honest. STRIPLINE fixes the spine: fat-loss-first by default, one locked plan, muscle emphasis when the base deserves it, accountability so you don’t negotiate the plan into dust.</p>
+<h2>STRIP — fat down before you obsess over getting bigger</h2>
+<p><strong>STRIP</strong> means your first job is getting body fat moving in the right direction until the photo stops lying.</p>
+<p>Not “get stage lean in six weeks.” Not punishment cardio until you hate training. A sustainable deficit (or a recomp that still prioritises midsection progress) while you lift hard and eat enough protein that you don’t evaporate.</p>
+<h3>What STRIP looks like in practice</h3>
+<ul>
+<li>Calories set for fat loss (or honest recomp) — weekly average matters more than one perfect day.</li>
+<li>Protein high enough to protect muscle (~1.6–2.2 g per kg as a practical band; use goal weight if body weight is very high).</li>
+<li>Progressive resistance training kept non-negotiable — you’re not “just dieting.”</li>
+<li>Steps / daily movement as a quiet fat-loss helper.</li>
+<li>Photos + waist + strength as the scoreboard; scale as supporting actor.</li>
+</ul>
+<p>STRIP is where most people should spend early months even if their ego wants a bulk. Soft middles don’t become athletic by eating in a surplus and hoping shoulders outrun the belly.</p>
+<h3>A week in the life of STRIP (ordinary adult edition)</h3>
+<p>Monday: train upper or full body as written. Hit protein. Steps on the watch. Sleep defended even if the day ran long.</p>
+<p>Tuesday: maybe legs or a second session. Hunger shows up mid-afternoon — you don’t invent a new diet; you eat the plan’s meal or a default high-protein option you already decided exists.</p>
+<p>Wednesday: rest or active recovery. Steps still count. No “I earned a free-for-all because I trained hard Monday.”</p>
+<p>Thursday: train. Log loads. Notice one lift moved a rep — that’s the quiet win STRIP protects.</p>
+<p>Friday: social meal in the diary. You don’t cancel the week; you bank calories earlier or accept a weekly average that still trends down.</p>
+<p>Weekend: kids, overtime, life. Bad-week minimum ready: protein floor, two short sessions if needed, step floor, no programme rewrite.</p>
+<p>That’s STRIP. Not aesthetic suffering. Direction with a life attached.</p>
+<h3>STRIP examples by starting point</h3>
+<p><strong>Higher body fat:</strong> obvious. Modest deficit, high protein, lift like muscle matters, steps up. Expect clothes and waist to talk before the mirror becomes flattering under bad lighting.</p>
+<p><strong>Skinny-fat:</strong> often a lighter deficit or recomp — still midsection-first. Don’t dirty bulk because you feel “small.” Small and soft is not the same problem as lean and underfed.</p>
+<p><strong>Restarter:</strong> you’ve lifted before. STRIP still wins if the photo is soft. Experience doesn’t exempt you from physics; it just means LINE can reuse skills faster once you stop hopping.</p>
+<h3>The lean-hardgainer exception (documented — not the default)</h3>
+<p>If you are already lean, light-framed, and genuinely struggle to eat enough — photos show little fat to strip — your STRIP phase may be short or mostly “stop cutting yourself into nothing.” You still LINE (lock a plan). Your LIFT may arrive sooner with a small surplus. Write the exception down. Don’t use “I’m a hardgainer” as cosplay while carrying a soft midsection.</p>
+<p><strong>How to document the exception properly</strong></p>
+<ol>
+<li>Same-condition photos: front, side, back. Good light optional; consistency mandatory.  </li>
+<li>Waist measure. If the midsection is clearly soft, you do not get the exception.  </li>
+<li>One-sentence rationale: “Already lean; underfed history; priority is progressive surplus under a locked plan.”  </li>
+<li>Review date in 4–6 weeks. If waist climbs faster than strength and limb fullness, you lied to yourself — return to STRIP without drama.</li>
+</ol>
+<p>True hardgainers often undereat relative to training, fear “getting fat,” and live in a cut mentality that keeps them small forever. The exception is permission to feed the work — not permission to eat chaos. LINE still locks calories upward with intent. LINK still asks whether you hit them.</p>
+<p>If you’re unsure, default to STRIP/recomp until the photo votes. Ego prefers the bulk story. Honesty prefers evidence.</p>
+<h2>LINE — lock one plan and stop hopping</h2>
+<p><strong>LINE</strong> means you draw the line: this is the programme, these are the food targets, these are the sleep/step floors, these are the review dates. Then you run it.</p>
+<p>A programme is not a religion. It’s a way to organise hard sets across the week so muscles get trained often enough, recovered enough, and progressed enough around your actual calendar. One boring template beaten for twelve weeks beats three clever templates abandoned at week three.</p>
+<h3>What gets locked</h3>
+<ol>
+<li><strong>Training template</strong> — days, lifts, progression rule (e.g. double progression: add reps in a range, then add load).</li>
+<li><strong>Nutrition targets</strong> — calories + protein at minimum; carbs/fats fill the rest in a way you can digest, train on, and repeat.</li>
+<li><strong>Recovery floors</strong> — sleep minimum you’ll defend; deload rule.</li>
+<li><strong>Movement floor</strong> — steps especially in STRIP.</li>
+<li><strong>Review ritual</strong> — every 2–4 weeks: photos, waist, strength, adherence. Change <strong>one</strong> lever if stalled.</li>
+</ol>
+<p>LINE is also where you stop collecting rules. Meal timing, fancy supplements, advanced intensity techniques — seasoning. Calories, protein, progressive overload, sleep — the meal.</p>
+<p>If a diet style tanks your adherence every time you try it, stop collecting rematches with the same fad. Adherence is the cost centre that decides whether any approach works.</p>
+<h3>A week in the life of LINE</h3>
+<p>Sunday night (ten minutes): glance at the written week. No redesign. If travel exists, swap days — don’t invent a new philosophy.</p>
+<p>Training days: same lifts in the same order unless pain forces a substitution you already listed as an alternate. Logbook open before the first warm-up set.</p>
+<p>Food: defaults ready — breakfast protein, work lunch that hits the number, dinner that doesn’t require chef theatre. Tracking if you need it; averages if daily weighing makes you mental.</p>
+<p>Review Friday or every second Sunday: adherence score honest. Missed two sessions? That’s data. Not a personality verdict. One lever only if stalled: calories, steps, or a progression tweak — not all three plus a new split.</p>
+<h3>LINE examples</h3>
+<p><strong>Shift worker:</strong> lock a 3-day full-body rotating on available days, not “Mon/Wed/Fri” fantasy. Protein targets stay; timing flexes.</p>
+<p><strong>Parent evenings:</strong> shorter sessions with the big lifts first. Optional accessories only if time remains. LINE protects the core, not the Instagram accessory list.</p>
+<p><strong>Office + gym after work:</strong> commute and hunger are the enemies. Pre-packed protein and a fixed start time beat “I’ll go if I feel like it.”</p>
+<h2>LIFT — build muscle on a cleaner base</h2>
+<p><strong>LIFT</strong> is progressive overload with intent: more load, more reps, better control, or more quality hard sets over time — not random sweating.</p>
+<p>You train during STRIP too. LIFT as a <em>phase emphasis</em> means: once the midsection trajectory is honest (or your documented exception applies), you bias more of the year toward muscle gain — food up toward maintenance or a small surplus, volume progression where recovery allows, weak-point work without novelty addiction.</p>
+<h3>What LIFT is not</h3>
+<ul>
+<li>Ego maxing every session because you feel motivated.</li>
+<li>Copying advanced volume from someone who recovers like a professional athlete with a nap schedule.</li>
+<li>Abandoning protein and sleep because “I’m bulking now.”</li>
+</ul>
+<p>Muscle grows when you give it a reason, the raw materials, and enough recovery to finish the job. Training is the request. Recovery is the construction. Food decides whether the request is easy, hard, or ignored.</p>
+<h3>A week in the life of LIFT emphasis</h3>
+<p>Calories sit near maintenance or a small surplus you chose on purpose. Hunger is less dramatic; the job is hitting protein and not turning every weekend into an untracked surplus avalanche.</p>
+<p>Sessions push progression: add a rep, add a kilo, improve the pause, clean up the last set. Weak points get one or two honest movements — not a new programme identity.</p>
+<p>Sleep and deloads matter more because volume may creep. LINK asks whether you’re actually recovering or just eating more and calling it a bulk.</p>
+<h3>LIFT examples</h3>
+<p><strong>After a successful STRIP:</strong> waist down, strength mostly held, photos cleaner — raise food, keep the same template, chase overload for 8–12 weeks.</p>
+<p><strong>Hardgainer exception:</strong> small surplus from week one of the locked plan; patience measured in months of logged progression, not fortnightly scale panic.</p>
+<p><strong>Still soft at month six:</strong> you don’t “LIFT harder” by force. You keep stripping or recomping. LIFT emphasis is earned by criteria, not calendar boredom.</p>
+<h2>LINK — accountability so the plan survives you</h2>
+<p><strong>LINK</strong> is the human loop. Someone checks. You report. The plan stays outside your mood.</p>
+<p>That can be an experienced coach, a training partner, a mate with permission to be annoying, or — when the agreement exists — a formal coaching funnel. Until then, the soft door in this book is:</p>
+<p><strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong></p>
+<p>No coach name here on purpose. The principle stands either way: structure + implementation + follow-through beats motivation theatre.</p>
+<h3>What LINK looks like weekly</h3>
+<ul>
+<li>You send: sessions done, protein hit?, steps, one sentence on hunger/energy.</li>
+<li>They ask: did you follow the written plan — not the rewritten Thursday version?</li>
+<li>You review photos on schedule, not when the lighting is flattering.</li>
+</ul>
+<p>LINK also covers Year 2 decisions later: stay in a growth block, another STRIP polish, advanced-tools literacy with supervision — not 1 a.m. impulse after a reel.</p>
+<h3>A week in the life of LINK</h3>
+<p>Check-in is boring on purpose. “3/3 sessions. Protein 6/7. Steps average 8k. Sleep rough Wednesday.” Your person replies with one question that hurts a little: “What happens Thursday when you’re tired?” You answer with the MED plan, not a speech.</p>
+<p>Monthly photo drop isn’t a performance. Same bathroom, same light if you can, same poses. Comparison to month one beats comparison to strangers.</p>
+<p>Without LINK, LINE slowly becomes a suggestion. With LINK, missed weeks get recovered instead of mythologised.</p>
+<h2>How STRIPLINE maps onto twelve months</h2>
+<p>Think in phases, not vibes.</p>
+<table>
+<thead>
+<tr>
+<th>Months</th>
+<th>STRIPLINE bias</th>
+<th>What “good” looks like</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–3</td>
+<td><strong>STRIP + LINE</strong></td>
+<td>Fat moving or midsection improving; plan locked; lifts logged; habits installed</td>
+</tr>
+<tr>
+<td>4–6</td>
+<td><strong>STRIP continues or transition</strong></td>
+<td>Still honest about fat; strength mostly protected; adherence high</td>
+</tr>
+<tr>
+<td>7–9</td>
+<td><strong>LIFT emphasis when criteria met</strong></td>
+<td>If midsection allows, push muscle; if not, keep stripping without drama</td>
+</tr>
+<tr>
+<td>10–12</td>
+<td><strong>LIFT + LINK</strong></td>
+<td>Photos vs month 1; strength PRs; Year 2 sketch; accountability still on</td>
+</tr>
+</tbody>
+</table>
+<p>Inside those months you can still use words like foundation (skill), build (stress), refine (aim), peak (show the work). They are subtitles under STRIPLINE — not a competing brand.</p>
+<h3>Month mapping examples (stories, not prescriptions)</h3>
+<p><strong>Example A — soft start:</strong> Months 1–6 mostly STRIP + LINE. Waist drops. Strength holds. Months 7–10 LIFT emphasis. Months 11–12 polish, photos, Year 2 plan with LINK still weekly.</p>
+<p><strong>Example B — skinny-fat:</strong> Months 1–4 recomp/STRIP bias with aggressive protein and lifting. Middle tightens, limbs thicken slightly. Months 5–12 gradual LIFT if criteria met — or continued recomp if the photo still softens under surplus.</p>
+<p><strong>Example C — lean hardgainer exception:</strong> Month 1 short STRIP-as-“stop undereating,” LINE hard. Months 2–12 LIFT with patient surplus, same template, LINK watching waist so surplus doesn’t become denial.</p>
+<p><strong>Example D — restarter with history:</strong> Month 1 audit: delete novelty, lock one template, decide STRIP vs LIFT from photos. Then follow the table without reinventing your identity every block.</p>
+<p>Your calendar will differ. The spine shouldn’t.</p>
+<h2>Starting-point modifiers (not alternate religions)</h2>
+<p>People start different. The method doesn’t.</p>
+<ul>
+<li><strong>Higher body fat:</strong> STRIP is obviously primary. Sustainable deficit, high protein, lift like muscle matters.</li>
+<li><strong>Skinny-fat:</strong> STRIP/recomp until the middle tightens and limbs thicken — don’t dirty bulk “for aesthetics later.”</li>
+<li><strong>Already lean hardgainer:</strong> documented exception; LINE hard; LIFT sooner with patient surplus.</li>
+<li><strong>Restarter with gym history:</strong> LINE means audit and simplify before novelty; then apply STRIP or LIFT based on photos, not ego.</li>
+</ul>
+<p>Secondary curiosity about advanced tools never hijacks months 1–3. Fundamentals first. Literacy later.</p>
+<h2>Putting the four letters on one page</h2>
+<p>If you forget everything else from this stage, keep this:</p>
+<table>
+<thead>
+<tr>
+<th>Move</th>
+<th>Job</th>
+<th>Failure mode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>STRIP</strong></td>
+<td>Make the midsection honest</td>
+<td>Dirty bulk or crash cut</td>
+</tr>
+<tr>
+<td><strong>LINE</strong></td>
+<td>Lock plan + floors + reviews</td>
+<td>Programme-hopping</td>
+</tr>
+<tr>
+<td><strong>LIFT</strong></td>
+<td>Progressive muscle emphasis when earned</td>
+<td>Ego volume / surplus denial</td>
+</tr>
+<tr>
+<td><strong>LINK</strong></td>
+<td>Human loop that survives mood</td>
+<td>Lone-wolf rewrite culture</td>
+</tr>
+</tbody>
+</table>
+<p>STRIP without LINE is a temporary diet. LINE without LINK slowly dissolves. LIFT before STRIP is the wrong-order classic. LINK without a written line is just someone listening to your vibes. The method is the combination in order.</p>
+<h3>How the year should <em>feel</em> (not just look)</h3>
+<p>Months 1–3 often feel annoying: hunger management, learning the template, fewer dopamine hits from novelty. That’s installation, not failure.</p>
+<p>Months 4–6 feel quieter if you’re doing it right — less drama, more logged work. People quit here because quiet doesn’t feel like content. Stay.</p>
+<p>Months 7–9 either open into LIFT emphasis (food up, chase tissue) or continue honest STRIP without calling yourself broken. Criteria decide, not ego.</p>
+<p>Months 10–12 should feel like evidence: photos vs month one, strength story, a Year 2 sketch that isn’t panic. LINK is still on. The year ends with a system, not a cliff.</p>
+<h2>What you stop doing when STRIPLINE is real</h2>
+<ul>
+<li>Bulking into a soft photo because a podcast said so.</li>
+<li>Changing programmes when motivation is bored.</li>
+<li>Using the scale as a courtroom.</li>
+<li>Quitting protein when appetite is weird.</li>
+<li>Running unsupervised chaos because someone online “looks insane.”</li>
+<li>Treating accountability as optional personality.</li>
+<li>Collecting diet identities instead of weekly averages.</li>
+<li>Confusing research nights with training nights.</li>
+<li>Waiting for perfect sleep before you earn average sleep.</li>
+<li>Using “hardgainer” as a costume for a soft middle.</li>
+</ul>
+<h2>Common objections (answered briefly)</h2>
+<p><strong>“Won’t I lose muscle if I strip first?”</strong><br>
+Not if protein is high, lifting stays progressive, and the deficit is adult-sized. Panic cuts lose tissue. STRIP isn’t a panic cut.</p>
+<p><strong>“I only have three days.”</strong><br>
+LINE can be three days. Frequency fantasies don’t beat finished weeks.</p>
+<p><strong>“I travel constantly.”</strong><br>
+Defaults travel better than perfect kitchens. Protein targets and a shortened session list beat “I’ll restart when I’m home.”</p>
+<p><strong>“Accountability feels soft.”</strong><br>
+It’s structural. Planes have checklists. Builds have inspections. Your physique can have a check-in without becoming a personality cult.</p>
+<p><strong>“What if I stall?”</strong><br>
+Review ritual. One lever. Photos and waist before panic. Stalls are information when LINE is intact; they’re identity crises when you’ve hopped too much to know what you were testing.</p>
+<p><strong>“Can I do STRIPLINE in a commercial gym with limited kit?”</strong><br>
+Yes. LINE picks patterns you can load: squat/hinge/push/pull/carry variants that exist on your floor. Fancy machines are optional. Progressive hard sets are not.</p>
+<h3>Micro-example: locking LINE in one sitting</h3>
+<p>Open a note. Write:</p>
+<ul>
+<li>Days: e.g. Mon / Wed / Fri  </li>
+<li>Session skeleton: squat pattern, hinge, horizontal push, horizontal pull, vertical push or pull, one arm isolation, one carry or core  </li>
+<li>Progression: 3×6–10; add weight when all sets hit 10 clean  </li>
+<li>Calories / protein: from Food Bro PDF or equivalent — numbers on the page  </li>
+<li>Steps floor / sleep floor  </li>
+<li>LINK human + check-in day  </li>
+<li>Review every 14 or 28 days  </li>
+</ul>
+<p>That’s enough to start. Stage 5 elaborates. LINE’s job here is to end the fog, not to win a programming contest.</p>
+<h3>Micro-example: STRIP review that doesn’t spiral</h3>
+<p>Week 4 photos look similar. Waist down 1–2 cm. Strength mostly flat. Adherence 80%. You do <strong>not</strong> rewrite the programme, add a miracle supplement, and slash calories by a thousand. You nudge steps or tighten weekend averages — one lever — and run another block. That’s STRIPLINE maturity: boring corrections beat dramatic reinvention.</p>
+<h3>Micro-example: when LIFT waits</h3>
+<p>Month 6. Strength is up. Midsection still soft in side photos. Boredom says bulk. Criteria say keep stripping or recomp. You keep LINE, keep LINK, delay LIFT emphasis. Ego hates it. The year loves it. Wrong order starts the surplus here; STRIPLINE doesn’t.</p>
+<h2>Hardgainer exception — worked detail</h2>
+<p>Let’s labour this because misuse is common.</p>
+<p><strong>You might be a candidate if:</strong> visible fat is low in honest photos; waist is already tight; training history shows food fear or chronic under-eating; strength rises when calories rise; “cutting” mostly makes you smaller and colder without revealing much muscle.</p>
+<p><strong>You are probably not a candidate if:</strong> side photos show a soft middle; belts tell on you; you rebound between “I’m skinny” feelings and hoodie softness; you want a bulk mainly because surplus is more fun than adherence.</p>
+<p><strong>What the exception changes:</strong> STRIP becomes brief — stop the accidental cut, install LINE, move toward a small surplus sooner.</p>
+<p><strong>What the exception does not change:</strong> you still lock a programme; you still log progressive overload; you still review waist so surplus doesn’t become denial; you still LINK so “I ate big” isn’t an unverified vibe.</p>
+<p><strong>Patient surplus literacy:</strong> small and steady beats dirty chaos. If waist races ahead of strength and limb fullness, you didn’t discover hardgainer destiny — you discovered unstructured overeating. Pull back toward maintenance, keep lifting, reassess. The exception is a lane, not a personality.</p>
+<p><strong>Month sketch for a documented exception:</strong> Month 1 — photos, LINE lock, food up from undereating toward a planned surplus, LINK weekly. Months 2–6 — same template, chase overload, waist watched every review. Months 7–12 — continue LIFT or insert a short STRIP polish if softness crept in. No programme-hopping as celebration.</p>
+<h2>STRIP / LINE / LIFT / LINK — failure modes worth naming</h2>
+<p><strong>STRIP failure:</strong> crash for two weeks, binge for two, call it a metabolism problem.<br>
+<strong>LINE failure:</strong> perfect spreadsheet, zero weeks finished.<br>
+<strong>LIFT failure:</strong> surplus without progressive stimulus — “dreamer bulk.”<br>
+<strong>LINK failure:</strong> check-ins that are essays about feelings and silent about sessions and protein.</p>
+<p>Name the failure early and you can correct without burning the year.</p>
+<h2>Another week-in-the-life: mixed reality (STRIP + LINE under pressure)</h2>
+<p>Your roster looks fine on paper. Then a late job lands, a kid gets sick, and sleep fragments. Wrong order uses that week to scrap the identity. STRIPLINE uses MED: protein floor still hit with boring defaults; one or two shortened sessions that keep squat/hinge/push/pull patterns alive; steps as walking-with-life instead of a punished treadmill penance; LINK message that says “bad week, MED on, full LINE resumes Monday.” That’s not softness. That’s how twelve-month bodies are built by people who don’t live in a content house.</p>
+<h2>Month mapping — numbers as illustration, not destiny</h2>
+<p>Suppose you start with a soft midsection and average adherence historically around 50%. Months 1–3 aim for adherence 80%+ and a clear waist/photo trend while strength mostly holds. Months 4–6 continue STRIP until side photos stop arguing — maybe you’re ready to transition, maybe you need more strip time; criteria decide. Months 7–9, if earned, push LIFT: food up, same template, chase overload, weak-point work limited to one or two movements. Months 10–12 compare to month one, sketch Year 2, keep LINK. If at month 8 you’re still soft, you didn’t “fail LIFT” — you simply haven’t met LIFT criteria yet. Stay honest. Stay on LINE. The calendar is a guide; the photo and the waist are the vote.</p>
+<h2>Curiosity closer</h2>
+<p>You now have a named system. Next we talk about what actually changes when you run it — the benefits that make fat-loss-first feel less like delayed gratification and more like the fastest honest path to a physique you’ll keep.</p>
+<p>Then you’ll get the why-me story (real, limited, no fairy tale), then the twelve-month playbook with food, training, and the Food Bro calculator link so numbers stop being guesswork.</p>
+<p>For now, write one line in your notes:</p>
+<blockquote>
+<p>I’m running STRIPLINE: strip → line → lift → link.</p>
+</blockquote>
+<p>Say it with the exception clause if you earned it: “…with a documented lean-hardgainer exception and waist reviews.” Say it with honesty if you didn’t. If you can’t say that without flinching, Stage 1 is still talking. Stay with it until the flinch becomes a decision.</p></div>
+  <p class="back-toc"><a href="#contents">↑ Contents</a></p>
+</section>
+
+<section class="chapter" id="stage-03-what-changes">
+  <p class="chapter-part">Benefits</p>
+  <h1>What Changes When You Run It</h1>
+  <div class="prose"><h1>Stage 3 — What Changes When You Run It</h1>
+<p>STRIPLINE isn’t a personality transplant. It’s a sequence that makes ordinary weeks add up — the unsexy kind of change you notice in trousers, logbooks, and quieter Sundays.</p>
+<p>Here’s what changes when you stop running the year backwards — not as fantasy before/after marketing or fabricated testimonials, but as practical outcomes you can feel in the logbook and see in photos.</p>
+<h2>The midsection stops owning every photo</h2>
+<p>When fat loss comes first, clothes fit differently before you’re “done.” Shoulders and arms start reading as shape instead of padding. You stop needing perfect lighting to feel okay about a photo.</p>
+<p>That’s not vanity for its own sake. Midsection progress is feedback that energy balance and adherence are real. It also makes later muscle-focused phases cleaner: you’re not trying to reveal muscle that never had a chance to show.</p>
+<p>People who bulk first often spend Year 2 undoing Year 1. Fat-loss-first compresses that expensive loop.</p>
+<h3>Before/after of process (not a testimonial)</h3>
+<p><strong>Before (wrong order):</strong> You avoid side photos. Belts creep. “I’ll cut after this bulk” becomes a loop with no exit criteria. Every social photo needs a strategic angle.</p>
+<p><strong>After (STRIP running):</strong> Same lighting, same bathroom, four weeks apart — waist tape moves, shirt hangs differently, you stop negotiating with the camera quite so hard. You’re not stage-lean. You’re simply no longer lying to yourself about direction.</p>
+<p>The benefit isn’t a magazine cover. It’s evidence you can trust on a Tuesday.</p>
+<h2>Strength becomes a story you can trust</h2>
+<p>In a panic cut, strength falls off a cliff and you call it metabolism. In STRIPLINE, lifting stays non-negotiable while fat comes down, so the logbook usually shows a quieter truth: some lifts stall, many hold, skill rises, and you’re still a lifter — not a cardio tourist.</p>
+<p>When you eventually bias harder into LIFT, progressive overload has a runway. You’re not learning the barbell and learning hunger management and learning a new programme identity in the same week.</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> Every diet means “I’ll get back to real training later.” Later never inherits the strength you had. You rebuild the same beginner groove annually.</p>
+<p><strong>After:</strong> The notebook still has numbers during STRIP. A stall is a stall — annoying, not an identity collapse. When food comes up in LIFT emphasis, you’re adding load to a skill you kept warm, not rediscovering the gym from zero.</p>
+<h2>Decision fatigue drops</h2>
+<p>LINE kills a surprising amount of misery: you already know what you’re doing this week. Grocery lists shrink to defaults. Gym sessions stop being philosophical debates.</p>
+<p>Busy adults — construction hours, software sprints, kids in the car — don’t fail because they lack information. They fail because every evening asks them to redesign the plan. A locked line means the evening only asks: execute or run the bad-week minimum.</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> Sunday night is a research rabbit hole. Monday’s session depends on which reel won. Food is renegotiated at every meal. By Thursday you’re exhausted from deciding, not from training.</p>
+<p><strong>After:</strong> Sunday night is a ten-minute glance. Training is written. Protein defaults exist. Travel week uses the MED list you already drafted. Cognitive load moves from “what’s my identity this week?” to “did I do the thing?”</p>
+<p>That mental quiet is a benefit people underestimate until they feel it.</p>
+<h2>You waste fewer months</h2>
+<p>Programme-hopping feels productive. It’s usually a tax.</p>
+<p>Twelve focused weeks of one template with logged progression will teach you more about your body than a year of half-finished experiments. STRIPLINE’s review ritual (one lever at a time) means stalls become diagnostics, not identity crises.</p>
+<p>Fewer wasted months also means less of the poisonous story: “I’ve tried everything.” You tried everything except continuity.</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> Six programmes in six months. No continuous log. You can’t say whether volume was high or adherence was low. Frustration feels like expertise because you’ve “sampled” a lot.</p>
+<p><strong>After:</strong> One template for twelve weeks. Week eight looks related to week one. When you change calories or steps at a review, you know what you changed. Learning compounds. Time stops vanishing into half-starts.</p>
+<h2>Accountability changes behaviour before motivation does</h2>
+<p>LINK isn’t magic cheerleading. It’s the knowledge that someone will ask.</p>
+<p>People lift harder when the notebook is open. People eat more honestly when the check-in exists. Motivation still wobbles — that’s human — but the plan doesn’t have to wobble with it.</p>
+<p>If you’ve only ever trained as a lone wolf who “doesn’t need anyone,” notice whether your photos agree. Independence is fine. Isolation that quietly deletes protein targets is not a virtue.</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> Missed sessions evaporate. Soft weeks get rewritten as “listening to my body.” Nobody receives the unflattering photo set. You become an unreliable narrator of your own plan.</p>
+<p><strong>After:</strong> A short weekly message exists. Misses get named. Photos land on schedule. You still have bad weeks — you stop mythologising them. Behaviour improves before your feelings catch up, which is the whole point of a system.</p>
+<h2>Identity shifts from “I’m trying” to “I train”</h2>
+<p>Discipline isn’t endless punishment with a gym bag. It’s reps of behaviour until the behaviour is who you are on ordinary Tuesdays.</p>
+<p>STRIPLINE builds that identity in the right order: you become someone who gets leaner with intention, follows a written plan, lifts progressively, and reports to a human. The physique follows the identity more reliably than the other way around.</p>
+<p>You also learn the healthy limit: optimisation should expand your life (energy, confidence, time with people you care about), not consume it. Responsibility without obsession.</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> “I’m getting back into it” is your personality for years. Friends stop asking. You stop trusting your own start dates.</p>
+<p><strong>After:</strong> You don’t need a speech. You train on the days you said. Protein is mostly handled. The identity is boring in the best way — like brushing your teeth, except with a logbook and a waist tape.</p>
+<h2>Comparison gets quieter</h2>
+<p>When your scoreboard is <em>you vs you</em> — photos under the same conditions, waist, strength — other people’s pharmacy and genetics become less hypnotic. Body image still has weather. Literacy helps: the feed is a highlight reel with filters and timelines you don’t share.</p>
+<p>STRIPLINE doesn’t cure insecurity. It gives you a process so insecurity doesn’t get to redesign your calories every weekend.</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> A scroll can nuke your plan. You add volume you can’t recover, cut food you can’t adhere to, or chase a tool you don’t understand — all before breakfast.</p>
+<p><strong>After:</strong> You still scroll sometimes. The review ritual and LINK absorb the impulse. Changes wait for the scheduled lever, not the scheduled insecurity spike.</p>
+<h2>What your wardrobe and week start doing</h2>
+<p>Practical, unglamorous benefits stack:</p>
+<ul>
+<li>Trousers and work shirts fit with less negotiation.</li>
+<li>Grocery spend stabilises around defaults instead of “diet food” fads.</li>
+<li>Gym time gets shorter and denser because the session is written.</li>
+<li>Sleep gets defended because recovery is part of LINE, not an afterthought.</li>
+<li>Social meals become planned events inside a weekly average, not moral collapses.</li>
+</ul>
+<p>None of that requires a perfect life. It requires sequence repeated until the sequence is normal.</p>
+<h2>Energy, mood, and ordinary competence</h2>
+<p>Strip the hype and you still get practical human benefits when the sequence runs.</p>
+<p>Fat-loss-first with protein and lifting often means you move through workdays with less physical self-contempt — not because every hour is blissful, but because you’re no longer carrying quite as much of the thing that made stairs and shirts feel like commentary. Sleep floors in LINE don’t cure life stress; they stop you treating recovery as optional flavour. Progressive strength under LIFT changes how groceries, kids, and job tasks feel in your hands. LINK reduces the lonely fog of “am I making this up?”</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> Training is a guilt loop. Food is a mood. You finish workdays depleted and call the evening a write-off before protein has a chance.</p>
+<p><strong>After:</strong> Not perfect energy — directed energy. You know the session exists. You know the default meal exists. You might still be tired. You’re less often lost.</p>
+<h2>Relationships with food and the gym get less theatrical</h2>
+<p>Wrong order turns every meal into a referendum and every session into a personality performance. STRIPLINE makes more of it procedural: hit the average, run the template, send the check-in. Hunger still exists in STRIP. So does pleasure. They’re just no longer allowed to redesign the year every Friday night without review.</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> Monday purity, Thursday bargain, Saturday amnesia, Sunday shame-research.</p>
+<p><strong>After:</strong> Weekly average. Planned social meal. Logged training. Review date on the calendar. The theatre budget shrinks.</p>
+<h2>Confidence that isn’t fake bravado</h2>
+<p>Real confidence here is quieter: you can show a side photo to your LINK without a speech; you can decline a random programme because yours isn’t finished; you can say “I’m in STRIP” without needing strangers to validate the phase. That’s process confidence. Physique confidence grows behind it.</p>
+<h2>Time use gets cleaner</h2>
+<p>Wrong order spends evenings researching. STRIPLINE spends evenings executing or recovering. That swap is a benefit with compound interest: hours formerly burned on PDF archaeology become sessions, meal defaults, or sleep. You don’t become a monk. You become harder to distract with novelty dressed as homework.</p>
+<h3>Before/after of process</h3>
+<p><strong>Before:</strong> Two hours of “research,” zero logged sets, protein still undecided.<br>
+<strong>After:</strong> Forty-five minute session as written, protein default eaten, ten-minute LINK note. Same evening length. Different year.</p>
+<h2>The photo folder becomes a tool, not a threat</h2>
+<p>When reviews are scheduled, photos stop being random ambushes. They become data you chose to collect. That doesn’t make every photo pleasant. It makes them useful. Side-by-side month 1 vs month 4 under the same conditions beats a thousand feelings about “whether it’s working.”</p>
+<h2>Strength, hunger, and honesty can coexist</h2>
+<p>A quiet benefit of STRIPLINE is emotional permission structures: you can be hungry in STRIP and still lift; you can stall a lift and not torch the diet; you can send an ugly check-in without quitting. Wrong order treats discomfort as a signal to reinvent everything. Right order treats discomfort as weather inside a locked plan. That single shift saves months.</p>
+<h2>What doesn’t magically change</h2>
+<p>Be honest about the limits.</p>
+<ul>
+<li>You won’t out-train a permanent weekend black hole without adjusting the plan.</li>
+<li>You won’t love every hungry evening in STRIP.</li>
+<li>You won’t add championship muscle in a month of LIFT.</li>
+<li>Accountability won’t work if you lie to the person on the other end.</li>
+<li>Genetics still exist. Timelines still vary. Bad weeks still happen.</li>
+<li>Advanced tools still won’t rescue a chaotic base — literacy comes later for a reason.</li>
+<li>Body image weather still rolls through. Process reduces how often weather gets to rewrite calories.</li>
+</ul>
+<p>The benefit isn’t ease. It’s direction.</p>
+<h2>Bridge</h2>
+<p>Next is why you should listen to someone who isn’t claiming guru status — just a bloke who ran a real twelve-month turnaround with a coach, systems, and the same principles you’re about to install. Then the playbook: numbers, training, months, and the Food Bro calculator so you’re not guessing forever.</p>
+<p>If Stage 2 was the map, Stage 3 is the reason the map is worth folding into your pocket. Stage 5 is where you walk it. The change isn’t a mood. It’s a sequence you can feel in the logbook long before strangers notice the photo.</p></div>
+  <p class="back-toc"><a href="#contents">↑ Contents</a></p>
+</section>
+
+<section class="chapter" id="stage-04-why-listen">
+  <p class="chapter-part">Why Me</p>
+  <h1>Why Listen to Me</h1>
+  <div class="prose"><h1>Stage 4 — Why Listen to Me</h1>
+<p>I’m not writing this as a famous bodybuilder with a secret formula. I’m writing it as someone whose life — and physique — turned around in twelve months when the order finally got honest.</p>
+<p>Here’s the real story. I’m not inventing extras.</p>
+<h2>2026: fat loss that wasn’t the physique yet</h2>
+<p>In <strong>2026</strong> I lost <strong>over 25 kg</strong>. On paper that sounds like the win. In the mirror it was more complicated. I went from essentially carrying a lot of fat to looking <strong>skinny-fat</strong> — lighter, softer in the wrong places, not the athletic shape I actually wanted.</p>
+<p>Then I <strong>put weight back on</strong>.</p>
+<p>That part matters. A lot of transformation content skips the ugly middle: the rebound, the confusion, the moment you realise the scale lied about the goal. Lower weight isn’t automatically a better body. I learned that the hard way.</p>
+<h3>What skinny-fat after a big loss actually teaches</h3>
+<p>You can do something “right” on the scale and still miss the point. Clothes get looser. Relatives congratulate you. Inside the mirror, the midsection and the lack of muscle structure still argue. If you’ve been there, you know the weird grief of succeeding at subtraction and failing at composition.</p>
+<p>I don’t need to dress that up with invented drama. The fact pattern is enough: big fat loss → skinny-fat look → regain. That’s the wrong-order / incomplete-order lesson lived, not lectured.</p>
+<h2>The coach and the system</h2>
+<p>I got an <strong>experienced coach</strong>. I learned <strong>the system</strong> — not a vibe, not a random stack of tips, a way of running training and food with someone keeping me accountable.</p>
+<p>After that, I lost <strong>over another 15 kg</strong> while <strong>putting on muscle at the same time</strong>. Different game. Composition, not just subtraction.</p>
+<p>Now I feel <strong>bigger and stronger at around 75 kg</strong> than I did at around <strong>103 kg</strong>. More toned. More like the project was about building something, not only deleting something.</p>
+<p>That’s the whole proof I’m offering you: same human, different order, different outcome — fat-loss-first when it needed to be, a locked plan, progressive training, and accountability that didn’t let me quietly rewrite the rules every Thursday.</p>
+<h3>~75 versus ~103 — the feel that matters</h3>
+<p>The numbers are landmarks, not a prescription for your body. What matters is the contradiction people don’t expect until they live it: you can weigh less and feel more solid, move better, and look more like the goal — when muscle and fat finally move in the right directions together under a system.</p>
+<p>~103 kg with a lot of fat is one kind of “big.” ~75 kg with more muscle and less fat is a different kind of capable. Same person. Different composition. That’s why this book refuses to worship the scale as the whole courtroom.</p>
+<h2>Why systems clicked for me</h2>
+<p>My background is <strong>construction</strong> and <strong>software development</strong>. I’ve always leaned toward <strong>data, plans, and following systems</strong>. When training finally got the same respect as a build schedule or a codebase — written plan, tracked inputs, review loops — results stopped being mystical.</p>
+<p>If you’re the type who can follow a procedure at work but treats the gym like improvisational theatre, you’re not broken. You’re just running the wrong process in the place that needs process most.</p>
+<h3>Construction brain meets training</h3>
+<p>On a site, you don’t “feel your way” through a structural sequence and hope the inspection passes. You follow an order. You check what’s done. You don’t skip foundations because the finishings look more exciting on Instagram.</p>
+<h3>Software brain meets food and lifting</h3>
+<p>In code, vibes without version control become chaos. Training without a log, nutrition without targets, and weeks without review are the same bug with sweat on them. Once I treated adherence like something you can see — sessions done, protein hit, photos on schedule — the fog lifted. Not because I’m special. Because systems are what I already trusted everywhere else.</p>
+<h2>What I want this book to carry</h2>
+<p>Life can turn around in <strong>twelve months</strong>. Not because twelve is magic — because it’s long enough to run STRIPLINE for real: strip fat, lock the line, lift on a better base, link to accountability.</p>
+<p><strong>Anybody can do it with the same system</strong> if they stop chasing novelty and start executing the sequence. You don’t need my biography to match yours. You need the method.</p>
+<p>I’m not going to pretend I did it alone as a lone wolf myth. The coach mattered. Accountability mattered. If you read this book, run the plan, and still want hands-on help, I’ll link you with my coach when that door is formally open:</p>
+<p><strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong></p>
+<p>No name here yet on purpose. The invitation is the point: you don’t have to white-knuckle forever if you need a human in the loop.</p>
+<h2>What this stage is not</h2>
+<ul>
+<li>Not a list of fake client testimonials.</li>
+<li>Not medical advice or a pharmacology autobiography.</li>
+<li>Not “do exactly my numbers.”</li>
+<li>Not a claim that your timeline will photocopy mine.</li>
+<li>Not a longer legend than the facts allow — if a detail isn’t here, I didn’t invent it for colour.</li>
+</ul>
+<p>It’s why the voice of this book sounds impatient with wrong-order nonsense — because I’ve lived the soft photos after “successful” weight loss, and I’ve lived the version where muscle and fat loss finally moved together under a system.</p>
+<h2>Why “anybody can” isn’t empty cheerleading</h2>
+<p>I’m not saying anybody gets the same photos in the same weeks. I’m saying the <em>system</em> — fat-loss-first when the midsection owns the photo, one locked plan, progressive lifting, accountability — is available to ordinary adults with jobs and messy calendars. Construction days and software sprints didn’t make me exempt from hunger or missed sessions. They made me hungry for a process that survives real weeks.</p>
+<p>If you need a guru myth, this isn’t your book. If you need a sequence and a reason to trust twelve months of boring continuity, you’re in the right place.</p>
+<h2>What the twelve-month turnaround actually argues</h2>
+<p>Look at the arc again without decoration:</p>
+<ol>
+<li>Big fat loss (25 kg+) that landed in skinny-fat territory.  </li>
+<li>Weight back on.  </li>
+<li>Experienced coach + system.  </li>
+<li>Another 15 kg+ down while muscle went up.  </li>
+<li>Feels bigger and stronger near 75 kg than near 103 kg.  </li>
+<li>Background already wired for plans and data — construction and software — finally applied to training.  </li>
+<li>Message: twelve months can turn a life around when the sequence and the accountability are real; anybody can run the same kind of system; help linking to a coach stays a soft door until agreements exist.</li>
+</ol>
+<p>That’s the argument. Not destiny. Not genetics worship. Not lone-wolf myth. A human who needed order, got it, and wants the method in your hands as <em>The 12-Month Body</em> — STRIPLINE — rather than another pile of tips.</p>
+<p>I won’t pad this stage with invented childhood stories, fake client quotes, or pharmacology autobiography. The approved facts are enough to explain why this book is impatient with soft bulks, abandoned PDFs, and accountability optional cosplay.</p>
+<h2>Why the coach chapter of the story stays nameless (for now)</h2>
+<p>The coach mattered. The system mattered. Accountability mattered. Naming can wait until agreements exist; the principle doesn’t. If you’ve ever tried to white-knuckle a physique rewrite alone and watched Thursday rewrite the plan, you already understand why LINK sits in the method instead of in a motivational footnote.</p>
+<p>When the door is open, the soft invitation stays the same wording on purpose:</p>
+<p><strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong></p>
+<h2>Soft next step (not a hard sell)</h2>
+<p>Run the playbook in Stage 5. Start in Stage 6. If you still want hands-on help after you’ve tried the system:</p>
+<p><strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong></p>
+<p>Until that placeholder becomes a real door, your LINK can be a mate with permission to be annoying. The principle doesn’t wait for branding.</p>
+<p>The short version if you skim: I lost a lot of fat, looked skinny-fat, regained, then did it properly with a coach and a system — more fat down, muscle up, and ~75 kg that feels stronger than ~103 ever did. Systems from construction and software finally met the gym. Twelve months mattered. Anybody can run this kind of sequence. Help linking to a coach stays soft and pending on purpose.</p>
+<h2>Next</h2>
+<p>Stage 5 is the promise and the playbook: how to measure, how to eat (including the Food Bro calculator), how to train, how to recover, and how to lay the twelve months across STRIP → LINE → LIFT → LINK.</p>
+<p>You’ve got the problem, the method, the benefits, and the why. Now we build the year — with numbers, training, and the same respect for plans that construction and software already taught me to trust.</p></div>
+  <p class="back-toc"><a href="#contents">↑ Contents</a></p>
+</section>
+
+<section class="chapter" id="stage-05-twelve-month-playbook">
+  <p class="chapter-part">Promise &amp; Playbook</p>
+  <h1>The Twelve-Month Promise &amp; Playbook</h1>
+  <div class="prose"><h1>Stage 5 — The Twelve-Month Promise &amp; Playbook</h1>
+<p><strong>The promise of <em>The 12-Month Body</em>:</strong> run The STRIPLINE Method for twelve months — strip fat first, lock one plan, lift progressively, link to accountability — and you give yourself a real shot at the best physique of your life from wherever you’re starting. Not a six-week miracle. Not a bulk that ignores the midsection. A year of honest sequence.</p>
+<p>This stage is the playbook: measure, eat, train, recover, move, habit-proof your weeks, and map the months. Keep Stage 2’s definitions handy. We’re installing them.</p>
+<h2>The scoreboard that doesn’t lie</h2>
+<p>If the scale is your only judge, you will make stupid decisions. Scale weight includes fat, muscle, water, gut content, glycogen, salt, stress, and “I trained legs yesterday.”</p>
+<p><strong>Primary:</strong>
+- Photos — same light, same poses, same time of day, every 2–4 weeks
+- Waist — navel, relaxed, consistent tension
+- Strength — logbook on your main lifts</p>
+<p><strong>Secondary:</strong> trend weight (weekly averages), how clothes fit, energy, adherence score</p>
+<p>When photos improve and waist drops while strength holds, you’re winning even if the scale is noisy. When weight drops and you look smaller-soft and weak, you’re not “transforming” — you’re shrinking.</p>
+<p>Write a baseline this week. No more memory-based starting points.</p>
+<h2>Nutrition: hierarchy before hobbies</h2>
+<p>Food is not a personality. It’s the support crew for the training you’re doing.</p>
+<h3>The hierarchy (memorise this)</h3>
+<ol>
+<li><strong>Average calories vs your needs</strong> — deficit to lose fat (STRIP default), near-maintenance to recomp, surplus when LIFT emphasis is earned.</li>
+<li><strong>Protein</strong> — high enough to support muscle in whatever phase you’re in (~<strong>1.6–2.2 g/kg</strong>; ~1 g/lb as a simple high heuristic; use goal/adjusted weight if needed).</li>
+<li><strong>Carbs and fats</strong> — fill the rest in a way you can digest, train on, and repeat.</li>
+<li><strong>Micronutrients, fibre, hydration</strong> — health and adherence glue.</li>
+<li><strong>Meal timing / food “rules”</strong> — useful seasoning, rarely the main meal.</li>
+</ol>
+<p>Most beginners invert this list. They buy a fat burner before they know if they’re eating 1,800 or 3,800 by accident.</p>
+<h3>Set calories without mysticism</h3>
+<p>Estimate maintenance (calculator guess or two weeks of tracked intake + weight trend). Then:</p>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Starting adjustment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STRIP fat loss</td>
+<td>~300–500 kcal/day below maintenance (adjust by trend; larger bodies sometimes start nearer −500 to −700 if hunger and training allow — start moderate)</td>
+</tr>
+<tr>
+<td>Recomp / hold</td>
+<td>Maintenance ± small nudge</td>
+</tr>
+<tr>
+<td>LIFT growth (when earned)</td>
+<td>~200–400 kcal/day above maintenance; patience beats dirty bulk chaos</td>
+</tr>
+</tbody>
+</table>
+<p>Review every 2–4 weeks. Losing too fast with strength collapsing → eat more. Soft photos with weight ripping up → trim. Scale stuck but photos better → maybe stay the course.</p>
+<h3>Protein without the cult</h3>
+<p>Hit a daily total. Distribute across 3–5 feedings if you can. Perfect timing is optional; total daily intake is not. In a deficit, lean to the higher end of the band. On a growth phase, surplus carbs still don’t replace protein.</p>
+<h3>Yeh Bro Food Bro — meter your numbers</h3>
+<p>Don’t guess forever. Use the <strong>Yeh Bro Food Bro</strong> calculator to enter your stats and download a <strong>free tailored PDF</strong> for cut, maintain, or lean bulk targets:</p>
+<p><strong>https://yehbro.com/food-bro/</strong></p>
+<p>Treat it as the practical metering companion to this hierarchy — not a replacement for STRIPLINE sequencing or accountability. Paste the targets into your workbook. Then run them.</p>
+<h3>Busy-day tactics</h3>
+<p>Rotisserie chicken, Greek yoghurt, eggs, canned tuna, whey if useful; rice, potatoes, oats, fruit; frozen veg; same breakfast five days a week is a feature. Protein powder is convenience, not magic versus food when protein is matched.</p>
+<p>Alcohol counts. Estimate it. Budget it. Don’t build your identity around purity or nightly obliteration.</p>
+<p>If full macro theatre makes you quit, track <strong>calories + protein</strong> and let carbs/fats flex. A logged plan you can scroll back through weeks later beats “I eat pretty clean” memory every time.</p>
+<p>If tracking food is psychologically rough because of a disordered eating history, get professional support and use a gentler method. This book is not a substitute for that care.</p>
+<h2>Training: progressive, boring, hard enough</h2>
+<p>Two beginners can run the “same” programme and get different results. One trains hard with decent form. The other collects polite sets.</p>
+<h3>Resistance training fundamentals</h3>
+<p>Cover patterns across the week: squat/hinge, push, pull, lunge/single-leg, carry or core anti-movement as needed. You don’t need seventeen machines. You need progressive compounds and a few accessories you’ll actually progress.</p>
+<p><strong>Frequency:</strong> each major muscle ~2×/week is a practical sweet spot for many people when weekly volume is matched.</p>
+<p><strong>Volume:</strong> beginners often grow on modest weekly hard sets if effort and progression are real. Add volume conservatively when progression stalls <em>and</em> recovery is fine — not because a spreadsheet looked heroic.</p>
+<p><strong>Effort:</strong> most work sets around ~1–2 reps in reserve (near failure without living at form collapse). Learn what hard means. Easy sets don’t count as the programme you wrote.</p>
+<h3>Progressive overload — the non-negotiable</h3>
+<p>If you can’t tell whether this week was harder than last week in some meaningful way, you’re doing exercise cosplay.</p>
+<p>Use a simple rule: double progression in a rep range (e.g. 8–12). Hit the top of the range with good form → add load next time. Log it. Every session.</p>
+<h3>Programme structure (LINE)</h3>
+<p>A programme organises hard sets across the week around your calendar — 3 or 4 days for most busy adults beats a fantasy six-day split you’ll skip.</p>
+<p>Lock the template for the phase. Sleep debt counts as programme design whether you admit it or not. If every session is junk because you’re crushed, cut volume or add a rest day.</p>
+<p>Home or gym can both work if progressive overload is real. Don’t wait for a perfect facility to start.</p>
+<h2>Recovery: the unsexy half of hypertrophy</h2>
+<p>Training is the request. Recovery is the construction.</p>
+<p><strong>Sleep</strong> is the highest-ROI recovery tool most people ignore. Defend a minimum. Caffeine that nukes sleep is a bad trade.</p>
+<p><strong>Stress</strong> (money, kids, jobs, grief) eats recovery like too many hard sets. When life spikes, shrink training stress on purpose — minimum effective dose weeks — so you keep the habit without breaking the machine.</p>
+<p><strong>Deloads:</strong> planned easier weeks beat accidental injury weeks. Define the rule in advance.</p>
+<p>Under-recovered lifters spin their wheels: same weights, worse form, more caffeine, more self-hate. They add volume instead of sleep. Then they call it genetics.</p>
+<h2>Cardio, steps, and NEAT</h2>
+<p>Steps are a quiet fat-loss weapon in STRIP. They raise daily expenditure without always needing punishment sessions.</p>
+<p>Cardio can help conditioning and calorie burn. It should not cannibalise lifting or turn every cut into a marathon cosplay. Pathway-lean hardgainers should be careful not to erase intake with endless conditioning.</p>
+<p>NEAT (fidgeting, walking, pottering) rises for some people in a surplus and falls in a deficit. Track steps so the silent changes don’t sabotage the plan.</p>
+<h2>Habit systems for real lives</h2>
+<p>Pre-define a <strong>bad-week plan</strong> that’s still “on programme”:</p>
+<ul>
+<li>Training: shorter sessions, key lifts only</li>
+<li>Protein: hit the number even if food is boring</li>
+<li>Steps: floor, not fantasy</li>
+<li>Sleep: protect the minimum</li>
+<li>What you will <em>not</em> do: invent a new programme at 11 p.m.</li>
+</ul>
+<p>Default meals beat inspiration. Logbooks serve decisions — if tracking runs your mood, simplify the dashboard and keep the behaviours.</p>
+<h2>Month roadmap under STRIPLINE</h2>
+<h3>Months 1–3 — STRIP + LINE (foundation skill)</h3>
+<p>Install the craft: form, protein/calorie literacy, sleep, basic progressive overload, photo + strength baselines. Fat-loss-first for anyone with meaningful fat or skinny-fat softness. Lock the programme. No novelty addiction.</p>
+<p><strong>Exit:</strong> plan written, adherence mostly real, midsection trajectory started or hardgainer exception documented.</p>
+<h3>Months 4–6 — continue STRIP or transition</h3>
+<p>Add productive stress where recovery allows. Keep food honest. Protect lifts while losing. If photos say the middle is ready and adherence is high, begin nudging toward LIFT calories. If not, keep stripping without drama — boredom is not a reason to dirty bulk.</p>
+<h3>Months 7–9 — LIFT emphasis when earned</h3>
+<p>Aim the stimulus: weak-point accessories as needed, nutrition periodisation (mini-cuts / growth blocks) only when they serve the photo. Avoid specialty-technique addiction. If fat is still owning the silhouette, you are not “behind” — you are still in STRIP with integrity.</p>
+<h3>Months 10–12 — show the work + LINK</h3>
+<p>Photo/metric review vs month 1. Strength PRs. Year 2 sketch. Keep accountability hot. Optional advanced-tools <em>literacy</em> (appendix) — not unsupervised chaos as a finale.</p>
+<h2>Starting-point modifiers (under fat-loss-first)</h2>
+<table>
+<thead>
+<tr>
+<th>Starting reality</th>
+<th>Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Higher body fat</td>
+<td>STRIP primary; sustainable deficit; lift hard; steps</td>
+</tr>
+<tr>
+<td>Skinny-fat</td>
+<td>High protein; recomp or mild deficit; no dirty bulk escape</td>
+</tr>
+<tr>
+<td>Already lean hardgainer</td>
+<td>Documented exception; patient surplus sooner; still LINE hard</td>
+</tr>
+<tr>
+<td>Restarter</td>
+<td>Audit protein, overload, sleep, logging; simplify; then STRIP/LIFT from photos</td>
+</tr>
+</tbody>
+</table>
+<p>These are biases inside STRIPLINE — not four different books.</p>
+<h2>Plateaus and course corrections</h2>
+<p>If adherence crashed, you don’t have a plateau — you have a compliance problem. Run MED week, then resume.</p>
+<p>If adherence is real and progress stalled 2–4 weeks:</p>
+<ol>
+<li>Check steps / NEAT  </li>
+<li>Small calorie adjustment  </li>
+<li>Sleep / stress  </li>
+<li>Then training volume or progression honesty  </li>
+</ol>
+<p><strong>One lever at a time.</strong> Programme-hop as first response is how you stay stuck with better branding.</p>
+<h2>Tier-1 supplements (short box)</h2>
+<p>Once basics exist: <strong>creatine monohydrate</strong>, <strong>caffeine</strong> (don’t nuke sleep), <strong>protein powder</strong> as convenience. They don’t replace progressive overload or STRIPLINE. Fancy stacks usually buy expensive urine and a story.</p>
+<h2>What to ignore on purpose</h2>
+<p>Spot reduction fantasies. Dirty bulk as personality. “I need a perfect programme.” Advanced tools as Month-1 homework. Comparison to enhanced timelines. Forty niche food rules before calories and protein.</p>
+<h2>Curiosity closer</h2>
+<p>You have the year on paper. Stage 6 turns it into this week’s actions, answers the questions people stall on, and opens the door — softly — if you still want a coach in the loop via <strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong>.</p>
+<p>Print the workbook. Lock the LINE. Start STRIP if the midsection says so. Let’s get on with it.</p>
+<h2>Digging deeper: fat loss without becoming a smaller disappointment</h2>
+<p>Fat loss in one honest sentence: over time you expend more energy than you take in — and you do it in a way you can stick with while still training hard enough to keep (or build) muscle.</p>
+<p>Food quality matters for health, hunger, and training fuel. The fat on your waist still answers to the maths over weeks. “Eating clean” with no idea of portion size is how people stay soft while feeling virtuous.</p>
+<p>Crash diets trash training and rebound hard. Sustainable beats heroic. Diet breaks exist when adherence is dying — that’s programme design, not weakness.</p>
+<p>Skinny-fat readers: endless mini-cuts without building anything under the fat is another wrong order. Hard lifting + protein while the middle comes in is the point.</p>
+<h2>Digging deeper: recomposition without fantasy</h2>
+<p>Recomp means more muscle, less fat, sometimes with a quiet scale. Odds improve if you’re new, returning, carrying extra fat, or finally fixing progressive overload and protein after years of noise.</p>
+<p>Recomp is not “steroid results without steroids.” It’s a useful early STRIPLINE tool — especially skinny-fat — not a forever excuse to avoid committing to a clear deficit or surplus when photos demand clarity.</p>
+<p>Judge recomp by waist + lifts + photos. Flat weight, rising waist, stuck lifts = maintaining disappointment.</p>
+<h2>Digging deeper: form, effort, and failure</h2>
+<p>Form first enough that the target muscle does the work. Then effort. Getting close to failure on work sets is how beginners finally stimulate adaptation. Living at injury form every set is how you stall with sore joints.</p>
+<p>Film a set monthly. Ego loading on a cut is how form dies. On any enhanced curiosity later, ego injuries spike when muscle outruns connective tissue — another reason fundamentals matter first.</p>
+<h2>Digging deeper: volume, junk sets, and recovery budgets</h2>
+<p>More hard sets help up to a point, then you collect fatigue and junk volume. Training age matters. What an advanced lifter needs can bury a beginner.</p>
+<p>Conservative volume adds: if a muscle still feels like a warm-up after planned hard sets, add <strong>one</strong> set next time and reassess. Manage fatigue across the week so Friday isn’t garbage because Monday was a funeral.</p>
+<p>“Train hard bro” alone without progression, protein, and recovery leaves gains on the table.</p>
+<h2>Digging deeper: sleep, stress, and the gym as emotional processing</h2>
+<p>The gym can process stress — that’s real. It isn’t free capacity. Separate emotional punishment workouts from programmed training. Effort is good; revenge training is expensive.</p>
+<p>If you’re curious about medical avenues later, sleep hygiene and diet pattern still matter. Don’t expect any tool to outrun a wrecked recovery budget.</p>
+<h2>Digging deeper: social meals and weekends</h2>
+<p>Plan the chaos. Estimate the meal. Return to the plan next meal — no punitive starvation. Perfect weekdays erased by weekends is the most common “mysterious plateau.”</p>
+<p>LINE includes a social rule written in advance so Thursday-you can’t invent ethics mid-dessert.</p>
+<h2>Digging deeper: photo protocol</h2>
+<p>Same locations if possible. Morning after bathroom. Relaxed posture. No pump flex Olympics every time (optional pumped shots can be extra — keep a standard set consistent). Store them dated. Compare month 1 to month 3 before you declare the plan cursed.</p>
+<p>Beginners change programmes because they feel unchanged at week three. Often the photo comparison says: keep going.</p>
+<h2>Digging deeper: strength standards aren’t the point — progress is</h2>
+<p>You don’t need someone else’s milestone table to validate your year. You need your lifts trending in a way that matches the phase. In STRIP, holding most strength while waist drops is a win. In LIFT, adding reps and load over months is the job.</p>
+<p>If every lift is freefalling, investigate recovery and deficit size before you invent a new identity.</p>
+<h2>Digging deeper: minimum equipment templates</h2>
+<p><strong>Three-day full body (example spine):</strong> squat or leg press pattern; hinge; horizontal push; horizontal pull; vertical push or pull; optional arms/core. Progress the big lifts. Keep sessions under 75 minutes if life is loud.</p>
+<p><strong>Four-day upper/lower:</strong> clear recovery, easy to progress. Lock accessories you can overload.</p>
+<p>Write yours in the workbook. Gym or home — progressive tension is the requirement.</p>
+<h2>Digging deeper: hunger management in STRIP</h2>
+<p>High protein. High volume low-calorie veg. Fibre. Sleep. Steps. Diet breaks when needed. Hunger is information, not a moral failure. Ultra-processed environments make internal cues loud and wrong — external tracking recalibrates.</p>
+<p>Schedule protein when appetite is weird. Especially relevant if appetite is suppressed for any reason: you still need the grams.</p>
+<h2>Digging deeper: when to move from STRIP to LIFT</h2>
+<p>Criteria examples (write yours with your accountability human):</p>
+<ul>
+<li>Waist trend down for multiple reviews</li>
+<li>Photos show midsection no longer dominating</li>
+<li>Adherence score consistently solid</li>
+<li>Strength mostly protected</li>
+<li>You can articulate why surplus won’t just rebuild the belly</li>
+</ul>
+<p>If you “feel ready” because you’re bored, that’s not criteria. Boredom is where LINE earns its name.</p>
+<h2>Digging deeper: Year 2 fork (preview)</h2>
+<p>Competitive bodybuilding vs lifestyle athleticism vs another STRIP polish vs longer LIFT. Stage 6 and the closing checklist push you to sketch it. Don’t wait for perfect conditions. Do wait for honest photos.</p>
+<h2>Putting the playbook on one page</h2>
+<ol>
+<li>Baseline photos, waist, strength  </li>
+<li>Food Bro targets → https://yehbro.com/food-bro/  </li>
+<li>Lock programme + progression rule  </li>
+<li>STRIP if midsection demands it  </li>
+<li>Steps + sleep floors  </li>
+<li>Weekly adherence score  </li>
+<li>Review every 2–4 weeks — one lever  </li>
+<li>LINK to a human  </li>
+<li>Move to LIFT when criteria met  </li>
+<li>Months 10–12: compare, decide, don’t hop  </li>
+</ol>
+<p>That’s <em>The 12-Month Body</em> in operating form. Not a secret. A sequence.</p>
+<p>If you want the templates printed, use the companion workbook. If you want a coach in the loop later: <strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong>.</p>
+<p>Now go to Stage 6 and start this week — not next Monday forever.</p>
+<hr>
+<h2>Expanded craft notes (run under STRIPLINE)</h2>
+<p>The sections below deepen nutrition, training, recovery, and month tactics. Read them as detail under <strong>fat-loss-first + locked plan + accountability</strong>. Where older pathway language said skinny readers should surplus first, override with STRIPLINE: strip if the midsection owns the photo; document a lean-hardgainer exception only when photos show little fat to lose.</p>
+<hr>
+<h2>Expanded craft notes (under STRIPLINE)</h2>
+<p>The following sections deepen the playbook. Wherever older pathway copy pushed surplus-first for “skinny” readers, <strong>STRIPLINE overrides</strong>: strip if the midsection owns the photo; document a lean-hardgainer exception only when little fat remains.</p>
+<h2>Muscle growth essentials</h2>
+<p>Muscle growth is not magic, and it’s not a mystery reserved for people who can pronounce “myofibrillar hypertrophy” at parties. Your body builds muscle when you give it a reason, the raw materials, and enough recovery to complete the job.</p>
+<p>Think of it like a renovation: stress the structure → provide materials → let the crew work overnight → repeat. Skip any step and you get sore, broke, or both — and not much new muscle.</p>
+<hr>
+<h3>Key ideas</h3>
+<h3>The simple model (learn this first)</h3>
+<ol>
+<li><strong>Mechanical tension</strong> — lifting challenging loads through a controlled range of motion, regularly getting close to the point where another clean rep would fail.</li>
+<li><strong>Progressive overload</strong> — over weeks and months, that challenge has to increase somehow (weight, reps, sets, form quality, range).</li>
+<li><strong>Enough protein and energy</strong> — protein supplies the building blocks; calories influence how easily the build happens.</li>
+<li><strong>Recovery</strong> — sleep and downtime are when a lot of the adaptation finishes. Training is the request. Recovery is the construction.</li>
+</ol>
+<p>Soreness is <strong>not</strong> the growth signal. Pump is <strong>not</strong> proof. Sweat is <strong>not</strong> hypertrophy. Those things can happen alongside good training. They can also happen during useless training. Chase progressive tension, not punishment.</p>
+<h3>What “close to failure” means</h3>
+<p>You don’t need to die on every set. You do need most working sets to be hard enough that you couldn’t casually bang out five more perfect reps. Beginners often stop when it starts feeling serious. That’s leaving growth on the table.</p>
+<p>You also don’t need advanced intensity techniques in Month 1. Learn the lifts. Own the reps. Add load or reps when you earn them.</p>
+<h3>Muscle growth is local and slow</h3>
+<p>Train a muscle with enough hard sets across the week, and <em>that</em> muscle gets the memo. Ignoring legs does not secretly grow legs. “I do cardio” does not grow your back.</p>
+<p>And timelines: new lifters can gain faster than veterans, but “faster” is still measured in months, not weekends. Visible change is usually a photo-to-photo story, not a Tuesday-to-Thursday story.</p>
+<h3>Pathway lens</h3>
+<ul>
+<li><strong>A (skinny):</strong> Growth is limited more often by under-eating and under-loading than by “bad genetics.”</li>
+<li><strong>B (skinny-fat):</strong> You can grow muscle while losing some fat, especially early — but the training still has to be real training.</li>
+<li><strong>C (overweight):</strong> You can build or retain muscle in a deficit if protein and lifting are solid; don’t expect bodybuilder bulk rates while cutting hard.</li>
+<li><strong>D (already active):</strong> If you’ve been training without progressive overload or enough protein, you’re not “past beginner gains” — you might still be leaving the easy progress on the floor.</li>
+</ul>
+<hr>
+<h3>Why it matters here</h3>
+<p>If you don’t know how muscle grows, you’ll chase the wrong feedback.</p>
+<p>You’ll think a programme failed because you weren’t sore. You’ll think a session worked because you were destroyed. You’ll hop from method to method looking for a secret exercise that “activates” something your consistency never gave a chance.</p>
+<p>Understanding the model also protects you from two expensive lies:</p>
+<ol>
+<li><strong>“I need a perfect programme.”</strong> You need a good-enough programme done progressively for a long time.</li>
+<li><strong>“I need a special supplement to grow.”</strong> You need tension, protein, energy, and sleep. Supplements can help around the edges later.</li>
+</ol>
+<hr>
+<h3>What experienced lifters do</h3>
+<ul>
+<li>Log workouts so progression isn’t a vibe.</li>
+<li>Pick compound lifts as the spine (squat/hinge/press/row/pull patterns) and add isolation where it serves weak points.</li>
+<li>Train each major muscle roughly <strong>2+ times per week</strong> when life allows — frequency beats one heroic weekly annihilation for most people.</li>
+<li>Keep most sets in challenging rep ranges (often roughly 5–15 for growth work) and leave circus max-outs for rare occasions.</li>
+<li>Deload or back off when performance and joints say so — not only when Instagram announces a deload week.</li>
+<li>Eat protein like it’s part of training, because it is.</li>
+</ul>
+<p>They also accept uneven growth. Shoulders might pop before calves. Genetics distribute gifts unfairly. The response is targeted work over years — not a personality crisis every time a mirror selfie looks asymmetrical.</p>
+<hr>
+<h3>Action notes</h3>
+<ol>
+<li><strong>Pick a full-body or upper/lower structure</strong> you can repeat for months (details in Part Two). For now: commit to hitting each major muscle at least twice weekly if you train 3–4 days.</li>
+<li><strong>Choose 1–2 hard working sets per exercise</strong> to “own,” plus warm-ups. Quality over junk volume.</li>
+<li><strong>Define progression:</strong> if you hit the top of your rep range with solid form, add a little weight next time.</li>
+<li><strong>Protein anchor:</strong> start aiming for a high-protein day <em>today</em> (exact targets in the nutrition chapters). If you’re currently guessing, you’re probably low.</li>
+<li><strong>Sleep target:</strong> protect a minimum bedtime on training days. Growth is not nocturnal magic, but chronic 5-hour sleep is a handbrake.</li>
+</ol>
+<hr>
+<h3>Targets</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Beginner-friendly target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Weekly hard sets per big muscle group</td>
+<td>Often in a broad range around ~6–12+ quality sets/week as you adapt (start lower if you’re new; build up)</td>
+</tr>
+<tr>
+<td>Proximity to failure</td>
+<td>Most working sets: 0–3 reps in reserve</td>
+</tr>
+<tr>
+<td>Progression check</td>
+<td>Some lifts up in load or reps every 1–4 weeks early on</td>
+</tr>
+<tr>
+<td>Protein (provisional)</td>
+<td>Roughly 1.6–2.2 g per kg of bodyweight per day is a common evidence-aligned band; Pathway C may use goal weight for sanity</td>
+</tr>
+<tr>
+<td>Sleep</td>
+<td>A repeatable window; treat sub-6 hours as a performance problem</td>
+</tr>
+</tbody>
+</table>
+<p>Exact set prescriptions get refined in Part Two once programme templates land. Don’t wait for perfection to start lifting hard.</p>
+<hr>
+<h3>Common mistakes</h3>
+<ul>
+<li>Confusing fatigue with stimulus (endless circuits, tiny weights, no progression).</li>
+<li>Ego lifting with a range of motion the size of a stamp.</li>
+<li>Changing exercises every week so nothing ever progresses.</li>
+<li>Living on low protein while expecting “toned” arms to appear from cardio.</li>
+<li>Copying advanced volume from someone who recovers like a professional athlete with a nap schedule.</li>
+<li>Assuming muscle gained is permanently glued on if you abandon training and protein for months. Use it or slowly lose some of it — another reason consistency beats streaks.</li>
+</ul>
+<hr>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] I can explain muscle growth without saying “tear the muscle so it grows back bigger” as the whole story</li>
+<li>[ ] My sessions have a progression plan</li>
+<li>[ ] I’m training muscles more than once a fortnight</li>
+<li>[ ] Protein is a daily habit, not a weekend apology</li>
+<li>[ ] I’m not using soreness as my only scoreboard</li>
+</ul>
+<hr>
+<h3>Bridge</h3>
+<p>Muscle is only half the visible equation. <strong>Body fat</strong> decides how much of that muscle the world (and you) can see — and how your plan should tilt for the next few months.</p>
+<h2>Body fat mechanics</h2>
+<p>Body fat is not a moral failure. It’s stored energy with a public relations problem.</p>
+<p>Your body holds fat because, for most of human history, storing energy was a survival feature. Modern life turned that feature into a mirror argument. Useful bodybuilding means understanding fat as a <strong>manageable variable</strong> — not a personality verdict, and not something you can bully off with one sad salad.</p>
+<hr>
+<h3>Key ideas</h3>
+<h3>Fat loss in one honest sentence</h3>
+<p>You lose body fat when, over time, you expend more energy than you take in — <strong>and</strong> you do it in a way you can stick with while still training hard enough to keep (or build) muscle.</p>
+<p>That’s energy balance. Not vibes. Not “eating clean” as a vibe. Food quality matters for health, hunger, and training fuel. The fat on your waist still answers to the maths over weeks.</p>
+<h3>What the scale is (and isn’t)</h3>
+<p>Scale weight includes:</p>
+<ul>
+<li>Fat</li>
+<li>Muscle</li>
+<li>Water</li>
+<li>Gut content</li>
+<li>Glycogen (carb stores in muscle/liver — they hold water)</li>
+<li>Hormonal cycle fluctuations (for some readers)</li>
+<li>Salt, stress, sleep debt, and “I trained legs yesterday” inflammation</li>
+</ul>
+<p>So the scale can drop while you’re losing muscle. It can rise while you’re losing fat. It can panic you on a Wednesday for reasons that have nothing to do with your plan. Use it as <strong>one</strong> trend tool, not a courtroom.</p>
+<h3>Spot reduction is mostly a fantasy</h3>
+<p>You can’t melt belly fat with a thousand sit-ups. Local training builds the muscle <em>under</em> the fat. Fat loss order is largely genetic and hormonal lottery. You influence <strong>total</strong> fat. You don’t get to file a complaint with your love handles about fairness.</p>
+<h3>Pathway lens</h3>
+<table>
+<thead>
+<tr>
+<th>Pathway</th>
+<th>Fat reality</th>
+<th>Common trap</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A — Skinny</strong></td>
+<td>Often low-ish fat, low muscle</td>
+<td>Cutting further and looking smaller, not better</td>
+</tr>
+<tr>
+<td><strong>B — Skinny-fat</strong></td>
+<td>Soft midsection + thin limbs</td>
+<td>Endless mini-cuts without building anything</td>
+</tr>
+<tr>
+<td><strong>C — Overweight</strong></td>
+<td>Fat loss is a legitimate priority</td>
+<td>Crash diets that trash training and rebound hard</td>
+</tr>
+<tr>
+<td><strong>D — Already active</strong></td>
+<td>May “look soft” despite training</td>
+<td>Blaming metabolism while weekends erase weekday deficits</td>
+</tr>
+</tbody>
+</table>
+<h3>A note on modern fat-loss drugs (literacy only)</h3>
+<p>Medications in the GLP-1 / related metabolic family can reduce appetite and body weight for some people under medical care. They are <strong>not</strong> a Year-1 beginner homework assignment in this book, and they are <strong>not</strong> a substitute for training and protein if you care about looking muscular rather than only lighter. We’ll cover mechanisms, risks, and misconceptions properly in Part Four. For now: understanding exists; unsupervised “just start jabbing” does not belong in your foundation.</p>
+<hr>
+<h3>Why it matters here</h3>
+<p>If you misunderstand fat, you’ll sabotage the physique you want.</p>
+<p>Pathway A readers diet themselves into looking like a slightly smaller version of disappointment. Pathway C readers sometimes chase the fastest possible scale drop and wonder why the mirror still looks soft and the gym feels awful. Pathway B lives in the worst crossover: afraid to eat enough to build, afraid to be patient enough to recomp.</p>
+<p>Clarity here saves you years of yo-yo nonsense.</p>
+<p>It also matters emotionally. A lot of people treat fat as proof they’re undisciplined. Sometimes the issue is skills, environment, sleep, stress, alcohol, or a plan that was never realistic around shift work and kids. Skills can be trained. Shame is a terrible coach.</p>
+<hr>
+<h3>What experienced lifters do</h3>
+<ul>
+<li>Set fat-loss rates that preserve training quality — aggressive enough to matter, not so aggressive that every session is a zombie shuffle.</li>
+<li>Keep <strong>protein high</strong> and <strong>lifting progressive</strong> in a deficit so the body has a reason to keep muscle.</li>
+<li>Track waist, photos, and strength alongside weight.</li>
+<li>Use diet breaks or maintenance phases when hunger, hormones, and performance say the cut has overstayed.</li>
+<li>Accept that “visible abs” is a body-fat threshold problem more than a mysterious ab-exercise problem.</li>
+<li>Separate <strong>health improvements</strong> from <strong>stage-lean extremes</strong>. You can be healthier and still not look like a contest peek week — and that’s fine for almost everyone reading this.</li>
+</ul>
+<hr>
+<h3>Action notes</h3>
+<ol>
+<li><strong>Decide whether fat loss is your primary goal for the next 12 weeks.</strong> If yes, your food target will sit in a deficit. If no (Pathway A growth), stop cutting by default.</li>
+<li><strong>Pick trend metrics:</strong> morning weight (weekly average), waist at navel, and fortnightly photos. Same conditions as often as life allows.</li>
+<li><strong>Keep training like a bodybuilder in a cut:</strong> compounds still progress when possible; don’t turn every session into sweaty cardio theatre.</li>
+<li><strong>Protein first at meals</strong> — especially if appetite is chaotic.</li>
+<li><strong>Alcohol honesty:</strong> if weekend drinking is a second meal plan, count it or change it. Denial is not a macro.</li>
+</ol>
+<p><strong>Pathway quick calls</strong></p>
+<ul>
+<li><strong>A (lean-hardgainer exception only):</strong> If photos show you are already lean, grow. If soft, STRIP first.</li>
+<li><strong>B:</strong> Mild deficit or recomp — not a crash. Build the frame.</li>
+<li><strong>C:</strong> Deficit you can live with for months beats a heroic 14-day purge.</li>
+<li><strong>D:</strong> Audit calories honestly for 14 days before declaring “I eat clean and nothing works.”</li>
+</ul>
+<hr>
+<h3>Targets</h3>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Practical fat-loss / weight-change guide (provisional)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Higher body fat (many Pathway C)</td>
+<td>Often ~0.5–1.0% of bodyweight per week as a sustainable band</td>
+</tr>
+<tr>
+<td>Moderate fat / skinny-fat</td>
+<td>Slower — protect muscle and training; patience beats drama</td>
+</tr>
+<tr>
+<td>Lean already / Pathway A</td>
+<td>Don’t force a cut; aim for slow weight <em>gain</em> in a growth block</td>
+</tr>
+<tr>
+<td>Strength in a cut</td>
+<td>Major lifts roughly maintained or only slightly down; freefall = too aggressive or under-recovered</td>
+</tr>
+</tbody>
+</table>
+<p>Individual response varies. Trends over 3–4 weeks beat day-to-day panic.</p>
+<hr>
+<h3>Common mistakes</h3>
+<ul>
+<li>Equating “lighter” with “better physique.”</li>
+<li>Cutting calories and cutting protein and cutting sleep at the same time.</li>
+<li>Daily scale obsession without averages.</li>
+<li>Believing dirty foods uniquely store as belly fat while “clean” calories somehow vanish.</li>
+<li>Cardio stacking to punish meals instead of adjusting the meal plan.</li>
+<li>Quitting the plan the week water weight spikes after a salty meal out.</li>
+</ul>
+<hr>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] I know whether fat loss is my <em>primary</em> goal right now</li>
+<li>[ ] I understand the scale measures more than fat</li>
+<li>[ ] I have waist + photos in the plan, not weight alone</li>
+<li>[ ] I’m not trying to spot-reduce with endless crunches</li>
+<li>[ ] My cut (if any) still includes serious lifting and solid protein</li>
+</ul>
+<hr>
+<h3>Bridge</h3>
+<p>Sometimes you don’t want a hard bulk or a hard cut. You want to look better in both directions at once. That’s <strong>recomposition</strong> — powerful early, misunderstood always, and worth its own chapter.</p>
+<h2>Nutrition fundamentals (detail)</h2>
+<p>Food is not a personality. It’s the support crew for the training you’re doing.</p>
+<p>If you lift hard and eat like the goal is optional, your body shrugs. If you obsess over meal timing while your weekly calories are chaos, your body also shrugs — just with more spreadsheets.</p>
+<p>This chapter is the foundation: what actually moves fat and muscle, what to track first, and how to eat like a busy adult rather than a full-time content creator.</p>
+<hr>
+<h3>Key ideas</h3>
+<h3>The hierarchy (memorise this)</h3>
+<ol>
+<li><strong>Average calories vs your needs</strong> — surplus to grow more easily, deficit to lose fat, near-maintenance to recomp.</li>
+<li><strong>Protein</strong> — high enough to support muscle in whatever phase you’re in.</li>
+<li><strong>Carbs and fats</strong> — fill the rest in a way you can digest, train on, and repeat.</li>
+<li><strong>Micronutrients, fibre, hydration</strong> — health and adherence glue.</li>
+<li><strong>Meal timing / food “rules”</strong> — useful seasoning, rarely the main meal.</li>
+</ol>
+<p>Most beginners invert this list. They buy a fat burner before they know if they’re eating 1,800 or 3,800 by accident.</p>
+<h3>Protein without the cult</h3>
+<p>A practical coaching heuristic you’ll hear a lot in serious lifting circles: roughly <strong>~1 gram of protein per pound of bodyweight</strong> (about <strong>2.2 g/kg</strong>) as a simple high target — especially when cutting or recomping. Broader evidence-aligned ranges often sit around <strong>~1.6–2.2 g/kg</strong>. If you weigh a lot and that number feels insane, use <strong>goal weight</strong> or an adjusted bodyweight so the target is achievable.</p>
+<p>You don’t need perfect distribution from day one. You do need protein showing up at most meals instead of only at dinner in a panic.</p>
+<h3>Calories are not a vibe</h3>
+<p>Your maintenance intake is the average intake that keeps weight stable over a few weeks. Above it, weight trends up. Below it, weight trends down. Water and glycogen make the week noisy — that’s why averages matter.</p>
+<p>When you eat in a surplus, many people unconsciously move more (NEAT — fidgeting, pacing, general pottering). That means a chunk of “extra” calories doesn’t always become fat one-for-one. Still: surplus is how skinny lifters finally grow. Don’t use NEAT as an excuse to eat like a hardgainer meme and wonder why nothing happens.</p>
+<h3>Tracking that teaches you</h3>
+<p>In the learning phase, tracking <strong>calories + protein</strong> beats tracking seventeen micronutrients you’ll abandon by Thursday. Some people eventually eat well by eye. If your history includes sugar-chasing, chaotic weekends, or “I swear I eat clean,” external tracking is often how you recalibrate — not because you’re weak, but because internal cues can be loud and wrong when the food environment is engineered to overfeed you.</p>
+<p>Keep a log you can actually reopen later — rest-day meals included. “I’ll remember” is how weekends vanish from the dataset. And if a diet style tanks your adherence every time you try it, stop collecting rematches with the same fad; adherence is the cost centre that decides whether any approach works.</p>
+<p>If tracking food is psychologically rough because of a disordered eating history, get professional support and use a gentler method (portion frameworks, plate method, coach-guided structure). This book is not a substitute for that care.</p>
+<h3>Pathway nutrition in one glance</h3>
+<table>
+<thead>
+<tr>
+<th>Pathway</th>
+<th>Calorie bias</th>
+<th>Protein</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td>STRIPLINE: surplus only if already lean (exception); otherwise treat soft A-lookalikes as STRIP/recomp</td>
+<td>High</td>
+<td>Appetite is a skill — scheduled meals help</td>
+</tr>
+<tr>
+<td><strong>B</strong></td>
+<td>Maintenance or slight deficit</td>
+<td>High</td>
+<td>Recomp thrives here</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td>Sustainable deficit</td>
+<td>High (often off goal weight)</td>
+<td>Hunger management &gt; heroics</td>
+</tr>
+<tr>
+<td><strong>D</strong></td>
+<td>Match the goal honestly</td>
+<td>High</td>
+<td>Stop “cleaning” without counting if results stalled</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>Why it matters here</h3>
+<p>Training tells muscle to grow. Nutrition decides whether that request is easy, hard, or ignored.</p>
+<p>It also decides whether fat loss leaves you looking athletic or just deflated. Same deficit, different protein and lifting — different human in the mirror.</p>
+<p>And adherence beats theoretical perfection. The diet you can run on twelve-hour workdays with kids in the car is better than the meal plan that looks elite and lasts nine days.</p>
+<hr>
+<h3>What experienced lifters do</h3>
+<ul>
+<li>Hit protein first, then fill calories with foods they can repeat.</li>
+<li>Use phases long enough that ego doesn’t abort the bulk at week eight.</li>
+<li>Track tightly when learning or dieting; loosen when skilled — not the other way around.</li>
+<li>Plan the week’s chaos (eating out, drinks) instead of pretending it won’t happen.</li>
+<li>Keep fibre and veggies high enough that hunger isn’t a full-time job.</li>
+<li>Treat supplements as add-ons (protein powder is food convenience; magic powders are usually marketing).</li>
+</ul>
+<hr>
+<h3>Action notes</h3>
+<p><strong>Week 1 — learn your pattern</strong></p>
+<ol>
+<li>Track calories + protein for 7 days without “starting the diet.” Just observe.</li>
+<li>Estimate maintenance from the weight trend (or a reputable calculator as a rough start, then adjust from real life).</li>
+<li>Set the next 12 weeks:
+   - <strong>A:</strong> +200 to +400 kcal above maintenance (adjust to slow gain)
+   - <strong>B:</strong> maintenance ±150 kcal
+   - <strong>C:</strong> −300 to −700 kcal depending on size/hunger/training (start moderate)
+   - <strong>D:</strong> choose based on goal; don’t keep “accidental maintenance” if you wanted change</li>
+<li>Set a protein target in grams. Put a protein source at each meal.</li>
+<li>Build 3 default breakfasts, 3 lunches, 3 dinners you can rotate on busy weeks.</li>
+</ol>
+<p><strong>Daily operating rules</strong></p>
+<ul>
+<li>Protein anchor every meal.</li>
+<li>Drink water; notice how often “hunger” is thirst or boredom.</li>
+<li>If you blow a meal, next meal returns to plan — no punitive starvation.</li>
+</ul>
+<hr>
+<h3>Targets</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Starter target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Protein</td>
+<td>~1.6–2.2 g/kg (or ~1 g/lb heuristic; use goal weight if needed)</td>
+</tr>
+<tr>
+<td>Calorie adherence</td>
+<td>Weekly average within ~100–150 kcal of target most weeks</td>
+</tr>
+<tr>
+<td>Minimum structure</td>
+<td>3+ meals/snacks you can actually execute on workdays</td>
+</tr>
+<tr>
+<td>Review</td>
+<td>Adjust calories every 2–4 weeks based on trend, not daily noise</td>
+</tr>
+<tr>
+<td>Alcohol</td>
+<td>Counted or cut — not invisible</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>Common mistakes</h3>
+<ul>
+<li>“Eating clean” with no idea of portion size.</li>
+<li>Tiny daytime eating then nighttime raids.</li>
+<li>Cutting carbs to zero and wondering why training feels like wet cement (not everyone needs keto; performance often prefers carbs).</li>
+<li>Perfect weekdays, erased weekends.</li>
+<li>Flipping surplus/deficit every time the mirror has feelings.</li>
+<li>Using protein bars as a personality while whole-food protein stays low.</li>
+</ul>
+<hr>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] I know my pathway’s calorie bias for the next 12 weeks</li>
+<li>[ ] Protein target is written in grams</li>
+<li>[ ] I’ve tracked one honest week</li>
+<li>[ ] I have repeatable default meals</li>
+<li>[ ] I understand calories + protein beat forty niche rules</li>
+<li>[ ] I will not abort a growth phase at week 8 out of ego alone</li>
+</ul>
+<hr>
+<h3>Bridge</h3>
+<p>Next we go deeper on <strong>protein, calories, and macros</strong> — how to set numbers properly, adjust them, and keep them human. After that, resistance training fundamentals: how to turn this food into a physique instead of just expensive fuel.</p>
+<h2>Protein, calories, macros (detail)</h2>
+<p>Right — numbers. Not because you’re a robot. Because guessing forever is how you stay soft, stuck, or accidentally underfed while “eating clean.”</p>
+<p>We’ll keep this usable on a construction schedule, a dad schedule, or any schedule where you don’t have a chef.</p>
+<h3>Key ideas</h3>
+<h3>Protein</h3>
+<p>A practical year-one target many lifters do well with:</p>
+<blockquote>
+<p><strong>Roughly 1.6–2.2 g of protein per kg of body weight per day</strong><br>
+(or about <strong>0.7–1 g per lb</strong>), adjusted if body weight is very high (use a goal/adjusted weight with coaching sense).</p>
+</blockquote>
+<p>That’s a <strong>practical band</strong>, not a law that more is always better. On average, fat-free-mass returns from extra protein flatten around <strong>~1.6 g/kg</strong> for many resistance-trained adults; the upper end of the band still helps as a buffer — especially in a deficit, when leaner athletes sometimes aim higher <strong>relative to fat-free mass</strong> rather than treating 2.2 g/kg body weight as magic. <em>(Claim ; bib , , .)</em></p>
+<p>In a deficit, leaning to the higher end helps muscle retention and hunger. On a bulk, you still need enough — surplus carbs won’t replace protein.</p>
+<p>Distribute across 3–5 feedings if you can. Perfect timing is optional; total daily intake is not.</p>
+<h3>Calories</h3>
+<p><strong>Step 1 — Estimate maintenance.</strong><br>
+Use a calculator as a starting guess, or track weight + intake for 2 weeks and reverse-engineer. It’s an estimate. Reality is the referee.</p>
+<p><strong>Step 2 — Set the phase:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Goal</th>
+<th>Starting adjustment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fat loss (C, many B)</td>
+<td>~300–500 kcal/day below maintenance (adjust by trend)</td>
+</tr>
+<tr>
+<td>Recomp / hold (many B, D)</td>
+<td>About maintenance ± small nudge</td>
+</tr>
+<tr>
+<td>Growth (many A)</td>
+<td>~200–400 kcal/day above maintenance; patience &gt; dirty bulk chaos. Oversized surpluses mostly buy extra fat once a modest surplus is already covering growth.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Step 3 — Review every 2–4 weeks.</strong><br>
+Losing too fast / strength crashing → eat more. Weight up too fast with soft photos → trim. Scale stuck but photos better → maybe stay (recomp).</p>
+<h3>Carbs and fats</h3>
+<p>Once protein and calories are set:</p>
+<ul>
+<li><strong>Fats:</strong> don’t crush to zero; include enough for adherence and hormonal health (often ~0.6–1 g/kg as a loose band — individual).  </li>
+<li><strong>Carbs:</strong> fill the rest; bias more carbs around hard training if it helps performance.  </li>
+</ul>
+<p>Macro perfectionism that makes you miserable is a bad macro plan.</p>
+<h3>Alcohol and “flexible” foods</h3>
+<p>They count. Estimate them. Budget them. Don’t build your identity around either extreme purity or nightly obliteration.</p>
+<h3>Home and busy-day tactics</h3>
+<ul>
+<li>Rotisserie chicken, Greek yoghurt, eggs, canned tuna, whey if useful  </li>
+<li>Rice, potatoes, oats, fruit  </li>
+<li>Frozen veg  </li>
+<li>Same breakfast 5 days/week is a feature  </li>
+</ul>
+<p>Protein powder is a <strong>convenience</strong> tool for hitting totals — not superior magic versus food when daily protein is matched. <em>(Claim .)</em> Creatine belongs in supplements (Part Four) — food first here.</p>
+<p><strong>Adherence tip:</strong> if full macro theatre makes you quit, track <strong>calories + protein</strong> and let carbs/fats flex. A logged plan you can scroll back through weeks later beats “I eat pretty clean” memory every time. Magic diet identities (fifth attempt at the same fad because someone said it’s magic) that nuke adherence are a cost, not a strategy — pick the pattern you’ll still run in week eight.</p>
+<h3>Why it matters here</h3>
+<p>Protein without calorie awareness can still miss fat-loss goals. Calories without protein can make you smaller in all the wrong ways. Macros without adherence are cosplay.</p>
+<p>Getting these three roughly right is the highest-leverage nutrition work you’ll do all year.</p>
+<h3>What experienced lifters do</h3>
+<ul>
+<li><strong>Hit protein first every day.</strong>  </li>
+<li><strong>Move calories based on trend data</strong>, not vibes alone.  </li>
+<li><strong>Keep a few high-protein anchor meals.</strong>  </li>
+<li><strong>Raise protein when cutting</strong> if hunger and retention need help — many aim near that ~g/lb ballpark when dieting hard.  </li>
+<li><strong>Don’t abort a bulk at week eight</strong> because the mirror got slightly softer — soft ≠ failure if strength and months remaining say stay.  </li>
+<li><strong>Accept estimates when eating out</strong>; resume precision at home.</li>
+</ul>
+<h3>Action notes</h3>
+<ol>
+<li><strong>Calculate a protein target</strong> from current or adjusted body weight; write the gram number on your logbook.  </li>
+<li><strong>Pick calorie phase</strong> and a starting daily calorie number (estimate OK).  </li>
+<li><strong>Build a sample day</strong> that hits protein + calories with foods you like.  </li>
+<li><strong>Shop once</strong> for the anchors.  </li>
+<li><strong>Run 14 days</strong>, log weight trend + training.  </li>
+<li><strong>Adjust ±100–200 kcal</strong> if the trend disagrees with the goal — don’t overhaul everything.</li>
+</ol>
+<h3>Pathway tilt</h3>
+<ul>
+<li><strong>A:</strong> Prioritise hitting surplus; liquid calories if appetite is poor.  </li>
+<li><strong>B:</strong> Protein high; calories at maintenance or mild deficit.  </li>
+<li><strong>C:</strong> Protein high; deficit sustainable; high-volume low-calorie veg helps.  </li>
+<li><strong>D:</strong> Fix protein consistency before exotic macro splits.</li>
+</ul>
+<h3>Targets</h3>
+<ul>
+<li>[ ] Protein grams/day written  </li>
+<li>[ ] Calorie target written  </li>
+<li>[ ] Sample day built  </li>
+<li>[ ] 14-day review date set  </li>
+<li>[ ] Adjustment rule understood (±100–200, not chaos)  </li>
+</ul>
+<h3>Common mistakes</h3>
+<table>
+<thead>
+<tr>
+<th>Mistake</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Protein “when I remember”</td>
+<td>Anchor meals + optional shake</td>
+</tr>
+<tr>
+<td>Huge surplus “dreamer bulk”</td>
+<td>Small surplus, long block</td>
+</tr>
+<tr>
+<td>Tiny crash deficit</td>
+<td>Moderate cut, keep lifts</td>
+</tr>
+<tr>
+<td>Rewriting macros daily</td>
+<td>Stable plan, review biweekly</td>
+</tr>
+<tr>
+<td>Ignoring oils/sauces</td>
+<td>Track the sneaky calories once to learn</td>
+</tr>
+</tbody>
+</table>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] Targets on paper  </li>
+<li>[ ] Kitchen stocked for anchors  </li>
+<li>[ ] Logging method live  </li>
+<li>[ ] Linked to pathway bias  </li>
+<li>[ ] Ready to train hard enough to use the food (Chapter 9+)  </li>
+</ul>
+<h3>Bridge</h3>
+<p>Food without progressive lifting is half a transformation. Next: <strong>resistance training fundamentals</strong> — what to train, how often to show up, and how to stop confusing fatigue with progress.</p>
+<h2>Resistance training fundamentals (detail)</h2>
+<p>If nutrition is the supply line, resistance training is the order to grow. Cardio can help your health and fat-loss budget. It will not replace the signal that tells muscle to stick around and get larger.</p>
+<p>Let’s get into what “training” has to mean for the next twelve months.</p>
+<h3>Key ideas</h3>
+<h3>What counts as resistance training</h3>
+<p>Anything that overloads muscles against resistance and can be progressed:</p>
+<ul>
+<li>Barbells, dumbbells, machines, cables  </li>
+<li>Well-designed bodyweight progressions (when you can still approach failure without 40-rep boredom forever)  </li>
+<li>Home setups with adjustable load  </li>
+</ul>
+<p>Random sweating is exercise. <strong>Progressive resistance</strong> is bodybuilding training.</p>
+<h3>Movement patterns to cover</h3>
+<p>Across the week, most people need:</p>
+<ul>
+<li>Squat / knee-dominant  </li>
+<li>Hinge / hip-dominant  </li>
+<li>Horizontal push  </li>
+<li>Horizontal pull  </li>
+<li>Vertical push  </li>
+<li>Vertical pull  </li>
+<li>Some carry/core bracing  </li>
+<li>Arms/delts/calves as extras that matter for the look you want  </li>
+</ul>
+<p>You don’t need seventeen isolation exercises on day one. You need the patterns trained hard enough, often enough.</p>
+<h3>Frequency and session length</h3>
+<p>Year-one friendly:</p>
+<ul>
+<li><strong>3–5 sessions/week</strong>  </li>
+<li><strong>45–75 minutes</strong> for most workdays  </li>
+<li>Full body or upper/lower beats bro-splits for most beginners  </li>
+</ul>
+<p>Missing the perfect split matters less than showing up and progressing.</p>
+<h3>Effort and failure (preview)</h3>
+<p>Work sets should be challenging. Exact “reps in reserve” coaching deepens in Chapter 12. For now: if every set feels like warm-up forever, you’re not training — you’re visiting the gym.</p>
+<h3>Form first, then load</h3>
+<p>Learn the movement. Then add load. Injured heroes don’t get year-one physiques; they get physio bills.</p>
+<h3>Home vs gym</h3>
+<p>Gym: easier loading and progression.<br>
+Home: totally valid if you can overload (bands-only gets limiting fast for strong lifters). A few weeks of imperfect loading won’t rob months of gains if you return to progressive work — keep <em>some</em> tensile stimulus when life traps you at home.</p>
+<h3>Why it matters here</h3>
+<p>Without this pillar, deficits make you smaller, not better. Surpluses make you softer, not fuller in the right places. Psychology improves when you feel capable in the weight room — competence is motivating in a way quotes aren’t.</p>
+<h3>What experienced lifters do</h3>
+<ul>
+<li><strong>Train on a written plan.</strong>  </li>
+<li><strong>Warm up specifically</strong>, then work.  </li>
+<li><strong>Balance push/pull</strong> enough to keep shoulders happy.  </li>
+<li><strong>Progress compounds</strong>, use isolation to shape.  </li>
+<li><strong>Manage fatigue</strong> so they can train again this week.  </li>
+<li><strong>Film lifts occasionally</strong> instead of guessing about form.  </li>
+</ul>
+<h3>Action notes</h3>
+<ol>
+<li><strong>Choose environment:</strong> gym, home with weights, or hybrid.  </li>
+<li><strong>Pick a frequency you can hit 8 weeks:</strong> start with 3 if life is chaos.  </li>
+<li><strong>Select a simple template</strong> (full body 3× or upper/lower 4× — Chapter 11 locks structure).  </li>
+<li><strong>List your main lifts</strong> for each pattern.  </li>
+<li><strong>Book sessions in the calendar</strong> like appointments.  </li>
+<li><strong>Log every working set.</strong>  </li>
+</ol>
+<h3>Pathway tilt</h3>
+<ul>
+<li><strong>A:</strong> Bias progressive loading and recovery food; don’t turn training into endless conditioning.  </li>
+<li><strong>B/C:</strong> Keep intensity high in the weights even in a deficit; don’t replace lifting with only cardio.  </li>
+<li><strong>D:</strong> Audit ego lifts and junk volume; return to basics that progress.</li>
+</ul>
+<h3>Targets</h3>
+<ul>
+<li>[ ] Training home chosen  </li>
+<li>[ ] Weekly frequency chosen  </li>
+<li>[ ] Pattern coverage listed  </li>
+<li>[ ] Sessions calendared for 2 weeks  </li>
+<li>[ ] Logbook live  </li>
+</ul>
+<h3>Common mistakes</h3>
+<table>
+<thead>
+<tr>
+<th>Mistake</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Only machines you like</td>
+<td>Cover patterns</td>
+</tr>
+<tr>
+<td>Two-hour unfocused sessions</td>
+<td>Timed plan, fewer exercises</td>
+</tr>
+<tr>
+<td>Copying advanced volume</td>
+<td>Earn volume</td>
+</tr>
+<tr>
+<td>Skipping legs</td>
+<td>Don’t</td>
+</tr>
+<tr>
+<td>No warm-up then max attempts</td>
+<td>Warm up, then work hard</td>
+</tr>
+</tbody>
+</table>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] Plan skeleton exists  </li>
+<li>[ ] Gear/access sorted  </li>
+<li>[ ] Frequency realistic for constraints  </li>
+<li>[ ] Ready for progressive overload rules (Chapter 10)  </li>
+</ul>
+<h3>Bridge</h3>
+<p>Showing up is necessary. <strong>Progressive overload</strong> is what makes showing up compound. Next chapter is the non-negotiable: how to improve the stress so the muscle keeps adapting.</p>
+<h2>Progressive overload (detail)</h2>
+<p>Here’s the whole point of bodybuilding training in one idea: <strong>give the muscle a reason to adapt, then raise the bar.</strong> Progressive increases in stimulus (load, reps, sets, or related overload levers) are what keep hypertrophy adaptations moving. <em>(Claim ; bib .)</em></p>
+<p>If you can’t tell whether this week was harder than last week in some meaningful way, you’re not running a hypertrophy programme — you’re doing exercise cosplay.</p>
+<h3>Key ideas</h3>
+<h3>What progressive overload is</h3>
+<p>Increasing the training stimulus over time in a way your body can adapt to. Common forms:</p>
+<table>
+<thead>
+<tr>
+<th>Lever</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Load</td>
+<td>60 → 62.5 kg same reps</td>
+</tr>
+<tr>
+<td>Reps</td>
+<td>8 → 10 with same load</td>
+</tr>
+<tr>
+<td>Sets</td>
+<td>2 → 3 hard sets (when recovered)</td>
+</tr>
+<tr>
+<td>Control / ROM</td>
+<td>Same load, better depth or slower eccentrics</td>
+</tr>
+<tr>
+<td>Density</td>
+<td>Same work in less time (use carefully)</td>
+</tr>
+<tr>
+<td>Exercise quality</td>
+<td>Less cheat, more tension where you meant</td>
+</tr>
+</tbody>
+</table>
+<p>You don’t need all levers at once. You need <strong>one honest progression</strong> most weeks on key movements.</p>
+<h3>Why logging is mandatory</h3>
+<p>If you don’t know last week’s reps, you don’t know if you’re plateaued. Memory is a terrible training partner — confident and wrong.</p>
+<h3>Near-failure matters more than magic rep numbers</h3>
+<p>Rep ranges are tools. Getting <strong>sufficiently close to failure</strong> on work sets with solid form is the consistent theme. Beginners: leave a little technique buffer while learning. Don’t live at two reps in reserve forever on every set if growth is the goal — and don’t destroy form for a dubious PR.</p>
+<h3>Plateaus</h3>
+<p>Plateaus happen. Then you:</p>
+<ol>
+<li>Check adherence (food, sleep, skipped sessions)  </li>
+<li>Try small progression tweaks  </li>
+<li>Add a set or swap a variation  </li>
+<li>Deload if performance is crushed across the board  </li>
+</ol>
+<p>You don’t immediately need a new identity and a new programme PDF.</p>
+<h3>Why it matters here</h3>
+<p>Without overload, “consistency” becomes consistently identical — and identical stress stops producing new muscle. This is also how people convince themselves they need advanced techniques, new supplements, or pharmacology before they’ve progressive-overloaded a basic press for six months.</p>
+<h3>What experienced lifters do</h3>
+<ul>
+<li><strong>Open the log before the set.</strong>  </li>
+<li><strong>Chase small wins.</strong> One rep is a win.  </li>
+<li><strong>Separate warm-ups from work sets.</strong>  </li>
+<li><strong>Adjust expectations set to set</strong> based on performance signs — not every day is a peak day.  </li>
+<li><strong>Progress compounds first</strong>, accessories second.  </li>
+<li><strong>Accept that deficit phases progress slower</strong> on the bar — maintaining strength can be a win while losing fat.</li>
+</ul>
+<h3>Action notes</h3>
+<ol>
+<li><strong>Pick 4–6 “progress or explain” lifts.</strong>  </li>
+<li><strong>Use double progression:</strong> e.g. work in a 6–10 rep range; when you hit top reps on all sets cleanly, add load next time.  </li>
+<li><strong>Write the rule in the logbook.</strong>  </li>
+<li><strong>Film one set weekly</strong> on a tricky lift.  </li>
+<li><strong>Review fortnightly:</strong> which lifts went up? which stalled? why?  </li>
+<li><strong>On home/limited gear weeks:</strong> progress reps/tempo/ROM; any tensile loading beats none until you’re back to full tools.</li>
+</ol>
+<h3>Targets</h3>
+<ul>
+<li>[ ] Progress lifts named  </li>
+<li>[ ] Double-progression rule written  </li>
+<li>[ ] Log checked before work sets  </li>
+<li>[ ] Fortnight review habit set  </li>
+</ul>
+<h3>Common mistakes</h3>
+<table>
+<thead>
+<tr>
+<th>Mistake</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Adding load every session no matter what</td>
+<td>Earn load with reps/form</td>
+</tr>
+<tr>
+<td>Never adding load</td>
+<td>Scheduled progression attempts</td>
+</tr>
+<tr>
+<td>Different exercises every week</td>
+<td>Stable movements</td>
+</tr>
+<tr>
+<td>Confusing sore with progressed</td>
+<td>Compare numbers</td>
+</tr>
+<tr>
+<td>Ego loading with collapsed form</td>
+<td>Film + reduce load</td>
+</tr>
+</tbody>
+</table>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] Overload definition understood  </li>
+<li>[ ] Logging non-negotiable  </li>
+<li>[ ] Progression scheme chosen  </li>
+<li>[ ] Ready to organise that work into a split (Chapter 11)  </li>
+</ul>
+<h3>Bridge</h3>
+<p>You know you must progress. Next we organise the week: <strong>splits, frequency, and volume</strong> — enough hard sets to grow, not so many you can’t recover between shifts and school runs.</p>
+<h2>Programme structure (detail)</h2>
+<p>The internet will sell you a split like it’s a religion. It isn’t. A programme is just a way to organise <strong>hard sets across the week</strong> so muscles get trained often enough, recovered enough, and progressed enough — around your actual life.</p>
+<p>Don’t overcomplicate it.</p>
+<h3>Key ideas</h3>
+<h3>Frequency</h3>
+<p>How often you train a muscle each week. For most year-one lifters:</p>
+<ul>
+<li><strong>Each major muscle ~2×/week</strong> is a sweet, practical target (when weekly volume is in the same ballpark, frequency around twice weekly tends to beat once-weekly for hypertrophy). <em>(Claim ; bib .)</em>  </li>
+<li>Once-a-week “destroy and disappear” can work but is less forgiving if you miss the day.  </li>
+<li>Daily specialisation nonsense is optional later — not required now.</li>
+</ul>
+<h3>Volume</h3>
+<p>Think <strong>hard working sets per muscle per week</strong>, not hours in the building.</p>
+<p>Beginners often grow on <strong>modest</strong> weekly set counts if effort and progression are real. More hard sets tend to help up to a point (dose-response), then you collect fatigue and “junk volume.” Training age matters: what an advanced lifter needs can bury a beginner. <strong>Do not</strong> treat a rigid “must hit 10 sets” rule as a Year-1 beginner commandment — start doable, then add when progression stalls <em>and</em> recovery is fine. <em>(Claim ; bib , .)</em></p>
+<p><strong>Conservative volume adds:</strong> if a muscle still feels like a warm-up after its planned hard sets (no real stimulus), add <strong>one</strong> set next time and reassess — don’t jump from three to seven because a spreadsheet looked heroic. Manage fatigue across the week so Friday isn’t garbage because Monday was a funeral. And yes — you have to train hard, but “train hard bro” alone without progression, protein, and recovery leaves gains on the table.</p>
+<h3>Splits that work in year one</h3>
+<table>
+<thead>
+<tr>
+<th>Split</th>
+<th>Days</th>
+<th>Best when</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Full body</strong></td>
+<td>3</td>
+<td>Busy life; learning movements; max frequency per muscle</td>
+</tr>
+<tr>
+<td><strong>Upper / lower</strong></td>
+<td>4</td>
+<td>Good balance of focus and recovery</td>
+</tr>
+<tr>
+<td><strong>Push / pull / legs</strong></td>
+<td>3–6</td>
+<td>You like theme days; watch total weekly volume</td>
+</tr>
+<tr>
+<td><strong>Bro split</strong></td>
+<td>5–6</td>
+<td>Usually worse for beginners (low frequency if you miss days)</td>
+</tr>
+</tbody>
+</table>
+<p>Pick the one you’ll hit for 8–12 weeks.</p>
+<h3>A simple weekly skeleton (example)</h3>
+<p><strong>Full body 3× (Mon / Wed / Fri):</strong><br>
+Squat or leg press · hinge · press · row/pull-down · optional secondary push/pull · 1–2 arms/delts/core finishes.</p>
+<p><strong>Upper/lower 4×:</strong><br>
+Lower: squat, hinge, lunges/leg press, calves, core.<br>
+Upper: press, row, vertical pull, secondary press, arms/delts.</p>
+<p>Swap in machines if free weights intimidate you at the start — tension and progression still count.</p>
+<h3>Rest between sessions</h3>
+<p>You need enough recovery to perform. If every session is junk because you’re crushed, cut volume or add a rest day. Sleep debt counts as programme design whether you admit it or not.</p>
+<h3>Why it matters here</h3>
+<p>A beautiful split you skip is worse than a boring full-body plan you run for a year. Structure exists to make progressive overload repeatable — not to signal identity in the locker room.</p>
+<p>Also: volume arguments online assume you’re already training hard and logging. If you’re not, fix that before arguing set counts.</p>
+<h3>What experienced lifters do</h3>
+<ul>
+<li><strong>Choose frequency first, vanity second.</strong>  </li>
+<li><strong>Keep a written weekly template</strong> and only swap exercises when needed.  </li>
+<li><strong>Dose volume by recovery and progression</strong>, not ego.  </li>
+<li><strong>Bias compounds early in the session</strong>, accessories later.  </li>
+<li><strong>Reduce volume in hard deficits</strong>; keep intensity on key lifts when possible.  </li>
+<li><strong>Ignore “junk volume doesn’t exist” absolutism</strong> and also ignore volume panic — dose-response is real, and so is fatigue.</li>
+</ul>
+<h3>Action notes</h3>
+<ol>
+<li><strong>Pick days you can guard</strong> for the next 8 weeks.  </li>
+<li><strong>Choose full body 3× or upper/lower 4×</strong> unless you have a strong reason not to.  </li>
+<li><strong>Write the session list</strong> (exercises + target set/rep ranges).  </li>
+<li><strong>Cap weekly hard sets</strong> at a beginner-modest starting point; leave room to add.  </li>
+<li><strong>Schedule one optional flex day</strong> for make-up sessions — life happens.  </li>
+<li><strong>Re-evaluate at week 8:</strong> attendance %, lifts progressing?, joints happy?</li>
+</ol>
+<h3>Pathway tilt</h3>
+<ul>
+<li><strong>A:</strong> Enough frequency to practise lifts; don’t turn sessions into marathon conditioning.  </li>
+<li><strong>B/C:</strong> Keep structure tight when dieting; don’t replace lifting days with only cardio.  </li>
+<li><strong>D:</strong> Often <em>subtract</em> overlapping junk and restore 2× frequency on weak patterns.</li>
+</ul>
+<h3>Targets</h3>
+<ul>
+<li>[ ] Split chosen  </li>
+<li>[ ] Training days calendared  </li>
+<li>[ ] Written template for each day  </li>
+<li>[ ] Starting weekly set philosophy: modest → add if needed  </li>
+<li>[ ] Week-8 review date set  </li>
+</ul>
+<h3>Common mistakes</h3>
+<table>
+<thead>
+<tr>
+<th>Mistake</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6-day bro split, hit 3 days</td>
+<td>Match split to attendance</td>
+</tr>
+<tr>
+<td>Copying advanced volume</td>
+<td>Start lower</td>
+</tr>
+<tr>
+<td>Different exercises every session</td>
+<td>Stable progression vehicles</td>
+</tr>
+<tr>
+<td>No lower-body days</td>
+<td>Train legs</td>
+</tr>
+<tr>
+<td>Max effort accessories before compounds</td>
+<td>Order matters</td>
+</tr>
+</tbody>
+</table>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] Split fits life  </li>
+<li>[ ] Each major muscle has a weekly plan (~2× when possible)  </li>
+<li>[ ] Volume starts sustainable  </li>
+<li>[ ] Ready to talk effort/form quality (Chapter 12)  </li>
+</ul>
+<h3>Bridge</h3>
+<p>Structure without effort is sightseeing. Next: <strong>form, effort, and getting close to failure</strong> — how hard work sets should feel without turning every rep into injury cosplay.</p>
+<h2>Form and effort (detail)</h2>
+<p>Two beginners can run the “same” programme and get wildly different results. The quiet difference is usually this: one of them is actually <strong>training hard with decent form</strong>, and the other is collecting polite sets that never ask the muscle to adapt.</p>
+<p>Bloody hell — this chapter is uncomfortable on purpose.</p>
+<h3>Key ideas</h3>
+<h3>Form (the non-negotiable floor)</h3>
+<p>Good enough form means:</p>
+<ul>
+<li>You load the intended muscles  </li>
+<li>Joints stay in a sane path  </li>
+<li>You could add a little load later without the movement falling apart  </li>
+<li>You’re not bouncing, twisting, and praying  </li>
+</ul>
+<p>Perfect Instagram form is optional. <strong>Repeatable, safe-ish, progressive form</strong> is not.</p>
+<p>Film yourself. Everyone’s “looks fine” feeling lies.</p>
+<h3>Effort and reps in reserve (RIR)</h3>
+<p><strong>RIR</strong> = how many more clean reps you could have done.</p>
+<table>
+<thead>
+<tr>
+<th>RIR</th>
+<th>Feel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4–5+</td>
+<td>Warm-up / easy</td>
+</tr>
+<tr>
+<td>2–3</td>
+<td>Challenging; solid for many learning sets</td>
+</tr>
+<tr>
+<td>0–2</td>
+<td>Hard work sets for hypertrophy for most people</td>
+</tr>
+<tr>
+<td>0 (failure)</td>
+<td>Last clean rep; next would break down</td>
+</tr>
+</tbody>
+</table>
+<p>Year-one rule of thumb:</p>
+<ul>
+<li>Learn the movement with easier sets.  </li>
+<li>Take <strong>most working sets to ~0–3 RIR</strong> once form is stable.  </li>
+<li>You don’t need every set to absolute failure, especially on big compounds.  </li>
+<li>If you’re always sure you had five left, you’re probably sandbagging.</li>
+</ul>
+<p><strong>Beginner RIR lie:</strong> what a new lifter calls “3 reps in reserve” is often closer to <strong>5–6</strong> still in the tank. Once technique is solid, learn what true hard feels like — on machines/isolation first if barbell ego scares you. Specific rep counts matter less than <strong>getting sufficiently close to failure</strong> with tension you can progress. That’s why “do 3×10 forever at the same weight” dies.</p>
+<p>For longer programmes, averaging roughly <strong>~1–2 reps shy of failure</strong> on most work sets beats living at form-collapse failure every set. Cycle intensity; don’t turn every Tuesday into a meltdown.</p>
+<h3>Mind-muscle vs load</h3>
+<p>Feeling a muscle helps on isolation work. On squats, “feeling” is secondary to strong, controlled mechanics. Use both tools; don’t worship either.</p>
+<h3>Warm-ups</h3>
+<p>Ramp to the work weight. Work sets are where the growth stimulus lives — don’t exhaust yourself with fifteen half-hearted warm-up pyramids.</p>
+<h3>Why it matters here</h3>
+<p>Volume guidelines assume productive hard sets. Ten easy sets ≠ ten hard sets. People who “do everything right” on paper but never approach failure wonder why the mirror is quiet — then blame genetics, carbs, or the programme PDF.</p>
+<p>On the flip side, ego failure with collapsed form is how shoulders and lower backs join the chat. Effort without standards is just chaos.</p>
+<h3>What experienced lifters do</h3>
+<ul>
+<li><strong>Warm up, then work.</strong>  </li>
+<li><strong>Leave failure more often on machines/isolation; stay cleaner on barbell compounds.</strong>  </li>
+<li><strong>Adjust set-to-set</strong> when performance signs say today’s not a hero day.  </li>
+<li><strong>Chase tension</strong>, not circus PRs.  </li>
+<li><strong>Use a spotter or safeties</strong> when true failure on a press/squat would be stupid.  </li>
+<li><strong>Check ego:</strong> underconfidence (never pushing) and swagger (always maxing) both stall physiques.</li>
+</ul>
+<h3>Action notes</h3>
+<ol>
+<li><strong>Film one compound and one isolation this week.</strong> Fix one form cue each.  </li>
+<li><strong>Pick a target RIR band</strong> for work sets (start ~2–3 if unsure; tighten toward 0–2 as skill grows).  </li>
+<li><strong>End a set when form breaks</strong> — that rep doesn’t count as a clean progression rep.  </li>
+<li><strong>On accessories, occasionally take true last clean reps</strong> to learn what hard feels like.  </li>
+<li><strong>Write “hard ≠ sloppy” on the logbook.</strong>  </li>
+<li><strong>Sleep and food check</strong> if every session feels like death — recovery problem, not a badge.</li>
+</ol>
+<h3>Targets</h3>
+<ul>
+<li>[ ] I can explain RIR in plain language  </li>
+<li>[ ] Work-set effort target chosen  </li>
+<li>[ ] Filmed at least one lift  </li>
+<li>[ ] Form &gt; load when they conflict  </li>
+<li>[ ] Failure used strategically, not theatrically  </li>
+</ul>
+<h3>Common mistakes</h3>
+<table>
+<thead>
+<tr>
+<th>Mistake</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Forever RIR 5</td>
+<td>Push closer on work sets</td>
+</tr>
+<tr>
+<td>Failure every set on squats</td>
+<td>Smarter dose; safeties</td>
+</tr>
+<tr>
+<td>Bouncing loads for numbers</td>
+<td>Control; reduce load</td>
+</tr>
+<tr>
+<td>Judging workout by sweat puddle</td>
+<td>Judge by log + form</td>
+</tr>
+<tr>
+<td>Copying someone’s double-drop-set theatre</td>
+<td>Earn advanced tools</td>
+</tr>
+</tbody>
+</table>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] Effort standard defined  </li>
+<li>[ ] Form check method exists (camera/mate)  </li>
+<li>[ ] Warm-up vs work-set distinction clear  </li>
+<li>[ ] Ready for recovery systems (Chapter 13)  </li>
+</ul>
+<h3>Bridge</h3>
+<p>Hard training only pays off if you can do it again next week. <strong>Recovery — sleep, stress, and deloads</strong> — is the unsexy half of hypertrophy. Skip it and progressive overload becomes progressive injury.</p>
+<h2>Recovery (detail)</h2>
+<p>You don’t grow in the gym. You grow in the boring hours afterward — if those hours aren’t a dumpster fire. Sleep, stress, and planned easier weeks aren’t “soft.” They’re how hard training stays productive instead of turning into joint complaints and mood swings.</p>
+<h3>Key ideas</h3>
+<h3>Sleep</h3>
+<p>The highest-ROI recovery tool most people ignore.</p>
+<p>Practical targets:</p>
+<ul>
+<li><strong>Aim for 7–9 hours</strong> where life allows  </li>
+<li>Protect a consistent wind-down more than perfect gadgets  </li>
+<li>Treat short sleep like a training variable: expect weaker sessions, hungrier cuts, worse decisions  </li>
+</ul>
+<p>If work shifts wreck sleep, you don’t quit — you <strong>reduce volume</strong>, keep protein, and stop stacking heroic deficits on heroic sleep debt.</p>
+<h3>Stress</h3>
+<p>Life stress (money, kids, jobs, grief) eats recovery the same way too many hard sets do. The gym can also <em>process</em> stress — that’s real — but it isn’t free capacity. When life spikes, shrink training stress on purpose so you keep the habit without breaking the machine.</p>
+<h3>Deloads</h3>
+<p>A <strong>deload</strong> is a planned easier week (less load, fewer sets, or both) so performance can rebound.</p>
+<p>Use when:</p>
+<ul>
+<li>Strength is trending down across lifts  </li>
+<li>Sleep and mood are trashed  </li>
+<li>Joints are angry  </li>
+<li>You’ve pushed progressive overload hard for 4–8+ weeks  </li>
+</ul>
+<p>Deloads aren’t failure. Skipping them until you get injured is.</p>
+<h3>Injury reality</h3>
+<p>Train around niggles early. Pushing through sharp joint pain to “earn” muscle is how people sit out for months. A few modified weeks beat a torn-pec story. Keep <em>some</em> loading when possible — total shutdown isn’t always required — but respect tissue.</p>
+<h3>Meds aren’t a substitute lifestyle</h3>
+<p>If you’re exploring medical avenues later (Part Four literacy), remember: sleep hygiene, diet pattern, and stress still matter. Don’t expect a compound to outrun a wrecked recovery budget.</p>
+<h3>Why it matters here</h3>
+<p>Under-recovered lifters spin their wheels: same weights, worse form, more caffeine, more self-hate. They add volume instead of sleep. They cut harder instead of deloading. Then they call it a plateau genetics problem.</p>
+<p>Recovery is how twelve months stays possible on real schedules.</p>
+<h3>What experienced lifters do</h3>
+<ul>
+<li><strong>Guard sleep like a PR attempt.</strong>  </li>
+<li><strong>Auto-regulate:</strong> some days leave an extra rep in reserve.  </li>
+<li><strong>Plan deloads</strong> instead of waiting for catastrophe.  </li>
+<li><strong>Pull volume before pulling intensity</strong> when fatigued (often).  </li>
+<li><strong>Use walks and easy movement</strong> on rest days instead of only the couch.  </li>
+<li><strong>Separate emotional punishment workouts from programmed training.</strong> Effort is good; revenge training is expensive.</li>
+</ul>
+<h3>Action notes</h3>
+<ol>
+<li><strong>Set a sleep minimum</strong> you’ll defend on work nights (even if weekends differ).  </li>
+<li><strong>Pick a deload rule:</strong> e.g. every 6–8 weeks, or when two key lifts regress for a week.  </li>
+<li><strong>List stress reducers that fit you:</strong> short walk, phone cut-off, ten quiet minutes — not a wellness retreat fantasy.  </li>
+<li><strong>Create a “bad sleep” session template:</strong> −1 set per exercise or −RIR push; still show up.  </li>
+<li><strong>Note pain early</strong> in the log; modify patterns before they become identities.  </li>
+<li><strong>Align deficit aggression with recovery</strong> — deep cuts + awful sleep is a blunt instrument.</li>
+</ol>
+<h3>Targets</h3>
+<ul>
+<li>[ ] Sleep minimum written  </li>
+<li>[ ] Deload rule written  </li>
+<li>[ ] Bad-sleep session plan exists  </li>
+<li>[ ] Stress spike → volume cut rule exists  </li>
+<li>[ ] Pain logging started  </li>
+</ul>
+<h3>Common mistakes</h3>
+<table>
+<thead>
+<tr>
+<th>Mistake</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Badge-of-honour sleep debt</td>
+<td>Defend bedtime</td>
+</tr>
+<tr>
+<td>Never deloading</td>
+<td>Schedule it</td>
+</tr>
+<tr>
+<td>Adding sets when crushed</td>
+<td>Subtract; sleep</td>
+</tr>
+<tr>
+<td>Cutting food to fix fatigue</td>
+<td>Check recovery first</td>
+</tr>
+<tr>
+<td>Ignoring sharp pain</td>
+<td>Modify / get checked</td>
+</tr>
+</tbody>
+</table>
+<h3>Checklist</h3>
+<ul>
+<li>[ ] Recovery treated as programme, not excuse  </li>
+<li>[ ] Deload defined  </li>
+<li>[ ] Life-stress adjustment plan ready  </li>
+<li>[ ] Ready for steps/cardio tools (Chapter 14)  </li>
+</ul>
+<h3>Bridge</h3>
+<p>Recovery isn’t only sleep — daily movement changes energy expenditure and fat-loss math. Next: <strong>cardio, steps, and NEAT</strong> — how to use them without turning every cut into a marathon punishment cult.</p>
+<h2>Playbook close</h2>
+<p>Return to the one-page sequence at the top of this stage. Use the companion workbook for sheets. Meter food at https://yehbro.com/food-bro/. Soft coaching door: <strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong>.</p></div>
+  <p class="back-toc"><a href="#contents">↑ Contents</a></p>
+</section>
+
+<section class="chapter" id="stage-06-start-faq-next">
+  <p class="chapter-part">Start &amp; Next Step</p>
+  <h1>Start This Week, FAQ &amp; Next Step</h1>
+  <div class="prose"><h1>Stage 6 — Start This Week, FAQ &amp; Next Step</h1>
+<p>You’ve got the problem, the method, the benefits, the why, and the playbook. This stage exists because information without a start date becomes another abandoned PDF — and you already own enough of those.</p>
+<h2>This week — do these things</h2>
+<ol>
+<li><strong>Take baseline photos</strong> (front/side/back) and measure waist. Write the date.</li>
+<li><strong>Decide STRIP vs documented lean-hardgainer exception</strong> using photos — not ego.</li>
+<li><strong>Generate food targets</strong> at <strong>https://yehbro.com/food-bro/</strong> and save the free PDF. Lock calories + protein into your notes.</li>
+<li><strong>Write your programme</strong> for the next 12 weeks (3–4 days is enough). Define the progression rule.</li>
+<li><strong>Set floors:</strong> steps, sleep minimum, bad-week MED plan.</li>
+<li><strong>Name your LINK:</strong> a human who will check you — or note <strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong> until that door opens.</li>
+<li><strong>Train session one.</strong> Log it. Eat the protein. Go to bed.</li>
+</ol>
+<p>Do not wait for Monday. Do not wait for perfect gear. Do not wait until you’ve reread Stage 5 three times. Information without a date is entertainment; a dated baseline is a beginning.</p>
+<h3>Richer first-week plan (hour by hour isn’t required — decisions are)</h3>
+<p><strong>Day 0 (today, even if it’s ugly):</strong><br>
+Photos. Waist. Date. Folder named with the date so future-you can’t “lose” baselines. Decision written: STRIP / recomp / documented exception. Food Bro PDF downloaded. Calories + protein copied into the same note as the programme.</p>
+<p><strong>Day 1:</strong><br>
+Session one as written — even if short. Log every working set. Hit protein without negotiating a new diet identity. Message your LINK: “Started. Targets are X calories / Y protein. Check-in day is ___.”</p>
+<p><strong>Day 2:</strong><br>
+Steps floor. Sleep floor. Prep one default meal that makes protein easy tomorrow. No programme edits.</p>
+<p><strong>Day 3:</strong><br>
+Session two or rest as written. If hunger is loud, that’s data inside STRIP — not a reason to bulk. Keep the weekly average in mind.</p>
+<p><strong>Day 4–5:</strong><br>
+Stay on LINE. Social event? Plan it inside the week; don’t burn the template. If you miss a session, run MED — don’t declare a restart.</p>
+<p><strong>Day 6–7:</strong><br>
+Second (or third) session as scheduled. Brief adherence note: sessions done, protein days hit, steps average, one sentence on energy. Send it. Book next week’s check-in. Do <strong>not</strong> change the programme because motivation felt mid.</p>
+<p>That’s a first week. Unromantic. Sufficient.</p>
+<h3>First-week traps to refuse</h3>
+<ul>
+<li>Rewriting the split after session one because a reel disagreed.  </li>
+<li>Cutting another 500 kcal because the scale didn’t move in 72 hours.  </li>
+<li>Buying five supplements before you’ve hit protein four days.  </li>
+<li>Skipping photos because you “don’t look ready.” Baselines are supposed to be honest, not flattering.  </li>
+<li>Waiting for your LINK to be perfect coaching — a ruthless mate counts until the formal door opens.</li>
+</ul>
+<h2>Cost of waiting</h2>
+<p>Another year of wrong order costs you the photos you’ll take anyway — still soft, still hopping, still telling yourself you need more information.</p>
+<p>Waiting feels safe. It’s usually just unaccountable. The plan doesn’t get easier when you’re a year older with the same midsection story.</p>
+<p>STRIPLINE doesn’t require perfect conditions. It requires sequence and reps.</p>
+<h3>Cost of waiting, itemised</h3>
+<ul>
+<li><strong>Physique cost:</strong> another twelve months of soft-middle photos and wardrobe negotiation.  </li>
+<li><strong>Identity cost:</strong> “nothing works” calcifies, even when continuity never got a fair trial.  </li>
+<li><strong>Money cost:</strong> more PDFs, more tubs, more gear that never meets a locked plan.  </li>
+<li><strong>Social cost:</strong> another summer of excuses; another winter of “next year.”  </li>
+<li><strong>Skill cost:</strong> you stay a beginner at progressive overload because you keep resetting the skill tree.  </li>
+<li><strong>Opportunity cost:</strong> the version of you who ran STRIPLINE this year doesn’t get built.</li>
+</ul>
+<p>You don’t need a perfect week to start. You need a dated baseline and session one. Waiting for calm calendars is how busy adults stay soft forever — calm calendars are rare; locked lines are portable.</p>
+<h2>FAQ</h2>
+<p><strong>Do I have to get stage-lean before I build any muscle?</strong><br>
+No. You lift during STRIP. Fat-loss-first means fat is the priority bias — not “never stimulate muscle.”</p>
+<p><strong>I’m skinny. Shouldn’t I bulk?</strong><br>
+Only if photos show you’re already lean. Soft middle + “I’m a hardgainer” is usually skinny-fat cosplay. Document exceptions; don’t invent them.</p>
+<p><strong>How aggressive should the deficit be?</strong><br>
+Moderate enough to train and adhere. Start ~300–500 kcal below maintenance for many people; adjust from trend data.</p>
+<p><strong>Can I recomp instead of cut?</strong><br>
+Often yes early — especially skinny-fat — if lifting and protein are excellent and the middle still improves. Recomp isn’t a forever fog to avoid decisions.</p>
+<p><strong>What if I miss a week?</strong><br>
+Run MED. Resume. Don’t burn the programme and start a new identity.</p>
+<p><strong>How much protein?</strong><br>
+~1.6–2.2 g/kg as a practical band. Use Food Bro + book hierarchy. Consistency beats precision theatre.</p>
+<p><strong>Is cardio required?</strong><br>
+Steps help a lot in STRIP. Extra cardio is optional if it doesn’t trash lifting or recovery.</p>
+<p><strong>When do I move to LIFT emphasis?</strong><br>
+When midsection trajectory and adherence criteria you wrote are met — not when boredom hits.</p>
+<p><strong>Do I need supplements?</strong><br>
+Optional. Creatine, caffeine, protein powder are the sensible tier once basics exist.</p>
+<p><strong>What about PEDs / peptides / GLP-1s?</strong><br>
+Read the appendix for literacy. No protocols in this book. Fundamentals first. Discussion of personal fit: <strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong>.</p>
+<p><strong>How do I track without obsessing?</strong><br>
+Photos + waist + strength + weekly averages. Simplify if the app runs your mood.</p>
+<p><strong>What if my job destroys my schedule?</strong><br>
+Shorter sessions, fewer days, protein defaults, step floor, LINK still active. Busy is normal here — chaos programmes aren’t.</p>
+<p><strong>Can women run STRIPLINE?</strong><br>
+Yes — same sequence principles; individual calorie/protein set-up still personal. This book doesn’t pretend one number fits every body.</p>
+<p><strong>How long until I see change?</strong><br>
+Waist/photos often shift in weeks if adherence is real; “best physique of your life” is a twelve-month project, not a weekend.</p>
+<p><strong>What if I don’t have a coach yet?</strong><br>
+Use a ruthless mate as LINK. Keep the placeholder for formal coaching when available.</p>
+<p><strong>Should I weigh every day?</strong><br>
+Daily weighing is fine if you use weekly averages and don’t let single mornings run your emotions. If the scale runs your mood, weigh less often and lean harder on photos, waist, and strength.</p>
+<p><strong>What is MED again?</strong><br>
+Minimum effective dose for a bad week: protein floor, step floor, abbreviated sessions that keep the pattern alive. MED is a bridge, not a new lifestyle. Resume the full LINE when the week allows.</p>
+<p><strong>Can I drink alcohol and still STRIP?</strong><br>
+Sometimes, inside a weekly average — with honesty about calories and recovery. Chronic weekend black holes aren’t a mystery; they’re a plan leak. Adjust the plan or the drinking pattern; don’t pretend both are unlimited.</p>
+<p><strong>I have kids and no quiet evenings. Still viable?</strong><br>
+Yes. Shorter sessions, earlier training if possible, protein defaults that don’t need chef energy, LINK that texts not essays. The method assumes real life; it doesn’t require a monastery.</p>
+<p><strong>How do I pick lifts if I’m a beginner?</strong><br>
+Simple patterns you can load safely: squat or leg press, hinge (RDL or machine), push, pull, a carry or core finisher. Progression rule written. Ego maxing left at the door. Stage 5’s playbook is the deeper map — LINE still starts with what you’ll actually show up for.</p>
+<p><strong>What if my waist isn’t moving after a month?</strong><br>
+Check adherence first (food average, steps, weekends). Then one lever: small calorie drop or step bump. Don’t change programme, diet religion, and supplement stack in the same weekend.</p>
+<p><strong>What if strength is crashing in STRIP?</strong><br>
+Protein, sleep, and deficit size first. Panic cuts trash performance. Deload if needed. Keep lifting — don’t become a cardio-only tourist.</p>
+<p><strong>Do I need a fancy watch?</strong><br>
+No. Steps help; a phone pedometer or honest daily walk total is enough to start. Tools amplify; they don’t replace LINE.</p>
+<p><strong>How many times can I fail and still be “on” STRIPLINE?</strong><br>
+As many bad weeks as life throws — if you resume. Failure is quitting the sequence. Misses are weather.</p>
+<p><strong>Is twelve months mandatory before any pride?</strong><br>
+No. Take interim wins. Just don’t confuse a four-week waist change with the full project. The book is named for the year because the year is what builds a physique you keep.</p>
+<p><strong>What if I already lift hard but look soft?</strong><br>
+That’s often STRIP + LINE nutrition honesty, not a new advanced split. Hard training on a soft surplus still yields a soft photo.</p>
+<p><strong>Can I run STRIPLINE with home kit only?</strong><br>
+Yes if you can overload over time — adjustable dumbbells, bands plus load progression, or progressive push-up/row variations with honest difficulty increases. If you can’t progress, join a gym or add loadable kit. LIFT requires progressive stimulus.</p>
+<p><strong>What if I’m already on a cut that feels miserable?</strong><br>
+Misery that trashes training and protein isn’t STRIP — it’s a crash. Raise food toward a sustainable deficit, keep lifting, reassess in two weeks. Adherence is part of the physics.</p>
+<p><strong>How do I handle holidays inside STRIPLINE?</strong><br>
+Decide before the trip: maintenance week, lighter deficit, or planned surplus days inside a monthly average. Keep LINE’s training where possible. Don’t invent a new annual identity in December and call it strategy.</p>
+<p><strong>Should I tell people I’m doing this?</strong><br>
+Tell your LINK for sure. Everyone else is optional. Public announcements without a check-in human are usually theatre.</p>
+<p><strong>What if photos demotivate me?</strong><br>
+Good — baselines aren’t supposed to flatter. File them. Compare only under the same conditions at review dates. Daily mirror audits in bad lighting are not a scoreboard.</p>
+<p><strong>Can I change my Food Bro numbers mid-block?</strong><br>
+If body weight or phase changes enough that the targets are clearly wrong — yes, at a review. Not because Thursday felt hungry.</p>
+<p><strong>Is walking enough “cardio”?</strong><br>
+For many people in STRIP, a step floor is the main movement lever beside lifting. Add structured cardio only if it helps adherence or conditioning without wrecking recovery.</p>
+<p><strong>What if my LINK flakes?</strong><br>
+Replace them. The role matters more than the original person. Silence returns you to negotiating with yourself.</p>
+<p><strong>Do I need to read the appendix before I start?</strong><br>
+No. Start STRIPLINE. Read advanced-tools literacy when curiosity or Year 2 decisions show up — not as a delay tactic.</p>
+<p><strong>How do I know the first week “worked”?</strong><br>
+You took baselines, locked numbers, trained, ate protein, and sent a check-in. That’s success for week one. Waist magic is not the grading rubric yet.</p>
+<h2>First-month bridge (after week one)</h2>
+<p>Weeks 2–4 are where novelty dies and LINE earns its name.</p>
+<ul>
+<li>Keep the same programme.  </li>
+<li>Hit protein most days.  </li>
+<li>Defend steps and sleep floors.  </li>
+<li>Send weekly LINK notes even when they’re boring.  </li>
+<li>At week 4: photos, waist, strength glance, adherence score. One lever maximum if stalled.  </li>
+<li>Refuse: new split, new diet religion, new supplement identity.</li>
+</ul>
+<p>If week two feels flat, congratulations — you’re in the real programme. Flat is where wrong order usually hops. STRIPLINE stays.</p>
+<h2>Cost of waiting — one more pass</h2>
+<p>Imagine two folders on your phone a year from now.</p>
+<p>Folder A: twelve months of dated photos under STRIPLINE — imperfect weeks included — with a waist trend and a logbook.<br>
+Folder B: screenshots of programmes you meant to start, and a handful of accidental mirror shots you hate.</p>
+<p>Both futures cost time. Only one buys evidence. Waiting doesn’t preserve optionality; it spends a year on Folder B by default.</p>
+<p>Busy job? Kids? Imperfect sleep? Welcome — you’re the reader this book was built for. The method was never “wait until life is a retreat.” The method is sequence inside the life you already have.</p>
+<h3>Script: the five-minute start if you’re about to overthink</h3>
+<ol>
+<li>Open camera — front, side, back.  </li>
+<li>Tape the waist — write the number.  </li>
+<li>Open https://yehbro.com/food-bro/ — generate, save PDF.  </li>
+<li>Note: days you’ll train this week + progression rule in one line.  </li>
+<li>Text LINK: “Starting STRIPLINE. Check-in ___.”  </li>
+<li>Do the first hard set of session one today or tomorrow morning — not next Monday.</li>
+</ol>
+<p>If you complete that list, Stage 6 has done its job even if the rest of the FAQ stays unread tonight.</p>
+<h3>FAQ add-ons for edge cases</h3>
+<p><strong>I travel weekly for work.</strong><br>
+Lock a hotel-capable MED session (push/pull/hinge/squat pattern with whatever kit exists) plus protein defaults you can buy at a petrol station without turning it into a joke. Full LINE at home; MED on the road; averages across the week.</p>
+<p><strong>I train with a mate who hops programmes.</strong><br>
+Your LINE is yours. Train together if it helps LINK; don’t outsource your template to their boredom.</p>
+<p><strong>I’ve been injured.</strong><br>
+Get clearance and diagnosis. LINE becomes the pattern you can load pain-free. STRIPLINE doesn’t require heroics on a damaged joint; it requires honesty and progressive work inside what’s allowed.</p>
+<p><strong>I’m impatient and angry this is “only” twelve months.</strong><br>
+Good. Use the impatience to refuse hopping. Twelve focused months beats five angry years of restarts.</p>
+<p><strong>What if I hate tracking food?</strong><br>
+Use Food Bro targets as portions and defaults; tighten tracking only if waist won’t move. Some people need grams; some need consistent plates. Results decide, ego doesn’t.</p>
+<p><strong>Can I do two-a-days?</strong><br>
+Usually unnecessary for this book’s reader. Earn recovery first. More sessions aren’t LINE — finishing the ones you wrote is.</p>
+<p><strong>What if my partner cooks differently to the plan?</strong><br>
+Defaults and communication beat secret diets. Hit protein with add-ons if needed; keep the weekly average adult. LINE isn’t a hostage situation — it’s shared clarity where possible.</p>
+<p><strong>How strict is “lock” on LINE?</strong><br>
+Locked means you don’t hop philosophies mid-block. Substitutions for pain, travel, or equipment are allowed when they keep the pattern and progression rule alive. Locked is not brittle; brittle plans shatter on contact with Tuesday.</p>
+<p><strong>Should I deload on a schedule or when needed?</strong><br>
+Pick a rule and write it — e.g. every 6–8 weeks, or when performance and joints complain together. Random deloads that are actually skipped weeks without a plan don’t count as recovery strategy.</p>
+<p><strong>What goes in the Year 2 sketch?</strong><br>
+Another STRIP polish, a growth block, skill goals, and whether advanced-tools literacy conversations belong under supervision. Sketch beats cliff. Details wait until months 10–12 when you have evidence.</p>
+<h3>Cost-of-waiting close</h3>
+<p>If you close this book without a dated baseline and a named LINK, you didn’t buy information — you rented a familiar feeling. Start ugly. Start short. Start today. The FAQ will still be here when you check in next week with actual data instead of fresh excuses.</p>
+<h2>Permanent STRIPLINE checklist</h2>
+<ul>
+<li>[ ] Fat-loss-first until the midsection is honest (or exception documented)</li>
+<li>[ ] One written programme locked</li>
+<li>[ ] Protein most days</li>
+<li>[ ] Progressive overload logged</li>
+<li>[ ] Steps + sleep floors</li>
+<li>[ ] Human accountability</li>
+<li>[ ] Review every 2–4 weeks — one lever</li>
+<li>[ ] Food Bro PDF filed</li>
+<li>[ ] Bad-week MED written</li>
+<li>[ ] Year sketch started by months 10–12</li>
+</ul>
+<h3>Checklist commentary (why each box earns its ink)</h3>
+<p><strong>Fat-loss-first / exception documented</strong> — Stops the bulk-into-soft-photo reflex. Writing the exception prevents cosplay.</p>
+<p><strong>One written programme</strong> — Ends hopping. If it isn’t written, it isn’t locked.</p>
+<p><strong>Protein most days</strong> — Protects muscle in STRIP and feeds LIFT. “Most days” is adult language for consistency without perfection theatre.</p>
+<p><strong>Progressive overload logged</strong> — Memory lies; notebooks don’t. No log, no proof of LIFT.</p>
+<p><strong>Steps + sleep floors</strong> — Quiet levers that save aggressive calorie cuts and trashed recovery.</p>
+<p><strong>Human accountability</strong> — The plan outside your mood. Mate or coach; silence is how weeks evaporate.</p>
+<p><strong>Review, one lever</strong> — Diagnostics without identity crisis. Multiple levers at once teach you nothing.</p>
+<p><strong>Food Bro PDF filed</strong> — Numbers stop being vibes. Revisit when body weight or phase changes enough to matter.</p>
+<p><strong>Bad-week MED</strong> — Guarantees you have a bridge before life asks for one.</p>
+<p><strong>Year sketch by months 10–12</strong> — Prevents cliff-edge panic and random Year 2 chaos.</p>
+<p>Tick boxes in ink. Unticked boxes are where years hide.</p>
+<p>Print the checklist or copy it into your notes app. Revisit it every review. If three boxes go grey for a month, you don’t need a new book — you need LINK to ask why, and LINE to resume. The checklist is not decoration; it’s the short form of <em>The 12-Month Body</em>.</p>
+<h3>One more FAQ block for nerves</h3>
+<p><strong>What if I’m embarrassed to send photos to my LINK?</strong><br>
+Send them anyway on schedule, or use waist + strength until trust exists — but don’t let embarrassment delete accountability. Soft lighting optional; honesty not optional.</p>
+<p><strong>What if I start and stop again?</strong><br>
+Restart at Day 0 without a speech. New dated baselines if the gap was long. Same STRIPLINE. Shame is optional; sequence isn’t.</p>
+<p><strong>Is this compatible with shift work / FIFO / overtime seasons?</strong><br>
+Yes with MED and flexible day placement. The plan moves on the calendar; the targets and progression rule don’t reinvent themselves every swing.</p>
+<h2>Final CTA</h2>
+<p>Run the system. Prove twelve months can change more than your mood.</p>
+<p>If you run the plan and still want hands-on help linking with an experienced coach, that door is here when it’s formally open:</p>
+<p><strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong></p>
+<p>No secret chapter with the “real” method. The method is STRIPLINE — executed on ordinary weeks until ordinary weeks build an extraordinary difference.</p>
+<p>Lace up. Log the set. Eat the protein. Strip first. Lock the line. Lift. Link.  </p>
+<p>Welcome to <em>The 12-Month Body</em>. The year starts when the first set is logged — not when the last FAQ is memorised.</p></div>
+  <p class="back-toc"><a href="#contents">↑ Contents</a></p>
+</section>
+
+<section class="chapter" id="appendix-advanced-tools-literacy">
+  <p class="chapter-part">Ebook Appendix</p>
+  <h1>Advanced Tools Literacy</h1>
+  <div class="prose"><h1>Appendix — Advanced Tools Literacy</h1>
+<p>This appendix is <strong>literacy</strong>, not a protocol shop. No dosages, stacks, sourcing guides, or “starter cycles.” Fundamentals in Stages 1–6 still come first. Curiosity is sane. Chaos is optional. If you came here looking for a menu, you came to the wrong door on purpose.</p>
+<p>If you want personal guidance on whether any of this belongs in <em>your</em> plan, that conversation belongs with a qualified coach and clinician — and, when open, here:</p>
+<p><strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong></p>
+<h2>Why this sits at the back</h2>
+<p>Advanced tools are part of modern physique culture whether polite books admit it or not. Ignoring them creates a literacy gap filled by strangers on the internet. Pretending they’re magic creates a different gap: people skip STRIPLINE and chase chemistry.</p>
+<p>This appendix exists so you can ask better questions — what a category is, what it isn’t, what “done properly” tends to include at a <em>conceptual</em> level, and what chaos looks like — without turning <em>The 12-Month Body</em> into a recipe book.</p>
+<p>Year-one job remains: fat-loss-first when needed, locked plan, progressive lifting, accountability. Tools amplify that system. They do not replace it, and they should not delay it.</p>
+<h2>Supplements worth knowing (short)</h2>
+<p>Once training, protein, and sleep exist:</p>
+<ul>
+<li><strong>Creatine monohydrate</strong> — best-supported performance supplement for many healthy lifters; daily use beats timing theatre.</li>
+<li><strong>Caffeine</strong> — can help training focus; don’t trade it for sleep.</li>
+<li><strong>Protein powder</strong> — convenience for hitting totals, not magic versus food.</li>
+</ul>
+<h3>Literacy depth on the “sensible tier”</h3>
+<p>Creatine’s reputation is earned in evidence for strength and performance support in many healthy people; it still isn’t a substitute for progressive overload. Caffeine is a tool with a recovery cost if it steals sleep or becomes the only way you can train. Protein powder is food logistics — useful on long workdays, useless if totals still miss.</p>
+<p>Everything else in the tub aisle is mostly marketing gravity. Some products have niche uses. None of them fix wrong-order chaos. If your budget is tight, spend on food that hits protein, a gym you will attend, and sleep you will defend before you build a shrine of powders.</p>
+<p>Nothing in a tub replaces STRIPLINE.</p>
+<h2>Anabolic PEDs / androgens — literacy</h2>
+<p>Androgens can increase muscle-building potential. They also raise demands on heart, blood, lipids, liver (especially many orals), mood, fertility, and the hormonal axis.</p>
+<p><strong>Done properly vs chaos (concepts, not instructions):</strong> clear goal; monitoring culture (blood pressure, bloodwork themes); fertility conversation if kids matter; training and protein still non-negotiable; one change at a time under supervision; exit/continuity thinking. Chaos looks like stranger PDFs, no labs, stacking out of impatience, and hoping “I feel fine” is a medical plan.</p>
+<p>Observational evidence links long-term illicit AAS patterns with adverse cardiovascular pictures and axis suppression issues after stopping — not cartoon scare stories, not permission slips. Smart use, if someone chooses it with professionals, <strong>monitors and manages</strong> risk instead of pretending risk is fake.</p>
+<h3>What literacy actually changes in behaviour</h3>
+<p>Literate athletes stop treating “I feel fine” as a panel. They understand that blood pressure, lipids, haematocrit themes, and how you feel after stopping are part of the same conversation as muscle. They don’t confuse someone else’s timeline with their own recovery, sleep, or age. They keep STRIPLINE underneath — because pharmacology on top of missed protein and random programming is still a mess, just a more expensive one.</p>
+<p>They also separate <strong>interest</strong> from <strong>immediacy</strong>. Curiosity about androgens is common. Starting because a photo made you impatient in month two of training is chaos dressed as ambition.</p>
+<p>This book will not invent your plan.</p>
+<h2>Peptides — suitcase word</h2>
+<p>“Peptides” in gym speech mixes real narrow medical lanes with folklore and checkout links. Healing folklore often sits on thin human evidence. Grey-market mystery vials add contamination and legality risk on top of biology unknowns.</p>
+<p>Literacy question: which molecule, which claim, which evidence class, which downside, who’s selling it? Rehab and diagnosis beat vial cosplay for injuries.</p>
+<h3>How to read peptide hype without becoming a sucker</h3>
+<p>Ask five questions every time a claim appears:</p>
+<ol>
+<li><strong>Which compound is actually being discussed</strong> — or is “peptides” being used as a brand fog?  </li>
+<li><strong>What outcome is claimed</strong> — fat loss, healing, sleep, growth, recovery — and is that claim specific enough to falsify?  </li>
+<li><strong>What evidence class sits under it</strong> — solid human data, early research, anecdote, sales copy?  </li>
+<li><strong>What risk channels exist</strong> — biological unknowns, quality unknowns, legal/access unknowns?  </li>
+<li><strong>Who benefits if you buy tonight?</strong></li>
+</ol>
+<p>You don’t need cynicism as a personality. You need categories. Some peptide research lanes are real medical conversations under clinicians. A lot of gym folklore is suitcase language that collapses distinct molecules into one mystical word. Literacy keeps them separate.</p>
+<p>Injury reality check: progressive loading, diagnosis, physio, sleep, and patience still beat romance with a vial you don’t understand. If something hurts, get it assessed. Don’t crowdsource a joint to a comment section.</p>
+<h2>GLP-1s / metabolic drugs — literacy</h2>
+<p>These tools can reduce appetite and body weight under care. Used with training and protein, they can support composition goals. Used as a “stop eating and disappear” button, people get smaller and softer.</p>
+<p>Practical literacy themes (not titration charts): protein on purpose when hunger vanishes; keep lifting; track strength and photos not only scale; plan habits for when the drug isn’t doing all the work; respect that access and approval status vary by place and year; newer agents (including investigational lanes people ask about) are not DIY meme protocols.</p>
+<p>Lean mass can drop in absolute terms during large weight losses — another reason training and protein stay non-negotiable.</p>
+<h3>Composition literacy under appetite suppression</h3>
+<p>When hunger drops, the easy mistake is celebrating the scale while protein and hard sets quietly disappear. Skinny-fat after rapid loss is not a mystery if muscle wasn’t protected. STRIPLINE still applies: midsection honesty, progressive training, protein as a deliberate behaviour when appetite cues go quiet, photos and strength as scoreboard partners to the scale.</p>
+<p>Another literacy point: exit and continuity thinking. If a drug is doing most of your restraint, what habits exist when dose changes, access changes, or life changes? Systems people plan the handoff. Chaos people panic and rebound.</p>
+<p>Lived upside exists for some people under proper care — appetite control can make adherence possible where white-knuckle dieting failed. That upside is not an argument for unsupervised improvisation, and it’s not a free pass to skip lifting. It’s a reason to treat metabolic tools as tools: intentional, monitored, attached to a plan.</p>
+<h2>Decision filter</h2>
+<p>Before escalating beyond basics:</p>
+<ol>
+<li>Have you run progressive training ~8–12 weeks with decent attendance?  </li>
+<li>Is protein hit most days?  </li>
+<li>Is the goal composition — or impatience?  </li>
+<li>Are you comparing to someone on a different pharmacy?  </li>
+<li>Will you have coaching + appropriate clinical oversight and monitoring?  </li>
+</ol>
+<p>If (1)–(2) are trash, fix STRIPLINE first.</p>
+<p><strong>Red flags:</strong> stranger beginner cycles; no bloodwork culture; discount-code medicine as education; guaranteed timelines; pressure to start tonight.</p>
+<h3>Green-flag culture (still not a protocol)</h3>
+<p>You’re looking for slow conversations, clear goals, monitoring as normal, willingness to say “not yet,” and respect for fertility, heart, blood, and mental health as part of physique ambition. You’re looking for coaches and clinicians who keep training and nutrition non-negotiable. You’re avoiding anyone whose business model needs you scared or euphoric enough to skip steps.</p>
+<h2>Evidence classes (keep them honest)</h2>
+<p>When you read claims about any advanced tool, sort the sentence:</p>
+<ul>
+<li><strong>Established human evidence</strong> — repeated findings, known effect directions, still not a personal prescription.  </li>
+<li><strong>Emerging research</strong> — interesting, incomplete, easy to over-claim on the internet.  </li>
+<li><strong>Coaching pattern recognition</strong> — useful, biased, not the same as a trial.  </li>
+<li><strong>Anecdote / personal experiment</strong> — can be meaningful to one human; dangerous as universal law.  </li>
+<li><strong>Sales copy</strong> — designed to close a checkout, not to educate.</li>
+</ul>
+<p>Literacy is mostly refusing to let sales copy borrow the authority of established evidence. You can stay open-minded and still demand categories.</p>
+<h2>Monitoring culture without a protocol sheet</h2>
+<p>This book will not give you lab panels to order or drugs to take. It will say this: if someone chooses tools that stress heart, blood, liver, axis, or appetite regulation, “I look better” is not a complete dashboard. Blood pressure awareness, bloodwork themes under clinicians, fertility conversations when kids matter, mental health honesty, and training/nutrition adherence belong in the same adult conversation as physique ambition.</p>
+<p>Chaos skips monitoring because monitoring slows the fantasy. Smart culture treats monitoring as normal as logging sets.</p>
+<h2>Common fuck-ups (still not instructions)</h2>
+<ul>
+<li>Starting tools in month one of learning to train.  </li>
+<li>Dropping protein because appetite disappeared.  </li>
+<li>Quitting progressive lifting during rapid weight loss.  </li>
+<li>Copying a stranger’s timeline and pharmacy.  </li>
+<li>Stacking multiple unknowns at once so you can’t tell what did what.  </li>
+<li>Using discount-code educators as your clinical team.  </li>
+<li>Treating side effects as personality or “water weight” forever.  </li>
+<li>Having no exit/continuity thought for food habits.  </li>
+<li>Lying to the only person who could keep you accountable.</li>
+</ul>
+<p>If you recognise those patterns, you don’t need more hype. You need STRIPLINE and better questions.</p>
+<h2>Category map (orientation only)</h2>
+<p>Think in buckets so suitcase words don’t own your brain:</p>
+<table>
+<thead>
+<tr>
+<th>Bucket</th>
+<th>Literacy job</th>
+<th>Not the job of this book</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Food &amp; training basics</td>
+<td>Always first</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Sensible supplements</td>
+<td>Convenience / small edges</td>
+<td>Building an identity around tubs</td>
+</tr>
+<tr>
+<td>Metabolic / appetite tools</td>
+<td>Composition under care; protect protein &amp; lifting</td>
+<td>DIY titration charts</td>
+</tr>
+<tr>
+<td>Androgenic PEDs</td>
+<td>Risk-aware adult conversation + monitoring culture</td>
+<td>Cycles, sources, stacks</td>
+</tr>
+<tr>
+<td>“Peptides” folk category</td>
+<td>Disaggregate claims; evidence class; quality/legal fog</td>
+<td>Mystery protocols</td>
+</tr>
+</tbody>
+</table>
+<p>Keep the table nearby when a reel collapses three buckets into one miraculous before/after.</p>
+<h2>Questions to bring to a coach or clinician (no answers invented here)</h2>
+<ul>
+<li>What goal are we actually chasing — scale, composition, performance, wellbeing?  </li>
+<li>What has to be true about training and protein first?  </li>
+<li>What monitoring is normal for this lane?  </li>
+<li>What are fertility / cardiovascular / mental health conversations we should have up front?  </li>
+<li>How will we know it’s working beyond compliments?  </li>
+<li>What’s the plan if access changes or we stop?</li>
+</ul>
+<p>Those questions are literacy. Answers are individual and supervised — not printed as a one-size protocol in an ebook appendix.</p>
+<h2>Final literacy stance</h2>
+<p>Be curious. Be sceptical of checkout urgency. Be pro smart, intentional, coached use where it truly fits — and ruthlessly anti-chaos when fundamentals aren’t installed. Lived upside with modern tools is real for some people under care; that does not license stranger PDFs, missing labs, or skipped protein. Hold both truths without turning either into a sermon.</p>
+<p>If this appendix made you more patient about months 1–3, it worked. If it made you want a secret protocol tonight, reread Stage 1. Literacy without restraint is just a more educated way to rush. Fundamentals first; tools later; supervision always when the tool can stress the system that keeps you alive and fertile and training for years — not just for a dramatic month.</p>
+<h2>How this links back to STRIPLINE</h2>
+<ul>
+<li><strong>STRIP:</strong> tools that crush appetite still need protein and lifting or you risk soft-small.  </li>
+<li><strong>LINE:</strong> if you can’t follow a written plan sober and basic, adding variables is theatre.  </li>
+<li><strong>LIFT:</strong> pharmacology doesn’t remove the need for progressive stimulus and recovery.  </li>
+<li><strong>LINK:</strong> supervision is the difference between literacy and folklore — for advanced tools especially.</li>
+</ul>
+<h2>Closing</h2>
+<p>Advanced tools amplify the system you bring. Bring fat-loss-first sequencing, a locked plan, progressive lifting, and accountability — or don’t be surprised when pharmacology multiplies mess.</p>
+<p>For supervised discussion of personal fit: <strong>[PLACEHOLDER: paid offer / coach funnel — pending agreement]</strong>.</p>
+<p>Back to the main book: strip, line, lift, link. Curiosity can stay; chaos can leave. The physique you keep is still built on ordinary weeks — tools optional, sequence not.</p></div>
+  <p class="back-toc"><a href="#contents">↑ Contents</a></p>
+</section>
+
+
+  <p class="footer">The 12-Month Body · The STRIPLINE Method · 6 stages + 1 appendix</p>
+</div>
+</body>
+</html>
